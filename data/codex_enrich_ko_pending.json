@@ -1,0 +1,387 @@
+[
+  {
+    "id": "2077417b-89e2-4f4f-965c-88a33c8f5e24",
+    "event_date": "2026-03-05",
+    "title": "Introducing GPT-5.4 in Codex",
+    "title_updated": "Introducing GPT-5.4: Native computer-use, 1M context & unified availability",
+    "content_updated": "GPT-5.4 launches as OpenAI's most capable frontier model for Codex, combining advances in reasoning, coding, and agentic workflows into a single recommended model.\nIt is the first general-purpose Codex model with native computer-use capabilities and experimental 1M context window support, enabling complex cross-application and long-horizon tasks with improved tool use and tool search.\nGPT-5.4 is available across the Codex app, CLI, IDE extension, Codex Cloud, and the API."
+  },
+  {
+    "id": "e803e6aa-1aa0-4b66-8c39-756518035280",
+    "event_date": "2026-03-05",
+    "title": "Codex CLI 0.111.0",
+    "title_updated": "Codex CLI 0.111.0: Fast mode default, js_repl imports & plugin discovery",
+    "content_updated": "Enables fast mode by default with a TUI header indicator, and lets js_repl dynamically import local .js and .mjs workspace scripts.\nAdds plugin awareness at session start so the model discovers installed MCPs, apps, and skills, and exposes MCP elicitation as a structured request/response flow in app-server v2.\nFixes thread-resume state preservation and resolves reliability issues with the app-server v2 connection lifecycle."
+  },
+  {
+    "id": "1a041d70-1989-4519-93e3-37bf9ca1215b",
+    "event_date": "2026-03-05",
+    "title": "Codex CLI 0.110.0",
+    "title_updated": "Codex CLI 0.110.0: Plugin system, multi-agent flow & /fast toggle",
+    "content_updated": "Introduces a plugin system that loads skills, MCP entries, and app connectors from config or a local marketplace, with an app-server install endpoint for enabling plugins.\nExpands the TUI multi-agent flow with approval prompts, /agent-based enablement, ordinal nicknames, and role-labeled handoff context, plus adds a persisted /fast toggle and flex service tier support.\nImproves workspace-scoped memories with guardrails against stale facts, and adds a direct Windows installer script to release artifacts."
+  },
+  {
+    "id": "6c263ceb-0d66-4f4a-b945-f2b84daa39bd",
+    "event_date": "2026-03-05",
+    "title": "Codex CLI artifact-runtime-v2.4.0",
+    "title_updated": "Codex CLI artifact-runtime-v2.4.0: Runtime update release",
+    "content_updated": "Releases artifact-runtime version 2.4.0 as a maintenance update to the Codex CLI runtime layer.\nThis is a minimal draft release with no detailed changelog entries provided.\nThe update aligns the artifact runtime versioning with the broader Codex CLI release cadence."
+  },
+  {
+    "id": "b4d3ecc8-56f5-4427-801d-f12e2648bc1e",
+    "event_date": "2026-03-04",
+    "title": "Codex app 26.304",
+    "title_updated": "Codex App 26.304: Native Windows launch with PowerShell sandbox",
+    "content_updated": "The Codex app launches natively on Windows using PowerShell and a native Windows sandbox, eliminating the need for WSL, virtual machines, or sandbox deactivation.\nIncludes full feature parity with macOS including skills, automations, worktrees, and parallel agent threads, with an optional WSL mode for developers who prefer that environment.\nAvailable on the Microsoft Store with sign-up for the Windows preview program."
+  },
+  {
+    "id": "a79b18b5-9326-4ff0-92fc-d46656c369d9",
+    "event_date": "2026-03-03",
+    "title": "Codex app 26.303",
+    "title_updated": "Codex App 26.303: Worktree cleanup settings, handoff & language options",
+    "content_updated": "Adds a Worktrees setting to toggle automatic cleanup of Codex-managed worktrees and introduces Handoff support for moving threads between Local and Worktree modes.\nAdds an explicit English option in the language menu for clearer locale control.\nImproves GitHub and pull request workflows, approval prompts, and app connection sign-in flows."
+  },
+  {
+    "id": "1499ea33-e557-4ec6-adf4-88dc859838ea",
+    "event_date": "2026-03-02",
+    "title": "Codex CLI 0.107.0",
+    "title_updated": "Codex CLI 0.107.0: Thread forking, voice device selection & multimodal tools",
+    "content_updated": "Adds the ability to fork a thread into sub-agents, letting users branch work without leaving the current conversation.\nRealtime voice sessions now support microphone and speaker device selection with persistent choices, and custom tools can return multimodal output including structured content like images.\nIntroduces configurable memories with a codex debug clear-memories command, and exposes richer model availability metadata in the app server and TUI."
+  },
+  {
+    "id": "769e0a0f-d290-4677-82f6-04f3df7b57ee",
+    "event_date": "2026-02-28",
+    "title": "Codex app 26.228",
+    "title_updated": "Codex App 26.228: Streaming regression fix & stability improvements",
+    "content_updated": "Fixes a regression where conversation and task views could stop updating while Codex was streaming a response.\nRestores real-time view updates during active streaming sessions.\nIncludes additional performance improvements and bug fixes."
+  },
+  {
+    "id": "b7b59da8-82b7-4d47-ba5f-7759f0da474d",
+    "event_date": "2026-02-27",
+    "title": "Codex app 26.227",
+    "title_updated": "Codex App 26.227: PR status badges & worktree cleanup limits",
+    "content_updated": "Adds pull request status badges in task rows and PR buttons, displaying draft, open, merged, and closed states.\nIntroduces a Worktrees setting to choose how many Codex-managed worktrees to keep before automatic cleanup of older ones.\nImproves scrolling and navigation in long conversations and code review, fixing thread jumpiness, sidebar jitter, and diff scrolling issues."
+  },
+  {
+    "id": "d0ec51ac-ec9b-4e0c-a14f-8e2dca45bb9e",
+    "event_date": "2026-02-26",
+    "title": "Codex app 26.226",
+    "title_updated": "Codex App 26.226: MCP composer shortcuts & @mentions in review",
+    "content_updated": "Adds new MCP shortcuts in the composer including install keyword suggestions and an MCP server submenu in the Add context menu.\nIntroduces support for @mentions and skill mentions in inline review comments.\nFixes rendering of MCP tool calls, Mermaid diagram error handling, and an issue where stopped terminal commands appeared as still running."
+  },
+  {
+    "id": "2a72311a-14bb-478e-80df-fb73ba068a18",
+    "event_date": "2026-02-26",
+    "title": "Codex CLI 0.106.0",
+    "title_updated": "Codex CLI 0.106.0: Direct install script, realtime threads & js_repl promotion",
+    "content_updated": "Adds a direct install script for macOS and Linux published as a GitHub release asset, using the existing platform payload including codex and rg binaries.\nExpands the app-server v2 thread API with experimental thread-scoped realtime endpoints and promotes js_repl to /experimental with startup compatibility checks and a lowered minimum Node version of 22.22.0.\nEnables request_user_input in Default collaboration mode and improves memory behavior with diff-based forgetting and usage-aware retention."
+  },
+  {
+    "id": "37d55af4-d09f-473f-98a5-fd87119c1695",
+    "event_date": "2026-02-25",
+    "title": "Codex CLI 0.105.0",
+    "title_updated": "Codex CLI 0.105.0: Syntax highlighting, voice dictation & multi-agent CSV fan-out",
+    "content_updated": "The TUI now syntax-highlights fenced code blocks and diffs with a /theme picker offering live preview and theme-aware diff colors for light and dark terminals.\nAdds spacebar-hold voice dictation for prompt input and multi-agent CSV fan-out via spawn_agents_on_csv with built-in progress tracking and ETA display.\nIntroduces /copy for last-response copying, /import for context injection, and a /web slash command for quick web searches."
+  },
+  {
+    "id": "6f19cf51-c1e1-4cfd-a6ee-fdb2679689a0",
+    "event_date": "2026-02-18",
+    "title": "Codex CLI 0.104.0",
+    "title_updated": "Codex CLI 0.104.0: WebSocket proxy support & archive notifications",
+    "content_updated": "Adds WS_PROXY/WSS_PROXY environment variable support for websocket proxying in the network proxy layer.\nApp-server v2 now emits notifications when threads are archived or unarchived, and protocol/core carries distinct approval IDs for command approvals within a single execution flow.\nFixes Ctrl+C/Ctrl+D exit handling during cwd-change prompts and reduces false-positive safety-check downgrade behavior by relying on response header model data."
+  },
+  {
+    "id": "8ac14694-e7f7-4d9b-80de-95c85811bff5",
+    "event_date": "2026-02-17",
+    "title": "Codex app 26.217",
+    "title_updated": "Codex App 26.217: Queue reordering, model downgrade warning & fuzzy search",
+    "content_updated": "Adds drag-and-drop support to reorder queued messages and displays a warning when the selected model is downgraded.\nImproves file workflows with fuzzy file search and better attachment recovery after restart.\nIncludes additional performance improvements and bug fixes."
+  },
+  {
+    "id": "611cb052-da75-40c9-92b7-2895dc158de0",
+    "event_date": "2026-02-17",
+    "title": "Codex CLI 0.103.0",
+    "title_updated": "Codex CLI 0.103.0: App metadata enrichment & commit co-author hooks",
+    "content_updated": "App listing responses now include richer app details with app_metadata, branding, and labels, enabling clients to render more complete app cards without extra requests.\nCommit co-author attribution now uses a Codex-managed prepare-commit-msg hook with configurable command_attribution support for default label, custom label, or disable.\nRemoves the remote_models feature flag to improve model selection reliability, and updates Rust dependencies as routine maintenance."
+  },
+  {
+    "id": "bd98d3da-b732-4178-8af0-a93b757ecb67",
+    "event_date": "2026-02-17",
+    "title": "Codex CLI 0.102.0",
+    "title_updated": "Codex CLI 0.102.0: Unified permissions, network approvals & multi-agent roles",
+    "content_updated": "Adds a unified permissions flow with clearer permissions history in the TUI and a slash command to grant sandbox read access for blocked directories.\nIntroduces structured network approval handling with richer host/protocol context in approval prompts and expands app-server fuzzy file search with session-complete signaling.\nAdds customizable multi-agent roles via config and a model/rerouted notification for clients to detect and render model reroute events."
+  },
+  {
+    "id": "66c5780b-c3a6-498f-b792-a7487c53b5a4",
+    "event_date": "2026-02-12",
+    "title": "Codex app 26.212",
+    "title_updated": "Codex App 26.212: GPT-5.3-Codex-Spark, conversation forking & Windows alpha",
+    "content_updated": "Adds support for GPT-5.3-Codex-Spark and introduces conversation forking to branch discussions within the app.\nAdds a floating pop-out window so users can take a conversation with them across their desktop.\nAlpha testing for the Codex app on Windows begins with sign-ups for potential testers."
+  },
+  {
+    "id": "250650c7-cee2-4d0d-bed7-80413b3746a7",
+    "event_date": "2026-02-12",
+    "title": "Introducing GPT-5.3-Codex-Spark",
+    "title_updated": "Introducing GPT-5.3-Codex-Spark: Real-time coding at 1000+ tokens/sec",
+    "content_updated": "Releases GPT-5.3-Codex-Spark as a smaller, near-instant version of GPT-5.3-Codex designed for real-time coding, delivering over 1000 tokens per second via a partnership with Cerebras.\nAvailable in research preview for ChatGPT Pro users across the Codex app, CLI, and IDE extension, with text-only support and a 128k context window at launch.\nUsage during the research preview has separate model-specific limits and does not count against standard Codex limits."
+  },
+  {
+    "id": "a6335e14-2114-4c4f-ad24-14bbeda9622b",
+    "event_date": "2026-02-12",
+    "title": "Codex CLI 0.101.0",
+    "title_updated": "Codex CLI 0.101.0: Model slug stability & memory pipeline fixes",
+    "content_updated": "Fixes model resolution to preserve the requested model slug when selecting by prefix, preventing model references from being silently rewritten.\nExcludes developer messages from phase-1 memory input and reduces memory phase processing concurrency for more stable consolidation under load.\nCleans and simplifies the phase-1 memory pipeline code paths with minor formatting and test-suite hygiene updates."
+  },
+  {
+    "id": "7e6f8375-8b79-4088-8b55-be10a1997d71",
+    "event_date": "2026-02-12",
+    "title": "Codex CLI 0.100.0",
+    "title_updated": "Codex CLI 0.100.0: JavaScript REPL, multi-rate limits & WebSocket transport",
+    "content_updated": "Adds an experimental JavaScript REPL runtime (js_repl) that persists state across tool calls, and introduces support for multiple simultaneous rate limits across protocol, backend, and TUI surfaces.\nReintroduces app-server WebSocket transport with a split inbound/outbound architecture and connection-aware thread resume subscriptions, plus adds TUI memory management commands /m_update and /m_drop.\nPromotes sandbox capabilities on Linux and Windows with a new ReadOnlyAccess policy shape and enables Apps SDK apps in ChatGPT connector handling."
+  },
+  {
+    "id": "c19e22d8-5e8a-4c37-b336-9670bdf5b921",
+    "event_date": "2026-02-11",
+    "title": "Codex CLI 0.99.0",
+    "title_updated": "Codex CLI 0.99.0: Concurrent shell commands, /statusline & enterprise controls",
+    "content_updated": "Shell commands can now execute concurrently during an in-flight turn without interrupting it, and a new /statusline command lets users configure TUI footer metadata interactively.\nApp-server clients gain dedicated APIs for steering active turns, listing experimental features, resuming agents, and managing notifications, while enterprise admins can restrict web search modes and define network constraints via requirements.toml.\nAdds GIF and WebP image input support and expands the resume picker with toggleable sort order between creation time and last-updated time."
+  },
+  {
+    "id": "e5c0fcf1-4c13-4940-bc3e-4fa01427481f",
+    "event_date": "2026-02-10",
+    "title": "Codex app 26.210",
+    "title_updated": "Codex App 26.210: Branch search, plan mode guidance & parallel approvals",
+    "content_updated": "Adds branch search in the branch picker for faster repository navigation.\nIntroduces clearer guidance for entering plan mode when typing 'plan' in the composer and adds support for parallel approvals.\nIncludes additional performance improvements and bug fixes."
+  },
+  {
+    "id": "ed7418ba-68f5-4600-83e7-89934e3f2870",
+    "event_date": "2026-02-09",
+    "title": "GPT-5.3-Codex in Cursor and VS Code",
+    "title_updated": "GPT-5.3-Codex: Native availability in Cursor & VS Code with phased API rollout",
+    "content_updated": "GPT-5.3-Codex is now available natively in Cursor and VS Code, expanding the model beyond the Codex app, CLI, and IDE extension.\nAPI access begins with a small set of customers as part of a phased release, with broader access expanding over the next few weeks.\nThis is the first model treated as a high security capability under the Preparedness Framework, with safety controls scaling alongside the rollout."
+  },
+  {
+    "id": "a722411e-08fa-4641-8dc9-e69196475cb9",
+    "event_date": "2026-02-08",
+    "title": "Codex app 26.208",
+    "title_updated": "Codex App 26.208: MCP command palette actions & queued follow-ups",
+    "content_updated": "Adds MCP and personality actions to the command palette for quick access to server and persona configurations.\nUpdates follow-up behavior to queue messages by default instead of sending immediately.\nIncludes additional performance improvements and bug fixes."
+  },
+  {
+    "id": "710a5434-540b-42ee-a37b-3738272dab64",
+    "event_date": "2026-02-06",
+    "title": "Codex app 26.206",
+    "title_updated": "Codex App 26.206: OS file reveal & uncapped review diffs",
+    "content_updated": "Adds a file-reference action to reveal files directly in the OS file manager from within the app.\nImproves handling of large reviews by removing the overall diff-size cap in the review pane.\nIncludes additional performance improvements and bug fixes."
+  },
+  {
+    "id": "08a7d359-88fc-4164-9f48-57184d070cfd",
+    "event_date": "2026-02-05",
+    "title": "Codex app 26.205",
+    "title_updated": "Codex App 26.205: GPT-5.3-Codex support, mid-turn steering & file attachments",
+    "content_updated": "Adds support for GPT-5.3-Codex and introduces mid-turn steering so users can submit messages to direct Codex while it is actively working.\nEnables attaching or dropping any file type into the conversation.\nFixes app flickering issues for a smoother visual experience."
+  },
+  {
+    "id": "9b9dae71-494e-4a76-b029-5edd82f8656f",
+    "event_date": "2026-02-05",
+    "title": "Introducing GPT-5.3-Codex",
+    "title_updated": "Introducing GPT-5.3-Codex: Most capable agentic coding model to date",
+    "content_updated": "GPT-5.3-Codex is released combining GPT-5.2-Codex coding performance with stronger reasoning and professional knowledge.\nRuns 25% faster for Codex users and improves collaboration with frequent progress updates and real-time steering responsiveness.\nAvailable across the Codex app, CLI, IDE extension, and Codex Cloud for paid ChatGPT plans; API access coming soon."
+  },
+  {
+    "id": "21a27b16-b0fa-48c0-ba52-91237b7fc80a",
+    "event_date": "2026-02-05",
+    "title": "Codex CLI 0.98.0",
+    "title_updated": "Codex CLI 0.98.0: GPT-5.3-Codex launch & steer mode stable",
+    "content_updated": "Introduces GPT-5.3-Codex model and promotes steer mode to stable default with immediate Enter-send behavior.\nFixes TypeScript SDK resumeThread argument ordering, model-instruction handling on mid-conversation model changes, and remote compaction token estimation mismatch.\nRestores Pragmatic default personality and unifies collaboration mode naming across prompts, tools, and TUI."
+  },
+  {
+    "id": "2e7ef61e-a2b0-4ceb-ac00-a1f62d11b800",
+    "event_date": "2026-02-05",
+    "title": "Codex CLI 0.97.0",
+    "title_updated": "Codex CLI 0.97.0: Session-scoped tool approvals, live skills & memory plumbing",
+    "content_updated": "Adds a session-scoped 'Allow and remember' option for MCP/App tool approvals so repeated calls to the same tool are auto-approved during the session.\nIntroduces live skill update detection for hot-reloading skill file changes, mixed text/image content in dynamic tool outputs, and a /debug-config slash command for inspecting effective configuration.\nAdds initial memory plumbing with API client and local persistence for thread memory summaries, and configurable log_dir for easier log redirection."
+  },
+  {
+    "id": "1cfc0e01-6b20-413c-8a01-1afd3f8ecf8c",
+    "event_date": "2026-02-04",
+    "title": "Codex app 26.204",
+    "title_updated": "Codex App 26.204: Zed/Textmate editor support & PDF preview",
+    "content_updated": "Adds Zed and Textmate as options to open files and folders from within the app.\nIntroduces PDF preview in the review panel for inline document inspection.\nIncludes general performance improvements."
+  },
+  {
+    "id": "5786641a-3994-4bdc-a5e4-ff52568b1e78",
+    "event_date": "2026-02-03",
+    "title": "Codex app 26.203",
+    "title_updated": "Codex App 26.203: Thread renaming & Sync-to-Handoff rebrand",
+    "content_updated": "Adds thread renaming on double-click in the thread list for quick inline edits.\nRenames Sync to Handoff with clearer source/destination stats in the handoff UI.\nIncludes additional performance improvements and bug fixes."
+  },
+  {
+    "id": "11c06317-fb01-462c-8a74-ee35f8cf15b3",
+    "event_date": "2026-02-02",
+    "title": "Introducing the Codex app",
+    "title_updated": "Introducing the Codex App: Desktop agent interface for macOS",
+    "content_updated": "Launches the Codex app for macOS as a desktop interface for running parallel agent threads and collaborating on long-running tasks, with a project sidebar, thread list, and review pane.\nIncludes built-in worktree support, voice dictation, Git tooling, skills, and automations for managing work across projects.\nFor a limited time ChatGPT Free and Go include Codex access, while Plus, Pro, Business, Enterprise, and Edu plans receive double rate limits across all surfaces."
+  },
+  {
+    "id": "ef6b9191-6354-468b-9a03-822d2a3151a6",
+    "event_date": "2026-01-28",
+    "title": "Web search is now enabled by default",
+    "title_updated": "Codex: Web search enabled by default with cached & live modes",
+    "content_updated": "Codex now enables web search by default for local tasks in the CLI and IDE Extension, using an OpenAI-maintained web search cache for pre-indexed results.\nCached mode serves pre-indexed results while live mode fetches the most recent data; full-access sandbox settings default to live results.\nUsers can configure web_search to 'cached', 'live', or 'disabled' via the configuration file."
+  },
+  {
+    "id": "7e4f9e8c-e057-4def-9d6e-da602d123fa4",
+    "event_date": "2026-01-23",
+    "title": "Team Config for shared configuration",
+    "title_updated": "Codex: Team Config for shared configuration across repositories",
+    "content_updated": "Introduces Team Config to group config.toml defaults, rules for command controls, and skills for reusable workflows into shareable .codex/ folders.\nCodex loads configuration layers from the current working directory, parent folders, repo root, user (~/.codex/), and system (/etc/codex/) locations with higher-precedence overrides.\nAdmins can enforce constraints with requirements.toml which overrides defaults regardless of location."
+  },
+  {
+    "id": "041fd0eb-664a-40e7-97af-3f4c6dc41a6f",
+    "event_date": "2026-01-22",
+    "title": "Custom prompts deprecated",
+    "title_updated": "Codex: Custom prompts deprecated in favor of skills",
+    "content_updated": "Custom prompts are now officially deprecated across Codex CLI and IDE Extension.\nUsers should migrate to skills for reusable instructions and workflows that replace custom prompt functionality.\nSkills provide a more structured and maintainable approach with bundled resources and automatic selection."
+  },
+  {
+    "id": "ad8069ff-1e58-4ea6-a607-f16d0c1d23b3",
+    "event_date": "2026-01-14",
+    "title": "GPT-5.2-Codex API availability",
+    "title_updated": "GPT-5.2-Codex: Now available in the API for all users",
+    "content_updated": "GPT-5.2-Codex is now available in the API and for users who sign into the Codex CLI with an API key.\nThis extends GPT-5.2-Codex access beyond ChatGPT-authenticated users to API-based workflows and integrations.\nFull documentation for using GPT-5.2-Codex is available in the API documentation."
+  },
+  {
+    "id": "f449253a-c76c-4b83-9474-a87d11d13d80",
+    "event_date": "2025-12-19",
+    "title": "Agent skills in Codex",
+    "title_updated": "Codex: Agent skills for reusable task bundles",
+    "content_updated": "Introduces agent skills as reusable bundles of instructions with optional scripts and resources, available in both the Codex CLI and IDE extensions.\nSkills can be invoked explicitly with $skill-name syntax or selected automatically based on the user's prompt, following the open agent skills specification with a required SKILL.md file.\nSkills can be installed per-user in ~/.codex/skills or per-project in .codex/skills, and Codex ships with built-in system skills."
+  },
+  {
+    "id": "782c163f-c3ef-43f6-874b-f608dc4e2f3e",
+    "event_date": "2025-12-18",
+    "title": "Introducing GPT-5.2-Codex",
+    "title_updated": "Introducing GPT-5.2-Codex: Advanced agentic coding model released",
+    "content_updated": "GPT-5.2-Codex is released as the most advanced agentic coding model, a version of GPT-5.2 further optimized for agentic coding with improvements in context compaction and long-horizon work.\nDelivers stronger performance on large code changes like refactors and migrations, improved Windows environment support, and significantly stronger cybersecurity capabilities.\nThe CLI and IDE Extension now default to gpt-5.2-codex for ChatGPT-authenticated users, with API access coming soon."
+  },
+  {
+    "id": "b3231cd3-bc45-465f-8743-18897ed45cf9",
+    "event_date": "2025-12-04",
+    "title": "Introducing Codex for Linear",
+    "title_updated": "Codex for Linear: Assign tasks to @Codex in issues",
+    "content_updated": "Enables assigning or mentioning @Codex in Linear issues to kick off Codex cloud tasks directly from the project management workflow.\nAs Codex works, it posts progress updates back to Linear with a link to the completed task for review, PR creation, or continued iteration.\nSupports both the new cloud integration and local MCP connection for flexible Linear-Codex workflows."
+  },
+  {
+    "id": "4b6a924e-e3cf-4c8d-87a3-0cc4ce259b6b",
+    "event_date": "2025-11-24",
+    "title": "Usage and credits fixes",
+    "title_updated": "Codex: Usage dashboard & credits purchasing fixes",
+    "content_updated": "Adjusts all usage dashboards to show 'limits remaining' for consistency, replacing the CLI's previous 'limits used' display.\nFixes an issue preventing credit purchases for users whose ChatGPT subscription was bought via iOS or Google Play, and resolves stale usage information in the CLI.\nOptimizes backend caching to smooth out usage throughout the day, eliminating unlucky cache-miss streaks that led to reduced usage."
+  },
+  {
+    "id": "748b8b16-22e2-4cf7-8e5e-28dfc91581ff",
+    "event_date": "2025-11-18",
+    "title": "Introducing GPT-5.1-Codex-Max",
+    "title_updated": "Introducing GPT-5.1-Codex-Max: Frontier agentic model with xhigh reasoning",
+    "content_updated": "GPT-5.1-Codex-Max launches as a new frontier agentic coding model built on an updated foundational reasoning model trained on agentic tasks across software engineering, math, and research.\nIt is faster, more intelligent, and more token-efficient at every stage, with a new Extra High (xhigh) reasoning effort for non-latency-sensitive tasks that allows extended thinking.\nThe CLI and IDE Extension now default to gpt-5.1-codex-max for ChatGPT-authenticated users, with API access coming soon."
+  },
+  {
+    "id": "64e7e189-1301-4b27-90f2-8245b1f97db8",
+    "event_date": "2025-11-13",
+    "title": "Introducing GPT-5.1-Codex and GPT-5.1-Codex-Mini",
+    "title_updated": "Introducing GPT-5.1-Codex & GPT-5.1-Codex-Mini: Optimized agentic coding",
+    "content_updated": "Introduces gpt-5.1-codex and gpt-5.1-codex-mini as GPT-5.1 variants optimized for long-running agentic coding tasks and coding agent harnesses.\nThe CLI and IDE Extension now default to gpt-5.1-codex on macOS and Linux, and gpt-5.1 on Windows, selectable via /model or config.toml.\nBoth models are designed for use in Codex or Codex-like harnesses with full support across the CLI and IDE Extension dropdown menu."
+  },
+  {
+    "id": "5b698419-b7d0-4496-9927-bda8558915b3",
+    "event_date": "2025-11-07",
+    "title": "Introducing GPT-5-Codex-Mini",
+    "title_updated": "Introducing GPT-5-Codex-Mini: Cost-effective model with 4x usage",
+    "content_updated": "Introduces gpt-5-codex-mini as a smaller, more cost-effective alternative to gpt-5-codex that provides approximately 4x more usage within ChatGPT subscription limits.\nThe CLI and IDE Extension now automatically suggest switching to gpt-5-codex-mini when reaching 90% of the 5-hour usage limit to reduce interruptions.\nSelectable via the /model slash command, IDE Extension dropdown, or by updating the default model in config.toml."
+  },
+  {
+    "id": "3b40b818-f120-4a8d-b1c2-23ccfa8032e3",
+    "event_date": "2025-11-06",
+    "title": "GPT-5-Codex model update",
+    "title_updated": "GPT-5-Codex: Model update for reliable edits & collaborative behavior",
+    "content_updated": "Ships a minor update to GPT-5-Codex with more reliable file edits via apply_patch and fewer destructive actions such as git reset.\nImproves collaborative behavior when encountering user-edited files, making the model more respectful of existing changes.\nAchieves 3% better efficiency in both time and usage across tasks."
+  },
+  {
+    "id": "ecb83a51-c600-45c9-9538-80679ace6552",
+    "event_date": "2025-10-30",
+    "title": "Credits on ChatGPT Pro and Plus",
+    "title_updated": "Codex: On-demand credits for ChatGPT Plus & Pro users",
+    "content_updated": "Codex users on ChatGPT Plus and Pro can now purchase on-demand credits for additional Codex usage beyond their plan's included allocation.\nThis enables users to continue working without waiting for rate limits to reset.\nCredits provide flexible pay-as-you-go usage on top of existing subscription benefits."
+  },
+  {
+    "id": "8e6ab078-9916-487d-a59d-999adc33bd60",
+    "event_date": "2025-10-22",
+    "title": "Tag @Codex on GitHub Issues and PRs",
+    "title_updated": "Codex: @Codex mentions on GitHub PRs & Issues",
+    "content_updated": "Users can now tag @codex on pull requests to ask clarifying questions, request follow-ups, or ask Codex to make changes directly.\nGitHub Issues now support @codex mentions to kick off tasks from any issue without leaving the GitHub workflow.\nThis extends Codex's GitHub integration beyond code review into full issue-driven task automation."
+  },
+  {
+    "id": "584c5adb-2366-48e8-ab76-5d624e87c4f4",
+    "event_date": "2025-10-06",
+    "title": "Codex is now GA",
+    "title_updated": "Codex GA: @Codex in Slack, Codex SDK & admin tools",
+    "content_updated": "Codex reaches general availability with three new features: @Codex in Slack for direct task assignment, Codex SDK in TypeScript for custom integrations, and new admin tools for workspace management.\nThe Codex SDK includes a GitHub Action for CI/CD workflows, while workspace admins gain environment editing, managed config files for CLI/IDE defaults, and analytics dashboards.\nThe Slack integration and Codex SDK are available for paid ChatGPT plans."
+  },
+  {
+    "id": "4b73c098-26ea-4412-a385-4c2f21c5276f",
+    "event_date": "2025-09-23",
+    "title": "GPT-5-Codex in the API",
+    "title_updated": "GPT-5-Codex: Now available in the Responses API",
+    "content_updated": "GPT-5-Codex is now available in the Responses API and can be used with an API key in the Codex CLI.\nThe model snapshot will be regularly updated and is priced at the same rate as GPT-5.\nPricing details and rate limits are documented on the model page."
+  },
+  {
+    "id": "5e0a302c-c4a9-4f4c-8a18-3da03cf2547f",
+    "event_date": "2025-09-15",
+    "title": "Introducing GPT-5-Codex",
+    "title_updated": "Introducing GPT-5-Codex: Agentic coding with UI screenshots & session resume",
+    "content_updated": "GPT-5-Codex launches as a version of GPT-5 further optimized for agentic coding, available in the IDE extension, CLI, and cloud agent powering Code Review in GitHub.\nFront-end engineering tasks in the cloud can now display UI screenshots in Codex web for visual iteration without checking out the branch locally.\nAdds session resume with codex resume and automatic context compaction that summarizes sessions approaching the context window limit."
+  },
+  {
+    "id": "dee36a74-ccfa-4c2a-a3e0-0a08d74777a1",
+    "event_date": "2025-08-27",
+    "title": "Late August update",
+    "title_updated": "Codex: IDE extension, one-click auth & intent-based code review",
+    "content_updated": "Codex now runs in the IDE with an interactive UI for fast local iteration, offering easy switching between modes and reasoning efforts.\nOne-click authentication replaces API keys and uses ChatGPT Enterprise credits, with the ability to hand off tasks to Codex web from the IDE and apply changes locally.\nCode Review goes beyond static analysis by checking PRs against intent, reasoning across the codebase and dependencies, and running code to validate behavior."
+  },
+  {
+    "id": "85453ea3-e9f2-4346-9f37-b51ff522e1c5",
+    "event_date": "2025-08-21",
+    "title": "Mid August update",
+    "title_updated": "Codex: Image attachments, 90% faster container caching & auto-install",
+    "content_updated": "Users can now attach images to prompts in Codex web for frontend implementation tasks and whiteboarding follow-ups.\nContainer caching drops median start time from 48 seconds to 5 seconds for new tasks and follow-ups, with optional maintenance scripts for cached environment updates.\nEnvironments without manual setup scripts now automatically run standard installation commands for common package managers, reducing test failures by 40%."
+  },
+  {
+    "id": "12efc94d-f8d6-4812-9244-b358bbf946d8",
+    "event_date": "2025-06-13",
+    "title": "Best of N",
+    "title_updated": "Codex: Best of N parallel responses & keyboard shortcuts",
+    "content_updated": "Codex can now generate multiple responses simultaneously for a single task, letting users explore possible solutions and pick the best approach.\nAdds keyboard shortcuts with a dedicated explorer page, a branch query parameter, and a loading indicator during container repo download.\nFixes task setup failures, follow-up issues with gitignored files, and improves agent handling of network access restrictions."
+  },
+  {
+    "id": "23c3117e-e867-482e-a1ef-063f7e06ab5d",
+    "event_date": "2025-06-03",
+    "title": "June update",
+    "title_updated": "Codex: Internet access, PR updates & voice dictation",
+    "content_updated": "Codex now supports internet access during task execution for installing dependencies, upgrading packages, and running tests that need external resources, with granular domain and HTTP method controls.\nAdds the ability to update existing pull requests when following up on a task and introduces voice dictation for task input.\nIncludes support for binary file operations in patches, an iOS changelog link fix, and internet access for Plus, Pro, and Business users with Enterprise coming soon."
+  },
+  {
+    "id": "b6f65358-1c15-4ad1-a675-2192e2055b18",
+    "event_date": "2025-05-22",
+    "title": "Reworked environment page",
+    "title_updated": "Codex: Reworked environment page with task retry & onboarding polish",
+    "content_updated": "Reworks the environment page to make code execution setup easier and faster, adding a retry button for failed tasks and indicators showing network-free agent execution after setup.\nAdds options to copy git patches after pushing a PR, support for unicode branch names, and fixes for secrets piping, branch name conflicts, and multi-character emoji diffs.\nImproves error messages for task starts, setup scripts, and PR pushes, reduces GitHub disconnects by 90%, and polishes team onboarding."
+  },
+  {
+    "id": "b2dccedc-0e63-4846-a603-ee07b898d999",
+    "event_date": "2025-05-19",
+    "title": "Codex in the ChatGPT iOS app",
+    "title_updated": "Codex App: Mobile access via ChatGPT iOS app",
+    "content_updated": "Brings Codex to the ChatGPT iOS app, enabling users to start tasks, view diffs, and push PRs from mobile devices.\nProvides a lightweight interface for managing Codex workflows while away from a desktop environment.\nExtends Codex platform availability to iOS alongside the desktop app, CLI, IDE extension, and web."
+  }
+]

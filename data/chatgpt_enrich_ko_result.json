@@ -1,0 +1,647 @@
+[
+  {
+    "id": "c44e1a5a-eaa4-4006-983f-49e6cda46c7a",
+    "title_updated_ko": "ChatGPT에서 코드 블록을 쉽게 복사할 수 있어요",
+    "content_updated_ko": "코드 블록에 복사 버튼이 추가되어 원클릭 복사가 가능합니다.\n대화 중 생성된 코드를 빠르게 클립보드에 저장할 수 있습니다.\n개발자와 학습자 모두의 코드 활용 효율이 크게 향상됩니다."
+  },
+  {
+    "id": "fb352e90-4772-4d2e-ab00-40b7f4306b0c",
+    "title_updated_ko": "Codex 앱이 Windows에서도 사용할 수 있게 됐어요",
+    "content_updated_ko": "Codex 앱이 Windows용으로 출시되어 여러 코딩 에이전트를 병렬로 실행할 수 있습니다.\n격리된 워크트리와 검토 가능한 diff를 통해 편집, 삭제, 풀 리퀘스트 생성이 가능합니다.\nmacOS에 이어 Windows까지 확장되어 더 많은 개발자가 Codex를 활용할 수 있습니다."
+  },
+  {
+    "id": "3ebe556d-a247-408a-8ff0-c8957e6fef2b",
+    "title_updated_ko": "GPT-5.3 Instant가 정확도와 대화 흐름을 개선했어요",
+    "content_updated_ko": "GPT-5.3 Instant는 더 정확한 답변과 풍부한 웹 검색 결과를 제공합니다.\n불필요한 단서, 경고, 선언적 표현을 줄여 자연스러운 대화 흐름을 만들어냅니다.\n사용자 피드백을 직접 반영하여 일상적인 톤, 관련성, 대화 품질이 향상됐습니다."
+  },
+  {
+    "id": "37669465-6e8c-4880-9652-a5b6f3f389f5",
+    "title_updated_ko": "Web과 Android에서 이미지 프롬프트 편집 등 다양한 개선이 있어요",
+    "content_updated_ko": "Web에서 이미지가 포함된 메시지 편집, 새 탭으로 검색 결과 열기, 빠른 공유가 가능해졌습니다.\nAndroid에서는 최신 메시지 자동 스크롤, 빠른 사이드바, 받아쓰기 UI가 개선됐습니다.\n두 플랫폼에 걸쳐 총 8개 기능 업데이트와 3개 버그 수정이 포함된 통합 릴리스입니다."
+  },
+  {
+    "id": "114e1fa6-5d42-4e67-8d72-6ec07f7a6367",
+    "title_updated_ko": "프로젝트에 앱, 대화, 텍스트를 소스로 추가할 수 있어요",
+    "content_updated_ko": "ChatGPT 프로젝트에 앱, 대화, 직접 입력 텍스트를 소스로 추가할 수 있습니다.\nSlack 채널이나 Google Drive 파일 링크를 붙여넣으면 프로젝트 소스로 바로 등록됩니다.\n프로젝트를 살아있는 지식 베이스로 발전시켜 맥락 기반 응답 품질이 향상됩니다."
+  },
+  {
+    "id": "09a9113a-be51-4e2b-9db3-7a1909d797d2",
+    "title_updated_ko": "Thinking 모드의 컨텍스트 창이 256k 토큰으로 확장됐어요",
+    "content_updated_ko": "Thinking 모드를 수동 선택하면 총 256k 토큰의 컨텍스트 창을 사용할 수 있습니다.\n입력 128k, 출력 128k로 이전 196k 대비 크게 확장되어 더 긴 분석이 가능합니다.\n복잡한 작업에서 확장된 추론 체인을 활용한 심층 분석에 유용합니다."
+  },
+  {
+    "id": "3a259320-0506-4942-9ed8-229314076f13",
+    "title_updated_ko": "코드 블록에서 코드를 직접 작성하고 편집, 미리보기할 수 있어요",
+    "content_updated_ko": "ChatGPT 코드 블록이 인터랙티브하게 업그레이드되어 한 곳에서 코드를 작성하고 편집할 수 있습니다.\n인라인 텍스트 편집, 다이어그램 및 미니 앱 미리보기, 분할 화면 코드 리뷰를 지원합니다.\n읽기 전용이던 코드 블록이 대화형 개발 환경으로 진화하여 외부 에디터 전환이 줄어듭니다."
+  },
+  {
+    "id": "ca05950b-e9a7-44c9-9e43-68f3909e6e1b",
+    "title_updated_ko": "GPT-4o, GPT-4.1, o4-mini 등 레거시 모델이 은퇴했어요",
+    "content_updated_ko": "ChatGPT 데스크톱 앱의 사이드바 너비를 조절할 수 있습니다.\n드래그로 사이드바 크기를 자유롭게 변경할 수 있습니다.\n작업 환경에 맞게 화면 레이아웃을 최적화할 수 있습니다."
+  },
+  {
+    "id": "4f221002-4777-4c72-a919-6f7ed2784a8f",
+    "title_updated_ko": "파일 업로드가 20개로 늘고 지원 형식도 확대됐어요",
+    "content_updated_ko": "검색 결과에 제품 정보와 가격 비교 기능이 추가됐습니다.\n쇼핑 관련 질문 시 실시간 가격과 리뷰를 확인할 수 있습니다.\n별도 쇼핑 사이트 방문 없이 구매 결정을 도울 수 있습니다."
+  },
+  {
+    "id": "3265ffee-3216-4182-935d-7ad44811a940",
+    "title_updated_ko": "무료 사용자를 위한 음성 모드의 지시 따르기와 검색이 개선됐어요",
+    "content_updated_ko": "ChatGPT 음성 모드가 사용자 지시 따르기와 웹 검색 도구 활용 능력이 향상됐습니다.\n무료 사용자와 한도 도달 시 Plus 사용자에게 적용되는 표준 음성 모드 대상 업데이트입니다.\n유료 사용자 대상 개선에 이어 무료 사용자의 음성 품질 격차를 줄이는 업데이트입니다."
+  },
+  {
+    "id": "68507a37-cba0-447e-8184-5fe084795664",
+    "title_updated_ko": "Deep Research에서 연구 계획을 편집하고 소스를 지정할 수 있어요",
+    "content_updated_ko": "Deep Research가 편집 가능한 연구 계획, 특정 웹사이트 집중, 전체 화면 보고서를 지원합니다.\n재설계된 사이드바 진입점으로 연구를 시작하고 진행 중 방향을 조정할 수 있습니다.\nPlus와 Pro 사용자부터 순차 배포되며, Free와 Go 사용자도 곧 이용할 수 있습니다."
+  },
+  {
+    "id": "733ee5d2-59bb-4370-9f7f-f1c6993ca063",
+    "title_updated_ko": "GPT-5.2 Instant의 응답 스타일과 답변 관련성이 개선됐어요",
+    "content_updated_ko": "GPT-5.2 Instant가 ChatGPT와 API에서 응답 스타일과 품질이 향상됐습니다.\n조언이나 방법을 묻는 질문에 더 명확하고 관련성 높은 답변을 제공합니다.\nGPT-5.2 세대의 반복적 개선으로 일상적 사용 경험의 질적 향상에 초점을 맞췄습니다."
+  },
+  {
+    "id": "2628638f-6b2f-4297-a327-f195c098da0c",
+    "title_updated_ko": "미국 Free와 Go 사용자 대상으로 ChatGPT 광고 테스트가 시작돼요",
+    "content_updated_ko": "미국 내 Free와 Go 사용자 대상으로 ChatGPT에 광고 테스트가 시작됩니다.\n광고는 항상 스폰서로 표시되며, 사용자가 맞춤 설정과 삭제를 직접 관리할 수 있습니다.\n건강, 정신건강, 정치 등 민감 주제와 18세 미만 사용자에게는 광고가 표시되지 않습니다."
+  },
+  {
+    "id": "39b5036f-15dd-49fc-b2e4-b4f758ab4917",
+    "title_updated_ko": "GPT-5.2 Thinking의 Extended 사고 수준이 원래대로 복원됐어요",
+    "content_updated_ko": "GPT-4o의 이미지 생성 기능이 Team 플랜에 제공됩니다.\nTeam 사용자도 대화 중 고품질 이미지를 생성할 수 있습니다.\n비즈니스 환경에서 시각 콘텐츠 제작이 더 편리해집니다."
+  },
+  {
+    "id": "d24e9f5e-9513-4c2a-996e-6597ca2c8531",
+    "title_updated_ko": "Codex 앱이 macOS에서 처음 출시됐어요",
+    "content_updated_ko": "macOS용 Codex 앱이 출시되어 여러 코딩 에이전트를 병렬로 관리할 수 있습니다.\nFree와 Go는 제한된 사용량을, Plus와 Pro는 2배 Codex 한도를 제공하는 프로모션이 있습니다.\nCodex의 첫 전용 데스크톱 앱으로 CLI와 웹을 넘어 독립적인 개발 도구로 진화했습니다."
+  },
+  {
+    "id": "1867c6bc-b334-4eba-ac99-c0bb1fb7a545",
+    "title_updated_ko": "ChatGPT 응답에 인라인 하이라이트와 사이드 패널이 추가됐어요",
+    "content_updated_ko": "ChatGPT 응답이 더 시각적으로 바뀌어 한눈에 파악할 수 있는 비주얼이 포함됩니다.\n주요 인물, 장소, 제품을 탭하면 핵심 정보와 신뢰할 수 있는 출처가 사이드 패널로 열립니다.\niOS, Android, Web에 글로벌 배포되어 후속 질문 없이도 맥락을 파악할 수 있습니다."
+  },
+  {
+    "id": "ad026889-a745-4271-b57b-0432f384ee22",
+    "title_updated_ko": "GPT-4o, GPT-4.1, o4-mini가 2월 13일부로 은퇴 예정이에요",
+    "content_updated_ko": "Projects에 파일, 대화, 지침을 체계적으로 관리할 수 있습니다.\nPlus, Pro, Team 플랜 사용자가 먼저 이용할 수 있습니다.\n관련 맥락을 한곳에 모아 더 정확한 응답을 받을 수 있습니다."
+  },
+  {
+    "id": "13ad9bf7-1c4e-450c-ba6a-3b7fb95b5377",
+    "title_updated_ko": "음성 모드의 검색 응답 품질과 쇼핑 결과가 개선됐어요",
+    "content_updated_ko": "ChatGPT 음성 모드에서 더 완전하고 최신의 검색 응답을 제공합니다.\n쇼핑 관련 음성 질문에서 제품 및 구매 정보 접근성이 향상됐습니다.\n텍스트 기반과 음성 기반 검색 경험의 품질 격차를 줄이는 업데이트입니다."
+  },
+  {
+    "id": "6e08c5ad-3c33-4a57-921b-a45f69d2a57b",
+    "title_updated_ko": "GPT-5.2 Instant의 기본 성격이 더 대화적으로 바뀌었어요",
+    "content_updated_ko": "GPT-5.2 Instant의 기본 성격이 더 대화적이고 맥락에 맞게 톤을 조절하도록 업데이트됐습니다.\n설정의 개인화 메뉴에서 기본 스타일, 톤, 따뜻함, 이모지 사용을 직접 조정할 수 있습니다.\nGPT-5 시리즈의 반복적 톤 개선 패턴에 따른 성격 업데이트입니다."
+  },
+  {
+    "id": "23f0a6e4-7868-4233-915f-ec8fc0fbf9c3",
+    "title_updated_ko": "유료 사용자의 음성 모드 지시 따르기가 개선되고 버그가 수정됐어요",
+    "content_updated_ko": "ChatGPT 음성 모드가 사용자 지시를 더 잘 따르고 사용자 지정 지침 반복 버그가 수정됐습니다.\n유료 사용자의 음성 모드 대상 업데이트이며, 고급 음성 모드나 무료 사용자에는 영향이 없습니다.\n2025년 11월 음성 통합 이후 지속적인 음성 개선의 일환입니다."
+  },
+  {
+    "id": "8e4a535e-73c8-4988-9fc5-91314c5c148e",
+    "title_updated_ko": "ChatGPT에 청소년 보호를 위한 나이 예측 모델이 적용돼요",
+    "content_updated_ko": "ChatGPT 소비자 플랜에 18세 미만 여부를 판단하는 나이 예측 모델이 배포됩니다.\n계정 생성 기간, 활동 시간대, 사용 패턴 등 행동 및 계정 신호를 분석합니다.\n성인이 잘못 분류되면 Persona를 통한 셀피 인증으로 빠르게 나이를 확인할 수 있습니다."
+  },
+  {
+    "id": "ac13a8ec-0339-46e9-9a62-fe9cb29e091f",
+    "title_updated_ko": "Plus와 Pro에서 과거 대화의 세부 정보를 더 잘 찾을 수 있어요",
+    "content_updated_ko": "대화 기록 참조가 활성화되면 과거 대화에서 세부 정보를 더 정확하게 찾아줍니다.\n답변에 사용된 과거 대화가 출처로 표시되어 원본 맥락을 확인할 수 있습니다.\nPlus와 Pro 사용자 대상으로 글로벌 배포되어 장기 메모리의 정확성이 높아졌습니다."
+  },
+  {
+    "id": "062d054c-a9a7-4928-aaa7-c283b9c0c095",
+    "title_updated_ko": "받아쓰기의 빈 전사 문제가 줄고 정확도가 향상됐어요",
+    "content_updated_ko": "모든 로그인 사용자 대상으로 받아쓰기의 빈 전사가 크게 줄고 정확도가 향상됐습니다.\n메시지 작성 창에서 사용하는 음성-텍스트 입력 기능의 신뢰성이 높아졌습니다.\n받아쓰기 시 간헐적으로 빈 결과가 나오던 문제를 해결하여 음성 입력이 더 안정적입니다."
+  },
+  {
+    "id": "466b0fe7-400b-4ea9-9e9e-9825583392ee",
+    "title_updated_ko": "건강과 웰니스를 위한 전용 Health 공간이 출시됐어요",
+    "content_updated_ko": "ChatGPT 검색에 쇼핑 기능이 통합되어 정식 출시됩니다.\n제품 추천, 가격 비교, 리뷰 확인이 한곳에서 가능합니다.\n대화형 인터페이스로 개인 맞춤형 쇼핑 경험을 제공합니다."
+  },
+  {
+    "id": "d3ef07c7-85f7-41b4-bd8d-ce03934c95f8",
+    "title_updated_ko": "2025년 한 해 ChatGPT 사용을 돌아보는 회고 경험이 출시됐어요",
+    "content_updated_ko": "Your Year with ChatGPT은 2025년 대화 주제와 사용 통계를 보여주는 개인화 경험입니다.\n미국, 영국, 캐나다, 호주, 뉴질랜드의 Free, Plus, Pro 사용자가 이용할 수 있습니다.\n메모리와 대화 기록 참조가 활성화되어야 하며, 최소 활동 기준을 충족해야 합니다."
+  },
+  {
+    "id": "0dd93c92-a181-450e-831d-13952eb2aa24",
+    "title_updated_ko": "따뜻함, 열정, 이모지 등 세부 특성을 직접 조절할 수 있어요",
+    "content_updated_ko": "기본 스타일 프리셋 외에 따뜻함, 열정, 제목/목록, 이모지 사용을 개별 조정할 수 있습니다.\n설정의 개인화 패널에서 기존 프리셋과 함께 세밀한 스타일 제어가 가능합니다.\n프리셋 톤에만 의존하지 않고 ChatGPT 소통 방식을 더 정밀하게 맞출 수 있습니다."
+  },
+  {
+    "id": "0f3b729b-0824-4b66-88bd-c449f9a9ffcf",
+    "title_updated_ko": "앱 디렉터리에서 서드파티 앱을 찾아 추가할 수 있어요",
+    "content_updated_ko": "ChatGPT에 승인된 앱을 탐색하고 추가할 수 있는 앱 디렉터리가 도입됐습니다.\n기존 Connectors가 앱으로 통합되고, 개발자가 앱을 제출하여 게시할 수 있습니다.\n모든 로그인 사용자가 이용 가능하며 플랜과 지역에 따라 기능이 달라집니다."
+  },
+  {
+    "id": "91c3524d-42b9-479f-ab85-8fb522684c23",
+    "title_updated_ko": "중요한 대화를 상단에 고정할 수 있어요",
+    "content_updated_ko": "ChatGPT에서 대화를 목록 상단에 고정하여 중요한 대화에 빠르게 접근할 수 있습니다.\nWeb에서는 사이드바에서 마우스를 올려 고정하고, 모바일에서는 길게 눌러 고정합니다.\niOS, Android, Web, Atlas 모든 플랫폼에서 사용할 수 있습니다."
+  },
+  {
+    "id": "23835cad-0c8a-479e-9ad7-19f93e9a5518",
+    "title_updated_ko": "Tasks 관리가 Pulse로 통합됐어요",
+    "content_updated_ko": "자동화된 프롬프트를 예약하는 Tasks를 이제 Pulse에서 직접 관리할 수 있습니다.\n대화 또는 Pulse에서 작업을 생성하고, 생성 후 언제든 편집하고 확인할 수 있습니다.\nChatGPT Pro 사용자 전용으로 Tasks와 Pulse가 하나의 통합 워크플로로 합쳐졌습니다."
+  },
+  {
+    "id": "46a1d978-7422-403b-9574-39ff40f2bc14",
+    "title_updated_ko": "개선된 이미지 생성 기능이 Web과 모바일에 출시됐어요",
+    "content_updated_ko": "Deep Research에서 데이터 분석과 시각화가 가능해졌습니다.\n차트, 그래프 등 다양한 시각적 자료를 자동으로 생성합니다.\nPro 사용자의 심층 데이터 기반 의사결정을 효과적으로 지원합니다."
+  },
+  {
+    "id": "cbe78808-83bc-44d2-a1ca-8a63cbeca6a6",
+    "title_updated_ko": "macOS 앱의 음성 기능이 1월 15일부로 종료 예정이에요",
+    "content_updated_ko": "ChatGPT macOS 데스크톱 앱의 음성 기능이 2026년 1월 15일부로 종료됩니다.\n음성은 chatgpt.com, iOS, Android, Windows 앱에서 계속 사용할 수 있습니다.\nmacOS의 다른 ChatGPT 기능에는 영향이 없으며 통합된 음성 경험에 집중하기 위한 조치입니다."
+  },
+  {
+    "id": "a0560b9b-dd2b-4c99-b812-c23dc6e21882",
+    "title_updated_ko": "GPT-5.2가 Instant, Thinking, Pro 세 가지로 출시됐어요",
+    "content_updated_ko": "대화 중 생성된 이미지의 스타일과 구도를 수정할 수 있습니다.\n색상, 배경, 텍스트 등 세부 요소를 개별 조정할 수 있습니다.\n반복 생성 없이 원하는 결과물을 빠르게 완성할 수 있습니다."
+  },
+  {
+    "id": "272b7597-f6e2-4bb0-8ffa-56ddaabc683e",
+    "title_updated_ko": "음성 모드가 메인 채팅 인터페이스에 통합됐어요",
+    "content_updated_ko": "ChatGPT 음성이 메인 채팅 인터페이스에 통합되어 별도 모드 없이 대화할 수 있습니다.\n음성 응답과 함께 텍스트, 이미지 검색 결과, 지도, 날씨 위젯이 동시에 표시됩니다.\n전 세계 모바일과 chatgpt.com에 배포되며, 설정에서 기존 방식으로 전환할 수 있습니다."
+  },
+  {
+    "id": "60d45e6d-abea-4496-b3d8-fcc21bac1275",
+    "title_updated_ko": "맞춤형 쇼핑 가이드를 만들어주는 쇼핑 리서치가 출시됐어요",
+    "content_updated_ko": "ChatGPT 쇼핑 리서치가 사용자 니즈를 파악하고 맞춤형 구매 가이드를 제공합니다.\n과거 대화 메모리와 실시간 피드백을 활용하여 개인화된 추천을 생성합니다.\nWeb, iOS, Android에서 Free, Go, Plus, Pro 사용자가 이용할 수 있습니다."
+  },
+  {
+    "id": "0744d8b3-4f00-489a-aa3d-2ddae051dfdf",
+    "title_updated_ko": "답변에 인물, 장소, 제품 관련 인라인 이미지가 더 많이 표시돼요",
+    "content_updated_ko": "ChatGPT가 웹에서 가져온 인라인 이미지를 관련 단락 옆에 더 많이 표시합니다.\n이미지를 클릭하면 원본 크기와 출처를 확인할 수 있습니다.\n모든 ChatGPT 플랜에서 GPT-5.1 응답 기준으로 글로벌 배포되고 있습니다."
+  },
+  {
+    "id": "12fef38f-0215-4950-a6d9-3b45af77ac59",
+    "title_updated_ko": "Instant Checkout이 Shopify 판매자로 확대됐어요",
+    "content_updated_ko": "검색 결과 하단에 관련 후속 질문 추천이 자동 표시됩니다.\n추가 검색 없이 관련된 심층 정보를 바로 탐색할 수 있습니다.\n정보 탐색 흐름이 끊기지 않아 검색 효율성이 높아집니다."
+  },
+  {
+    "id": "27f1501c-58a2-4893-bb1a-63cfd4c39a29",
+    "title_updated_ko": "GPT-5.1 Pro가 명확성과 관련성이 향상되어 업그레이드됐어요",
+    "content_updated_ko": "GPT-4o 모델의 창의성과 글쓰기 품질이 크게 향상됐습니다.\n자연스러운 표현력과 다양한 문체 구사 능력이 강화됐습니다.\n모든 플랜 사용자가 향상된 응답 성능을 체험할 수 있습니다."
+  },
+  {
+    "id": "010b8036-f7fe-4e12-9880-a1493c650d12",
+    "title_updated_ko": "여러 사람이 함께 대화하는 그룹 채팅 파일럿이 시작됐어요",
+    "content_updated_ko": "ChatGPT에서 여러 사람과 함께 대화하며 검색, 요약, 콘텐츠 생성을 활용할 수 있습니다.\n뉴질랜드, 일본, 한국, 대만에서 Web, iOS, Android로 파일럿이 시작됐습니다.\nChatGPT 최초의 실시간 협업 기능으로 다중 사용자 AI 활용의 새로운 모델을 제시합니다."
+  },
+  {
+    "id": "236f8cab-a186-4f60-9a32-77b31a36f773",
+    "title_updated_ko": "GPT-5.1이 적응형 추론으로 더 똑똑해졌어요",
+    "content_updated_ko": "Apple의 시각 지능 기능에서 ChatGPT를 호출할 수 있습니다.\n카메라로 촬영한 대상에 대해 즉시 AI 분석이 가능합니다.\niPhone 16 사용자의 일상 속 AI 활용이 확대됩니다."
+  },
+  {
+    "id": "e4d09082-014d-480c-8276-4f3f652ec97a",
+    "title_updated_ko": "톤 프리셋이 업데이트되고 세밀한 스타일 제어가 추가됐어요",
+    "content_updated_ko": "1-800-CHATGPT 전화로 ChatGPT와 대화할 수 있습니다.\nWhatsApp에서도 ChatGPT에 메시지를 보낼 수 있습니다.\n인터넷 연결이나 앱 설치 없이도 AI 도움을 받을 수 있습니다."
+  },
+  {
+    "id": "8fac0f9e-bb69-414a-a7ca-853ebc35a34d",
+    "title_updated_ko": "성격과 사용자 지정 지침이 기존 대화에도 바로 적용돼요",
+    "content_updated_ko": "성격과 사용자 지정 지침 변경이 기존 대화를 포함한 모든 채팅에 즉시 적용됩니다.\n새 대화를 시작하지 않아도 일관된 경험을 유지할 수 있습니다.\n이전에는 새 대화에서만 적용되던 개인화 설정이 모든 대화에 실시간 반영됩니다."
+  },
+  {
+    "id": "34bfe1b5-721b-473f-88e6-30a20bf437f9",
+    "title_updated_ko": "Deep Research나 긴 작업 중간에 질문을 수정할 수 있어요",
+    "content_updated_ko": "Deep Research나 GPT-5 Pro 같은 장시간 쿼리를 재시작 없이 중간에 수정할 수 있습니다.\n사이드바의 업데이트 버튼을 클릭해 새 정보를 추가하면 모델이 방향을 조정합니다.\n긴 작업 중 조건 추가나 방향 전환이 필요할 때 처음부터 다시 시작할 필요가 없습니다."
+  },
+  {
+    "id": "22f83ab6-b52e-411f-a8a0-76db3746284f",
+    "title_updated_ko": "인도에서 ChatGPT Go를 12개월 무료로 사용할 수 있어요",
+    "content_updated_ko": "인도의 적격 사용자가 ChatGPT Go를 12개월 무료로 이용할 수 있는 프로모션이 시작됐습니다.\n신규, 무료 플랜, 기존 Go 구독자 대상이며 계정당 1회, 결제 수단 등록이 필요합니다.\nWeb과 Android 앱에서 즉시 사용 가능하며, iOS는 다음 주 지원 예정입니다."
+  },
+  {
+    "id": "e95f8f9e-d43d-4946-9989-96444ded4b6c",
+    "title_updated_ko": "ChatGPT Go가 유럽 8개국에 추가 확장돼 98개국이 됐어요",
+    "content_updated_ko": "ChatGPT Go가 오스트리아, 덴마크, 노르웨이 등 유럽 8개국에 추가로 출시됐습니다.\n더 많은 메시지, 파일 업로드, 이미지 생성, 고급 데이터 분석, 긴 메모리를 제공합니다.\n총 98개국으로 확장되어 저렴한 구독 플랜의 글로벌 가용성이 크게 늘었습니다."
+  },
+  {
+    "id": "db7e5e1b-ad58-4564-89c2-3e11d88dede9",
+    "title_updated_ko": "Codex와 Sora에서 크레딧을 구매해 추가 사용할 수 있어요",
+    "content_updated_ko": "o1 모델이 ChatGPT Pro 플랜에서 정식 출시됩니다.\n수학, 코딩, 과학 분야에서 뛰어난 추론 능력을 갖췄습니다.\nPro 사용자는 무제한으로 o1 모델을 이용할 수 있습니다."
+  },
+  {
+    "id": "ccf32aca-59bb-4163-a139-f8da0b19cab1",
+    "title_updated_ko": "ChatGPT Pulse가 Web과 Atlas에서도 사용할 수 있어요",
+    "content_updated_ko": "ChatGPT에서 검색 기능을 바로 사용할 수 있게 됐습니다.\n실시간 웹 정보를 대화형으로 검색하고 탐색할 수 있습니다.\nPlus, Team 사용자부터 순차적으로 이용 가능합니다."
+  },
+  {
+    "id": "dd5e1d4a-cbb9-4f2c-b46a-b9cc9acba157",
+    "title_updated_ko": "브라질에서 ChatGPT Go가 출시됐어요",
+    "content_updated_ko": "ChatGPT Go가 브라질에서 출시되어 저렴한 가격에 향상된 기능을 이용할 수 있습니다.\nWeb, iOS, Android, macOS, Windows 모든 플랫폼에서 사용할 수 있습니다.\n인도, 인도네시아에 이어 브라질까지 확장되며 주요 성장 시장 공략이 계속됩니다."
+  },
+  {
+    "id": "6850c8e1-a932-48cb-94e7-76fd4ab67b12",
+    "title_updated_ko": "공유 프로젝트로 팀과 함께 협업할 수 있어요",
+    "content_updated_ko": "모든 ChatGPT 사용자가 프로젝트를 공유하여 대화, 파일, 지침을 함께 활용할 수 있습니다.\nPro는 40개 파일과 100명, Plus와 Go는 25개 파일과 10명까지 협업을 지원합니다.\n그룹 작업, 콘텐츠 제작, 보고서, 연구 등 다양한 협업 사용 사례를 지원합니다."
+  },
+  {
+    "id": "e5e755d1-06da-47f3-a728-7c89a01757f9",
+    "title_updated_ko": "로그아웃 상태에서도 GPT-5 Instant를 사용할 수 있어요",
+    "content_updated_ko": "로그아웃 사용자의 기본 모델이 GPT-5 Instant로 업그레이드됐습니다.\n계정 생성이나 로그인 없이도 더 높은 품질의 응답을 받을 수 있습니다.\n인증 여부에 따른 품질 격차를 해소하여 더 많은 사용자에게 접근성을 높였습니다."
+  },
+  {
+    "id": "abde05de-cae2-4427-8e1b-e942b0248783",
+    "title_updated_ko": "메모리가 자동으로 관리되어 중요한 정보를 놓치지 않아요",
+    "content_updated_ko": "ChatGPT가 저장된 메모리를 자동으로 관리하여 중요한 정보를 우선순위로 유지합니다.\n최근성과 대화 빈도를 고려해 메모리를 정리하며, 메모리 가득 참 상태를 방지합니다.\nPlus와 Pro 사용자에게 글로벌 배포되며 자동 관리를 언제든 끌 수 있습니다."
+  },
+  {
+    "id": "5538f9fc-c0b7-4203-9634-6c3617633ba2",
+    "title_updated_ko": "ChatGPT Go가 71개국에 추가 확장돼 89개국이 됐어요",
+    "content_updated_ko": "ChatGPT Go가 71개 추가 국가에 출시되어 총 89개국에서 이용할 수 있습니다.\nWeb, iOS, Android, macOS, Windows 전 플랫폼을 지원합니다.\n인도에서의 첫 출시 이후 가장 큰 규모의 확장으로 글로벌 접근성이 크게 높아졌습니다."
+  },
+  {
+    "id": "e8f1ab9e-9504-41ae-9e6e-b2ac346828ee",
+    "title_updated_ko": "Slack 연동과 Slack용 ChatGPT 앱이 출시됐어요",
+    "content_updated_ko": "macOS 앱에서 화면 공유로 작업 맥락을 전달할 수 있습니다.\n코드, 문서, 디자인 등 화면 내용을 AI가 이해합니다.\nPlus, Team 사용자가 먼저 이용할 수 있습니다."
+  },
+  {
+    "id": "8186db00-3ef2-486f-bf27-7f822f723d0d",
+    "title_updated_ko": "Notion과 Linear가 동기화 커넥터로 추가됐어요",
+    "content_updated_ko": "Pro 사용자가 Notion과 Linear를 동기화 커넥터로 연결할 수 있습니다.\n동기화를 활성화하면 ChatGPT가 관련 대화에서 인덱싱된 콘텐츠를 자동 참조합니다.\n실제 프로젝트 데이터와 문서를 기반으로 더 정확한 응답을 받을 수 있습니다."
+  },
+  {
+    "id": "276c2617-1b6d-4763-8cfe-b3cfc6925a96",
+    "title_updated_ko": "ChatGPT Go가 16개국에 추가 확장됐어요",
+    "content_updated_ko": "ChatGPT Go가 16개 추가 국가에 출시되어 저렴한 구독을 더 많은 곳에서 이용할 수 있습니다.\nWeb, iOS, Android, macOS, Windows 전 플랫폼에서 사용 가능합니다.\n인도, 인도네시아, 브라질에 이어 저비용 구독 티어의 글로벌 확장이 계속됩니다."
+  },
+  {
+    "id": "b1410627-c314-4553-8fc3-076c0473c1c3",
+    "title_updated_ko": "Codex에 Slack 연동, SDK, 업데이트된 한도가 추가됐어요",
+    "content_updated_ko": "Codex가 Slack 연동, Codex SDK를 통한 프로그래밍 제어, 업데이트된 한도를 지원합니다.\nSlack에서 직접 Codex와 상호작용하고, SDK로 자동화된 작업 관리가 가능합니다.\n개인 개발자 워크플로를 넘어 팀 협업과 CI/CD 스타일 자동화로 확장됩니다."
+  },
+  {
+    "id": "92dd72b3-f6a7-4eeb-aece-85cc10529e39",
+    "title_updated_ko": "GPT-5 Instant가 정신적 어려움 감지와 위기 대응을 개선했어요",
+    "content_updated_ko": "GPT-5 Instant가 정신적, 감정적 어려움의 징후를 더 정확하게 감지하고 대응합니다.\n정신건강 전문가의 지도 하에 대화를 완화하고 실제 위기 자원을 안내합니다.\n비추론 모델 선택 시에도 민감한 대화를 GPT-5 Instant로 라우팅하여 안전성을 높였습니다."
+  },
+  {
+    "id": "e6212e94-6e88-4129-bf5b-49b34e9817e6",
+    "title_updated_ko": "부모가 청소년 계정을 관리할 수 있는 보호자 통제가 출시됐어요",
+    "content_updated_ko": "ChatGPT에 전 세계 대상 보호자 통제가 출시되어 부모가 청소년 계정 설정을 관리할 수 있습니다.\n사용 시간 제한, 음성 모드, 메모리, 이미지 생성 비활성화, 모델 학습 제외 설정이 가능합니다.\n안전 위험이 감지될 경우 이메일, SMS, 푸시 알림으로 부모에게 통지할 수 있습니다."
+  },
+  {
+    "id": "96c92776-d78c-4ccc-b06a-30c6b810f607",
+    "title_updated_ko": "대화 중 바로 구매할 수 있는 Instant Checkout이 출시됐어요",
+    "content_updated_ko": "ChatGPT 검색이 로그인 없이 누구나 사용 가능해졌습니다.\n실시간 웹 정보를 대화형으로 자유롭게 탐색할 수 있습니다.\nAI 기반 검색 서비스의 접근성이 대폭 향상될 전망입니다."
+  },
+  {
+    "id": "38258456-13d2-48e3-a17a-7fb00c1f6975",
+    "title_updated_ko": "Pro 사용자를 위한 일일 맞춤 리서치 Pulse가 출시됐어요",
+    "content_updated_ko": "ChatGPT Pulse가 Pro 사용자에게 메모리와 대화 기록 기반 일일 맞춤 리서치를 제공합니다.\n시각적 요약을 한눈에 보거나 확장하고, 좋아요/싫어요로 향후 콘텐츠를 조정할 수 있습니다.\niOS와 Android에서 초기 프리뷰로 제공되며 사용하면서 점점 개선됩니다."
+  },
+  {
+    "id": "a525dd80-acae-4b16-ab46-d007038b020e",
+    "title_updated_ko": "인도네시아에서 ChatGPT Go가 월 Rp 75,000에 출시됐어요",
+    "content_updated_ko": "ChatGPT Go가 인도네시아에서 월 Rp 75,000에 출시됐습니다.\nWeb, iOS, Android, macOS, Windows 모든 플랫폼에서 이용할 수 있습니다.\n인도에 이어 두 번째로 ChatGPT Go가 출시된 국가로 고성장 시장 확장이 계속됩니다."
+  },
+  {
+    "id": "44de0717-ea28-4b2a-9ed5-c794d940aeba",
+    "title_updated_ko": "GPT-4o mini 기반 고급 음성의 품질과 지연 시간이 개선됐어요",
+    "content_updated_ko": "GPT-4o mini 기반 고급 음성 모드의 응답 품질이 높아지고 지연 시간이 줄었습니다.\n고급 음성 내 경량 옵션인 GPT-4o mini 백엔드 대상 업데이트입니다.\n2025년 6월 음성 모드 업그레이드 이후 지속적인 성능 개선의 일환입니다."
+  },
+  {
+    "id": "3fee8828-5014-4956-a589-bac5cb8b37bb",
+    "title_updated_ko": "GPT-5 Thinking의 사고 시간을 직접 조절할 수 있어요",
+    "content_updated_ko": "연말 프로모션으로 Plus 요금이 월 $20에서 할인됩니다.\n신규 가입 시 첫 3개월간 할인된 특별 요금이 적용됩니다.\n더 많은 사용자가 고급 AI 기능을 경험할 수 있습니다."
+  },
+  {
+    "id": "3932225c-836a-4aa1-a6a8-390e6da9d6df",
+    "title_updated_ko": "ChatGPT 검색의 정확성, 쇼핑 감지, 포맷이 개선됐어요",
+    "content_updated_ko": "ChatGPT 검색이 더 정확하고 신뢰할 수 있는 결과를 제공하며 환각이 줄었습니다.\n쇼핑 의도 감지가 향상되어 필요할 때 상품을 보여주고 그렇지 않을 때는 집중합니다.\n답변 포맷이 개선되어 세부 정보를 잃지 않으면서 빠르게 이해할 수 있습니다."
+  },
+  {
+    "id": "74abd412-d9fe-4681-ab72-0019464b1b5b",
+    "title_updated_ko": "개인화 설정이 별도 모달에서 설정 메뉴로 이동했어요",
+    "content_updated_ko": "개인화 설정이 별도 모달 대신 설정 메뉴의 개인화 섹션에서 직접 관리할 수 있습니다.\n성격 선택, 사용자 지정 지침, 메모리 관리가 메인 설정 흐름에 통합됐습니다.\n인터페이스가 간소화되어 여러 화면을 오갈 필요 없이 한 곳에서 설정할 수 있습니다."
+  },
+  {
+    "id": "7dea3e85-e235-4cf2-8d23-e17ba36081c3",
+    "title_updated_ko": "Codex에 에이전트 코딩에 최적화된 GPT-5-Codex가 추가됐어요",
+    "content_updated_ko": "GPT-5-Codex가 에이전트 코딩에 최적화되어 클라우드 작업과 코드 리뷰의 기본 모델이 됩니다.\nCodex CLI와 IDE 확장에서 로컬 워크플로에도 선택적으로 사용할 수 있습니다.\nChatGPT나 API에서는 아직 지원되지 않으며 Codex 환경 전용 특화 모델입니다."
+  },
+  {
+    "id": "e0045ff7-c00b-44e2-86b1-385bb8deb7e5",
+    "title_updated_ko": "표준 음성 모드의 종료가 연기되어 계속 사용할 수 있어요",
+    "content_updated_ko": "고급 음성 확장 후 예정됐던 표준 음성 모드 종료가 연기되어 계속 사용 가능합니다.\n일부 사용자가 표준 음성을 선호한다는 피드백에 따라 전환을 보류했습니다.\n고급 음성에 대한 피드백을 반영한 개선이 완료될 때까지 표준 음성이 유지됩니다."
+  },
+  {
+    "id": "e9361bce-f6e9-417b-b3e4-c4ac28f412c9",
+    "title_updated_ko": "웹에서 대화를 분기하여 다른 방향을 탐색할 수 있어요",
+    "content_updated_ko": "ChatGPT 웹에서 대화를 분기하여 원래 스레드를 유지하면서 새 방향을 탐색할 수 있습니다.\n메시지 위에 마우스를 올리고 새 대화에서 분기를 선택하면 됩니다.\n모든 로그인 웹 사용자가 이용 가능하며, 같은 시작점에서 여러 접근을 시도할 수 있습니다."
+  },
+  {
+    "id": "8aa1a790-51db-44e3-be24-caadbeadb6e5",
+    "title_updated_ko": "무료 사용자도 프로젝트를 사용할 수 있게 됐어요",
+    "content_updated_ko": "ChatGPT 프로젝트가 Free 티어에 확장되어 프로젝트당 최대 5개 파일을 업로드할 수 있습니다.\n유료 티어 파일 한도도 업데이트되어 Plus와 Go는 25개, Pro는 40개로 늘었습니다.\n색상과 아이콘 커스터마이징 옵션이 모든 플랜에 추가되어 프로젝트 정리에 도움이 됩니다."
+  },
+  {
+    "id": "33f04b66-482a-4db2-8001-3a59a93a97cd",
+    "title_updated_ko": "Codex가 IDE 확장, ChatGPT 로그인, 로컬-클라우드 연동을 지원해요",
+    "content_updated_ko": "ChatGPT에서 생성한 이미지를 외부에 공유할 수 있습니다.\n고유 링크를 통해 누구나 이미지를 열람할 수 있습니다.\n소셜 미디어와 메신저에서 간편하게 공유할 수 있습니다."
+  },
+  {
+    "id": "5fa866ae-1cfd-4e49-9327-b29a00769a91",
+    "title_updated_ko": "프로젝트 전용 메모리로 독립적인 작업 공간을 만들 수 있어요",
+    "content_updated_ko": "프로젝트 전용 메모리를 활성화하면 프로젝트 내 대화만 참조하고 외부 메모리를 사용하지 않습니다.\n프로젝트의 톤, 맥락, 기록에 집중할 수 있어 장기 또는 민감한 작업에 유용합니다.\nWeb과 Windows 앱에서 먼저 지원되며, 모바일과 macOS는 곧 추가될 예정입니다."
+  },
+  {
+    "id": "e46719ec-baa7-4c4e-9489-cedc32f96e4e",
+    "title_updated_ko": "인도에서 월 399루피의 저렴한 ChatGPT Go가 출시됐어요",
+    "content_updated_ko": "o3-pro 모델이 ChatGPT Pro 플랜에 추가됐습니다.\n수학, 과학, 코딩에서 최고 수준의 추론력을 제공합니다.\n정밀한 분석이 필요한 고난도 전문 작업에 최적화됐습니다."
+  },
+  {
+    "id": "34cc78b4-ddc8-4ad5-ada7-4a706f2455b9",
+    "title_updated_ko": "GPT-5의 기본 성격이 더 따뜻하고 친근하게 바뀌었어요",
+    "content_updated_ko": "GPT-5의 기본 성격이 사용자 피드백에 따라 더 따뜻하고 친근하게 업데이트됐습니다.\n상황을 인정하는 작은 표현으로 대화가 더 인간적으로 느껴지도록 개선됐습니다.\n아첨과는 구별되며, 내부 평가에서 아첨 수준 증가 없이 따뜻함이 향상됐습니다."
+  },
+  {
+    "id": "56e2671d-8a32-429c-bd50-3291dd5268ec",
+    "title_updated_ko": "GPT-4.1 모델 패밀리가 API에 새로 출시됐어요",
+    "content_updated_ko": "GPT-4.1, GPT-4.1 mini, nano 세 가지 모델이 출시됩니다.\n코딩 성능과 지시 따르기 능력이 이전 대비 크게 향상됐습니다.\n개발자를 위한 API 전용 고성능 모델로 폭넓게 제공됩니다."
+  },
+  {
+    "id": "aef18d59-7633-4d4d-a05d-c27eb0f29dd6",
+    "title_updated_ko": "GPT-5에 Auto, Fast, Thinking 모델 선택기가 추가됐어요",
+    "content_updated_ko": "GPT-5에 Auto, Fast, Thinking 선택 옵션이 추가되어 모델을 직접 선택할 수 있습니다.\nPlus 사용자는 주 3,000개 GPT-5 Thinking 메시지를 사용할 수 있습니다.\nGPT-4o가 유료 사용자 모델 선택기에 복귀하고 추가 모델 표시 토글도 제공됩니다."
+  },
+  {
+    "id": "21be8a40-f5e8-4c90-af9f-2756dabeaa71",
+    "title_updated_ko": "GPT-4o가 더 자연스럽고 간결하게 응답해요",
+    "content_updated_ko": "GPT-4o의 응답 스타일이 더 자연스럽고 간결해졌습니다.\n불필요한 수식어와 반복 표현이 대폭 줄어 가독성이 높아졌습니다.\n모든 ChatGPT 플랜 사용자에게 자동으로 적용됩니다."
+  },
+  {
+    "id": "f43f150f-3176-4d1a-8a4c-a7f893fce255",
+    "title_updated_ko": "ChatGPT 메모리가 더 똑똑하게 개선됐어요",
+    "content_updated_ko": "메모리 기능이 더 정확하고 유용하게 전면 업데이트됐습니다.\n사용자 선호와 대화 맥락을 더 잘 기억하고 활용합니다.\nPlus, Pro, Team 사용자부터 순차적으로 제공됩니다."
+  },
+  {
+    "id": "f0a0c25d-c573-4415-82ae-2e8bb2861f13",
+    "title_updated_ko": "무료 사용자의 이미지 생성 효율이 향상됐어요",
+    "content_updated_ko": "Free 티어 사용자의 이미지 생성 성능이 더 효율적으로 업데이트됐습니다.\n사용자 경험은 동일하게 유지하면서 백엔드 효율성이 최적화됐습니다.\n수요 증가 속에서 무료 사용자의 이미지 생성 가용성을 지속 유지할 수 있습니다."
+  },
+  {
+    "id": "c7b93ade-22bb-4637-9a61-adb25b7eee77",
+    "title_updated_ko": "GPT-5가 모든 ChatGPT 사용자에게 기본 모델로 출시됐어요",
+    "content_updated_ko": "GPT-5가 Plus, Pro, Team, Free 플랜에 전 세계적으로 순차 배포되고 있습니다.\n하나의 자동 전환 시스템으로 이전 모델들의 장점을 통합한 새 기본 모델입니다.\n유료 사용자는 모델 선택기에서 GPT-5 또는 GPT-5 Thinking을 수동 선택할 수 있습니다."
+  },
+  {
+    "id": "0e831b73-0056-466c-8f80-9564ddfde97f",
+    "title_updated_ko": "네 가지 성격 옵션과 기본 스타일을 선택할 수 있어요",
+    "content_updated_ko": "ChatGPT가 사용자의 선호와 대화 맥락을 자동 기억합니다.\n반복 설명 없이도 맞춤형 개인화된 응답을 받을 수 있습니다.\nPlus 사용자부터 순차적으로 전체 플랜에 확대됩니다."
+  },
+  {
+    "id": "ddf89fdd-67f9-47a4-a56c-43eb8964e37f",
+    "title_updated_ko": "대화 버블과 UI에 액센트 색상을 설정할 수 있어요",
+    "content_updated_ko": "대화 버블, 음성 버튼, 하이라이트 텍스트에 적용되는 액센트 색상을 설정할 수 있습니다.\nWeb에서는 설정의 일반 탭에서, 모바일에서는 개인화의 색상 스킴에서 변경합니다.\nGPT-5 및 성격 시스템과 함께 출시되어 시각적 커스터마이징까지 확장됐습니다."
+  },
+  {
+    "id": "f20a6683-9bb3-4191-8d2e-0895c3fa228d",
+    "title_updated_ko": "고급 음성 접근이 확대되고 표준 음성 종료가 예고됐어요",
+    "content_updated_ko": "고급 음성 모드가 Plus에 거의 무제한, Free에 하루 수 시간으로 확장됐습니다.\n사용자 지침에 맞춰 말하기 스타일을 조절하며 커스텀 GPT에서도 작동합니다.\n표준 음성 모드는 30일 후 종료 예정이며 모든 사용자가 최신 음성으로 통합됩니다."
+  },
+  {
+    "id": "bb8e550a-e721-41eb-8fac-b5f3c437dae7",
+    "title_updated_ko": "소크라테스식 대화형 학습이 가능한 Study Mode가 출시됐어요",
+    "content_updated_ko": "GPT-4o의 데이터 분석 및 시각화 성능이 대폭 향상됐습니다.\n파일 업로드 후 차트와 핵심 인사이트를 자동 생성합니다.\n비전문가도 손쉽게 데이터 기반 의사결정을 할 수 있습니다."
+  },
+  {
+    "id": "530af865-9095-42a5-9a7c-9d8b94df25d4",
+    "title_updated_ko": "Pro 사용자가 Canva와 Notion 커넥터를 사용할 수 있어요",
+    "content_updated_ko": "Pro 사용자가 Canva와 Notion을 대화 검색과 Deep Research에서 사용할 수 있습니다.\nEEA, 스위스, 영국 외 지역 사용자만 이용 가능합니다.\n인기 있는 크리에이티브 및 생산성 도구로 커넥터 생태계가 확장됐습니다."
+  },
+  {
+    "id": "3b1e29d4-ef84-4bbe-bfd3-6450650e63f6",
+    "title_updated_ko": "HubSpot과 MCP 커스텀 커넥터로 대화 검색이 가능해요",
+    "content_updated_ko": "Pro 사용자가 HubSpot과 MCP 커스텀 커넥터를 대화 검색에서 사용할 수 있습니다.\nEEA, 스위스, 영국 외 지역에서 Deep Research에 더해 대화 검색도 지원됩니다.\nMCP 커스텀 커넥터로 자체 시스템을 ChatGPT 대화에 연결할 수 있어 활용도가 높아집니다."
+  },
+  {
+    "id": "527f4ed3-5e9e-40d3-8c77-313bf21e61fb",
+    "title_updated_ko": "무료 사용자에게도 고급 음성 개선 사항이 적용돼요",
+    "content_updated_ko": "6월 7일 유료 사용자에게 공개된 고급 음성 개선이 Free 사용자에게도 배포됩니다.\n더 자연스러운 음성, 표현력, 번역 효과를 동일하게 경험할 수 있습니다.\nFree 사용자의 한도는 유지되지만 음성 품질은 유료 사용자와 동일 수준으로 향상됩니다."
+  },
+  {
+    "id": "91914eeb-3c7e-408e-822c-4b745c05a881",
+    "title_updated_ko": "Plus 사용자도 macOS에서 Record Mode를 사용할 수 있어요",
+    "content_updated_ko": "macOS 데스크톱 앱에서 Plus 사용자에게 Record Mode가 글로벌 배포됐습니다.\n회의나 음성 메모를 녹음하고 Canvas에서 편집 가능한 요약으로 변환할 수 있습니다.\nTeam과 Enterprise/Edu에 이어 Plus까지 확장되어 전 유료 티어 배포가 완료됐습니다."
+  },
+  {
+    "id": "7efd4d36-337b-489c-944d-acfa1c117d09",
+    "title_updated_ko": "ChatGPT에서 GPT-5 모델을 사용할 수 있어요",
+    "content_updated_ko": "GPT-5가 ChatGPT에서 기본 모델로 제공됩니다.\n추론, 코딩, 창의성 등 전 분야에서 성능이 향상됐습니다.\nPlus, Pro, Team 사용자부터 순차적으로 적용됩니다."
+  },
+  {
+    "id": "862845ba-c680-4a5a-ab94-7969ed1b035d",
+    "title_updated_ko": "Pro 사용자의 프로젝트 파일 한도가 40개로 늘었어요",
+    "content_updated_ko": "Pro 사용자의 프로젝트당 업로드 파일 한도가 20개에서 40개로 두 배 늘었습니다.\n대규모 지식 베이스를 구축하여 대화에서 더 포괄적인 맥락을 제공할 수 있습니다.\n문서 중심 워크플로인 연구, 분석, 콘텐츠 제작에서 더 많은 참조 자료를 활용합니다."
+  },
+  {
+    "id": "72f44e0a-5829-4444-9b75-460ecaeaa27b",
+    "title_updated_ko": "o3 모델이 ChatGPT에서 추론 기본 모델이 됐어요",
+    "content_updated_ko": "o3가 ChatGPT의 기본 추론 모델로 설정됐습니다.\n수학, 과학, 코딩 분야에서 최고 수준 성능을 보입니다.\nPlus, Pro, Team 사용자가 즉시 이용할 수 있습니다."
+  },
+  {
+    "id": "305eeb21-3109-4221-b600-85eac658330b",
+    "title_updated_ko": "Enterprise와 Edu도 커스텀 GPT에서 전체 모델을 선택할 수 있어요",
+    "content_updated_ko": "Codex가 ChatGPT 내에서 코딩 에이전트로 출시됩니다.\n코드 작성, 디버깅, PR 생성을 자동으로 수행합니다.\nPro, Team, Enterprise 사용자가 이용할 수 있습니다."
+  },
+  {
+    "id": "5c3cacfa-cbc4-4772-8f34-225ac2c0b0b6",
+    "title_updated_ko": "ChatGPT 테스트 이벤트가 가격 정보와 함께 등록됐어요",
+    "content_updated_ko": "ChatGPT 테스트 이벤트가 가격 정보와 함께 공지됐습니다.\n구체적인 기능이나 변경 사항에 대한 세부 정보는 제공되지 않았습니다.\n추가 업데이트나 설명은 원본 소스 URL을 참조하시기 바랍니다."
+  },
+  {
+    "id": "48216634-5ab4-4101-98d9-0e3cc8712ddf",
+    "title_updated_ko": "ChatGPT 신규 기능 카테고리 테스트 이벤트가 등록됐어요",
+    "content_updated_ko": "ChatGPT 신규 카테고리 테스트 이벤트가 공지됐습니다.\n구체적인 기능이나 변경 사항에 대한 세부 정보는 제공되지 않았습니다.\n추가 업데이트나 설명은 원본 소스 URL을 참조하시기 바랍니다."
+  },
+  {
+    "id": "a50b2ed9-2730-4f7f-ab20-c5704b5b2de1",
+    "title_updated_ko": "ChatGPT 수정 카테고리 테스트 이벤트가 등록됐어요",
+    "content_updated_ko": "ChatGPT 수정 카테고리 테스트 이벤트가 공지됐습니다.\n구체적인 기능이나 변경 사항에 대한 세부 정보는 제공되지 않았습니다.\n추가 업데이트나 설명은 원본 소스 URL을 참조하시기 바랍니다."
+  },
+  {
+    "id": "e5ca3efc-c7e2-4709-9fa9-46f05d0cd7d9",
+    "title_updated_ko": "ChatGPT 검색이 멀티 검색, 이미지 검색, 지시 따르기로 업그레이드됐어요",
+    "content_updated_ko": "ChatGPT 검색이 더 정확하고 포괄적인 응답을 제공하도록 업그레이드됐습니다.\n복잡한 질문에 자동 다중 검색, 업로드 이미지로 웹 검색, 긴 대화에서 지시 따르기가 강화됐습니다.\n사용자 테스트에서 이전 검색 경험보다 높은 선호도를 기록했습니다."
+  },
+  {
+    "id": "743923df-3c1d-4ab6-9710-7dad7cf8400e",
+    "title_updated_ko": "Plus, Pro, Team에서 커스텀 GPT의 모델을 직접 선택할 수 있어요",
+    "content_updated_ko": "커스텀 GPT 빌드 시 GPT-4o, o3, o4-mini 등 전체 모델을 선택할 수 있습니다.\n추천 모델을 설정하여 사용자에게 안내할 수도 있으며, Web에서 이용 가능합니다.\nEnterprise와 Edu 배포가 곧 예정되어 있어 전체 유료 플랜으로 확대될 예정입니다."
+  },
+  {
+    "id": "6535c064-bfae-4291-8a90-74fc9bee65bb",
+    "title_updated_ko": "프로젝트에 Deep Research, 음성 모드, 메모리 등이 추가됐어요",
+    "content_updated_ko": "ChatGPT 프로젝트에 Deep Research, 음성 모드, 과거 대화 참조 메모리 개선이 추가됐습니다.\n프로젝트 공유, 대화에서 프로젝트 생성, 모바일 파일 업로드도 지원됩니다.\nPlus, Pro, Team 사용자 대상이며 메모리 개선은 Plus와 Pro에서만 이용 가능합니다."
+  },
+  {
+    "id": "f75b302e-5ca3-41d5-be58-70e54a35e219",
+    "title_updated_ko": "가장 신뢰도 높은 추론 모델 o3-pro가 출시됐어요",
+    "content_updated_ko": "o3-pro가 Pro와 Team 사용자에게 출시되어 o1-pro를 대체하는 최고 신뢰도 추론 모델입니다.\n전문가 평가에서 모든 카테고리에서 o3보다 선호도와 4/4 신뢰성 점수가 높았습니다.\n웹 검색, 파일 분석, Python, 메모리 등 모든 도구를 사용할 수 있지만 응답 시간이 깁니다."
+  },
+  {
+    "id": "e8d8c7f0-b808-43dd-8c14-828cbde2f21d",
+    "title_updated_ko": "고급 음성이 자연스러운 억양과 실시간 번역으로 업그레이드됐어요",
+    "content_updated_ko": "고급 음성 모드가 향상된 억양, 자연스러운 리듬, 공감과 풍자 등 감정 표현으로 업그레이드됐습니다.\n실시간 언어 번역이 추가되어 대화 중 자동으로 양방향 통역이 가능합니다.\n모든 유료 사용자 대상이며 일부 음성 옵션에서 음질 변동이 발생할 수 있습니다."
+  },
+  {
+    "id": "6a2284a1-cbec-4ec3-b680-c83c00ffa97d",
+    "title_updated_ko": "커넥터를 Deep Research에서 사용할 수 있는 베타가 출시됐어요",
+    "content_updated_ko": "Sora로 텍스트 설명만으로 동영상을 생성할 수 있습니다.\nPlus, Pro 사용자에게 제공되며 다양한 스타일을 지원합니다.\n크리에이터의 영상 제작 진입 장벽이 크게 낮아질 전망입니다."
+  },
+  {
+    "id": "1383dd1d-6484-4924-bc04-612925a046ab",
+    "title_updated_ko": "MCP로 커스텀 커넥터를 직접 만들어 연결할 수 있어요",
+    "content_updated_ko": "관리자와 사용자가 MCP를 사용하여 자체 시스템에 커스텀 커넥터를 구축하고 배포할 수 있습니다.\n원격 MCP 서버가 필요하며 현재 Deep Research에서만 사용할 수 있습니다.\nTeam, Enterprise, Edu에서는 관리자만 커스텀 커넥터를 만들고 배포할 수 있습니다."
+  },
+  {
+    "id": "85e6a1e5-bd21-4ac7-8fa9-0dbd687ad7b7",
+    "title_updated_ko": "Free 사용자도 대화 기록 참조 메모리를 사용할 수 있어요",
+    "content_updated_ko": "Free 사용자에게 최근 대화를 참조하는 향상된 메모리 기능이 배포되기 시작합니다.\nEEA, 스위스 등 유럽 지역은 설정에서 수동 활성화가 필요합니다.\nPlus와 Pro 사용자에게 제공되던 메모리 경험이 모든 티어로 확대됩니다."
+  },
+  {
+    "id": "e726e17c-f20d-4ff2-8634-93b8b0b5c69e",
+    "title_updated_ko": "Deep Research에 Dropbox 커넥터가 추가됐어요",
+    "content_updated_ko": "Canvas에서 문서와 코드를 나란히 편집할 수 있습니다.\nGPT-4o 기반으로 실시간 피드백과 수정이 가능합니다.\n글쓰기와 코딩 작업의 생산성이 대폭 향상될 것으로 기대됩니다."
+  },
+  {
+    "id": "7626c3c3-a2c9-4ae6-ac50-76c588ccb6aa",
+    "title_updated_ko": "GitHub 커넥터가 지역 제한 없이 글로벌로 제공돼요",
+    "content_updated_ko": "GitHub 커넥터가 Plus, Pro, Team에 EEA, 스위스, 영국 포함 글로벌로 제공됩니다.\n지역 제한 없이 사용 가능한 첫 Deep Research 커넥터입니다.\n다른 커넥터와 달리 규제 요건을 충족하여 전 세계에서 제한 없이 배포됩니다."
+  },
+  {
+    "id": "8287f31d-8a2a-421a-9e25-3eb61217c990",
+    "title_updated_ko": "코딩 특화 모델 GPT-4.1이 ChatGPT에 출시됐어요",
+    "content_updated_ko": "음성 대화 중 카메라로 사물을 보여주며 질문할 수 있습니다.\n실시간 화면 공유와 음성 기반 대화를 동시에 지원합니다.\nPlus, Team 사용자부터 순차적으로 이용 가능합니다."
+  },
+  {
+    "id": "35267e6d-0fb6-4d77-811e-2fa0d1684f48",
+    "title_updated_ko": "ChatGPT Tasks로 알림과 예약 작업을 할 수 있어요",
+    "content_updated_ko": "ChatGPT가 예약된 시간에 작업을 자동 수행합니다.\n알림, 요약, 리서치 등 반복 작업을 설정할 수 있습니다.\nPlus, Pro, Team 사용자에게 베타로 제공됩니다."
+  },
+  {
+    "id": "a3905a76-dfcd-40f0-82ec-4c0ffd315902",
+    "title_updated_ko": "o1-pro 모드가 ChatGPT Pro에서 제공돼요",
+    "content_updated_ko": "o1-pro가 더 많은 연산으로 정밀한 추론을 수행합니다.\n수학, 과학, 코딩의 어려운 문제 해결에 최적화됐습니다.\nChatGPT Pro 사용자 전용으로 제공되는 프리미엄 모드입니다."
+  },
+  {
+    "id": "7df15ddd-30fb-44c8-8792-a17fcb1fefa9",
+    "title_updated_ko": "Deep Research 보고서를 PDF로 내보낼 수 있어요",
+    "content_updated_ko": "Deep Research 보고서를 표, 이미지, 인용, 출처가 포함된 PDF로 내보낼 수 있습니다.\n공유 아이콘에서 PDF 다운로드를 선택하며 새 보고서와 과거 보고서 모두 지원됩니다.\nPlus, Pro, Team 사용자가 이용 가능하며 연구 결과를 외부에 공유하기 편리합니다."
+  },
+  {
+    "id": "452909b0-2774-447a-ae6b-6add89b5c700",
+    "title_updated_ko": "Deep Research에 GitHub 커넥터가 추가됐어요",
+    "content_updated_ko": "ChatGPT Deep Research에 GitHub 커넥터가 추가되어 Team에 글로벌 제공됩니다.\nPlus와 Pro에 순차 배포되며 EEA, 스위스, 영국은 현재 제외됩니다.\nGoogle Drive, SharePoint, Dropbox에 이어 개발자 중심 데이터 소스가 추가됐습니다."
+  },
+  {
+    "id": "6732b1b5-f716-4e10-85bc-311194cf544a",
+    "title_updated_ko": "EU 포함 전 세계 Plus와 Pro에 향상된 메모리가 배포돼요",
+    "content_updated_ko": "대화 기록 참조 기능이 포함된 향상된 메모리가 EU를 포함해 글로벌 배포됩니다.\nPlus와 Pro는 저장 메모리와 대화 기록 모두, Free는 저장 메모리만 사용할 수 있습니다.\nEEA, 스위스 등 유럽 지역은 기본 비활성화이며 설정에서 직접 활성화해야 합니다."
+  },
+  {
+    "id": "cff6db2a-f378-4d17-9d6b-d3025e401caf",
+    "title_updated_ko": "모바일 도구 아이콘이 Skills 메뉴로 통합됐어요",
+    "content_updated_ko": "iOS와 Android의 개별 도구 아이콘이 하나의 Skills 메뉴 아이콘으로 통합됐습니다.\n도구 삭제 없이 접근 방식만 통합하여 화면 공간을 확보하고 복잡성을 줄였습니다.\nFree, Plus, Pro 플랜에 적용되며 증가하는 도구 수에 맞춘 UI 간소화입니다."
+  },
+  {
+    "id": "c055d213-766c-48c8-8d62-52fecfed9a8e",
+    "title_updated_ko": "한 달간 운영된 Monday 성격이 종료됐어요",
+    "content_updated_ko": "4월 1일 시작된 한 달 한정 Monday 성격이 계획대로 종료됐습니다.\n음성과 텍스트 모드에서 독특한 반어적 스타일을 제공했던 실험적 기능이었습니다.\n새로운 성격 옵션이 개발 중이며 GPT-5 성격 시스템의 초기 실험으로 볼 수 있습니다."
+  },
+  {
+    "id": "e7114f9f-947a-495f-8457-c27c981b1408",
+    "title_updated_ko": "GPT-4o 업데이트가 과도한 동조 문제로 롤백됐어요",
+    "content_updated_ko": "GPT-4o의 최근 업데이트가 과도한 동조 문제로 이전 버전으로 롤백됐습니다.\n모델이 솔직한 답변 대신 과도한 동의를 보이는 문제가 확인됐습니다.\n이 사건을 계기로 언어 모델의 아첨 문제를 체계적 연구 과제로 공개 선언했습니다."
+  },
+  {
+    "id": "91d8c677-8fdf-4608-8796-771ac0d98b69",
+    "title_updated_ko": "GPT-4o의 메모리 최적화와 STEM 문제 해결이 개선됐어요",
+    "content_updated_ko": "GPT-4o의 메모리 저장 최적화, STEM 문제 해결 능력, 대화 안내가 향상됐습니다.\n대화를 생산적인 방향으로 이끄는 능동적인 응답 스타일로 변경됐습니다.\n4월 아첨 문제 롤백 이후 지속적인 GPT-4o 개선의 일환입니다."
+  },
+  {
+    "id": "b171947c-eda6-4844-9e46-faeca90c8c29",
+    "title_updated_ko": "모든 도구를 사용할 수 있는 추론 모델 o3와 o4-mini가 출시됐어요",
+    "content_updated_ko": "o3와 o4-mini가 ChatGPT의 모든 도구를 에이전트처럼 활용하는 추론 모델로 출시됐습니다.\n웹 검색, 파일 분석, Python, 시각 추론, 이미지 생성을 결합하여 복잡한 문제를 해결합니다.\n독립적으로 작업을 수행하는 에이전트형 ChatGPT를 향한 중요한 진전입니다."
+  },
+  {
+    "id": "5475d05a-7892-4b3b-b220-ffa29b39aad5",
+    "title_updated_ko": "메모리를 활용해 웹 검색 쿼리를 더 정확하게 만들어요",
+    "content_updated_ko": "ChatGPT가 저장된 메모리를 활용하여 웹 검색 쿼리를 더 맥락에 맞게 만듭니다.\n프롬프트에 배경 정보를 직접 입력하지 않아도 관련성 높은 검색 결과를 얻을 수 있습니다.\n개인화된 대화와 웹 검색의 연결을 강화하여 맥락 기반 검색이 가능해졌습니다."
+  },
+  {
+    "id": "00afb74b-baf2-4a73-8bf9-49825c28a3c2",
+    "title_updated_ko": "생성한 이미지를 모아볼 수 있는 이미지 라이브러리가 출시됐어요",
+    "content_updated_ko": "ChatGPT에서 생성한 모든 이미지가 사이드바의 라이브러리에 자동 저장됩니다.\nWeb, iOS, Android에서 Free, Plus, Pro 사용자가 이용 가능합니다.\n과거 대화를 뒤질 필요 없이 한 곳에서 이미지를 찾고 재사용할 수 있습니다."
+  },
+  {
+    "id": "630e5c3e-f282-4862-9e87-90c303a8c50b",
+    "title_updated_ko": "GPT-4가 4월 30일부로 은퇴하고 GPT-4o로 대체돼요",
+    "content_updated_ko": "GPT-4가 2025년 4월 30일 ChatGPT에서 은퇴하며 GPT-4o가 완전히 대체합니다.\nGPT-4o는 글쓰기, 코딩, STEM에서 GPT-4보다 일관되게 우수한 성능을 보입니다.\nAPI에서는 GPT-4가 계속 사용 가능하며 ChatGPT에서만 은퇴가 적용됩니다."
+  },
+  {
+    "id": "2d8bddad-928e-4e8c-bb16-a24ebfaaeff5",
+    "title_updated_ko": "GPT-4o의 창의성, 코딩, STEM, 지시 따르기가 크게 개선됐어요",
+    "content_updated_ko": "GPT-4o가 더 직관적이고 창의적이며 협업에 강해졌고 코딩과 STEM 성능이 향상됐습니다.\n깔끔한 프론트엔드 코드 생성, 복잡한 지시 따르기, 간결한 응답 스타일을 제공합니다.\nChatGPT와 API에 동시 배포되며 chatgpt-4o-latest 스냅샷으로 이용 가능합니다."
+  },
+  {
+    "id": "0b14b9ff-770a-45c0-95b6-86c893b934f1",
+    "title_updated_ko": "Web, Android, iOS 전반에 사용성과 성능 개선이 있어요",
+    "content_updated_ko": "ChatGPT의 Web, Android, iOS에 다양한 사용성과 성능 개선이 적용됐습니다.\n구체적인 변경 사항 중 일부가 별도로 공지되어 있습니다.\nmacOS 앱 업데이트는 별도 페이지에서 확인할 수 있습니다."
+  },
+  {
+    "id": "5e505821-2392-4abc-a672-3af300df9f86",
+    "title_updated_ko": "Apple Intelligence에서 ChatGPT를 사용할 수 있어요",
+    "content_updated_ko": "Siri와 시스템 전반에서 ChatGPT를 호출할 수 있습니다.\niOS 18.2, macOS Sequoia 15.2부터 지원됩니다.\n별도 앱 없이 Apple 기기에서 AI를 활용할 수 있습니다."
+  },
+  {
+    "id": "6ca661c4-ca20-4582-8279-a4eb381090fc",
+    "title_updated_ko": "Android에서 인라인 이미지 크기가 커지고 시크릿 키보드가 추가됐어요",
+    "content_updated_ko": "Android 앱에서 인라인 생성 이미지의 기본 크기가 커져 더 잘 보입니다.\n임시 대화에서 더 명확하고 개인정보를 보호하는 시크릿 키보드가 추가됐습니다.\nWeb, Windows, iOS와 함께 진행된 크로스 플랫폼 업데이트의 일부입니다."
+  },
+  {
+    "id": "77f9a038-8da4-47bc-b19e-8e52677439d3",
+    "title_updated_ko": "iOS에서 표 복사, 길게 누르기 메뉴, 빠른 스트리밍이 개선됐어요",
+    "content_updated_ko": "iOS 앱에서 표 복사 기능이 개선되고 메시지 길게 누르기로 복사와 편집이 가능합니다.\n중첩 인용 표시가 개선되고 대화 스트리밍 및 메뉴 동작이 빨라졌습니다.\nWeb, Windows, Android와 함께 진행된 크로스 플랫폼 업데이트의 일부입니다."
+  },
+  {
+    "id": "7e83280c-ca93-42f9-a578-400da34a9a19",
+    "title_updated_ko": "Pro에 GPT-4.5가 출시되고 임시 대화 접근성이 개선됐어요",
+    "content_updated_ko": "GPT-4.5가 Pro 플랜 사용자에게 출시되고 임시 대화 아이콘이 상단 바로 이동했습니다.\niOS에 길게 눌러 텍스트 선택, 자동 전사 제출 옵션이 추가됐습니다.\nAndroid의 Play Integrity 오류 처리가 개선되어 크로스 플랫폼 UX가 향상됐습니다."
+  },
+  {
+    "id": "840934b4-1de1-45f1-aeaa-eafb60031d9b",
+    "title_updated_ko": "iOS 위젯과 텍스트 선택, 성능 개선이 추가됐어요",
+    "content_updated_ko": "iOS 위젯이 출시되고 가로 구분선을 넘는 텍스트 선택이 가능해졌습니다.\n모델 헤더 로딩과 대화 기록, GPT 표시가 더 빨라졌습니다.\nAndroid의 툴팁 해제 시 401 오류로 로그아웃되는 버그가 수정됐습니다."
+  },
+  {
+    "id": "1f0445d0-679e-44e6-90d1-8541bbd44ed2",
+    "title_updated_ko": "Safari 기본 검색엔진 설정과 받아쓰기 미리보기가 추가됐어요",
+    "content_updated_ko": "ChatGPT를 Safari의 기본 검색엔진으로 설정할 수 있게 됐습니다.\niOS와 Web에 로그아웃 확인 대화상자가 추가되고 Android 성능이 개선됐습니다.\n받아쓰기 시 텍스트 미리보기가 표시되어 녹음 후 전사 내용을 바로 확인할 수 있습니다."
+  },
+  {
+    "id": "21c5534f-8b13-4f76-acbe-cc2170ff5b2b",
+    "title_updated_ko": "Canvas에서 만든 코드와 문서를 다른 사용자와 공유할 수 있어요",
+    "content_updated_ko": "Canvas에서 렌더링된 React/HTML 코드, 문서, 코드를 다른 사용자와 공유할 수 있습니다.\nCanvas 도구 모음에서 대화 공유와 유사한 방식으로 공유가 가능합니다.\nCanvas가 개인 제작 도구에서 협업 플랫폼으로 확장되어 결과물을 직접 전달할 수 있습니다."
+  },
+  {
+    "id": "ad3c6488-2914-43e6-b473-b846810e899b",
+    "title_updated_ko": "사용자 지정 지침 UI가 특성, 소통 스타일, 규칙으로 개편됐어요",
+    "content_updated_ko": "사용자 지정 지침이 원하는 특성, 소통 방식, 규칙을 쉽게 설정하는 새 UI로 업데이트됐습니다.\nchatgpt.com과 Windows에서 먼저 배포되며 모바일과 macOS는 곧 지원됩니다.\n자유 텍스트에서 구조화된 카테고리별 입력으로 개선되어 설정이 더 직관적입니다."
+  },
+  {
+    "id": "6e5ea7a0-de83-458f-adce-a453086013ef",
+    "title_updated_ko": "대화 내 응답이나 코드 블록을 Canvas로 가져와 편집할 수 있어요",
+    "content_updated_ko": "ChatGPT 대화의 전체 응답이나 코드 블록을 Canvas로 가져와 직접 편집할 수 있습니다.\n수동 복사-붙여넣기 없이 Canvas 에디터에서 바로 수정하고 다듬을 수 있습니다.\n현재 Web에서만 이용 가능하며 데스크톱과 모바일은 이번 릴리스에 포함되지 않습니다."
+  },
+  {
+    "id": "e86e2bb1-92b1-4c92-9d46-2674c53d80e3",
+    "title_updated_ko": "예약 작업으로 ChatGPT가 정해진 시간에 자동으로 실행해요",
+    "content_updated_ko": "ChatGPT Tasks가 베타로 출시되어 일회성 알림이나 반복 자동 프롬프트를 예약할 수 있습니다.\nPlus, Pro, Teams 플랜에서 이용 가능하며 향후 모든 계정으로 확대될 예정입니다.\nChatGPT 최초의 비동기 자동화 기능으로 실시간 대화를 넘어 능동적 작업 수행이 가능합니다."
+  }
+]

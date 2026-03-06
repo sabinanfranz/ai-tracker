@@ -1,0 +1,36 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Environment / Secrets
+.env
+.env.*
+
+# Data (DB / SQLite)
+data/*.db
+data/*.sqlite
+data/cache/
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+nul
+
+# Claude Code / OMC
+.claude/
+.omc/

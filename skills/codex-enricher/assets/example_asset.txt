@@ -1,0 +1,1 @@
+This skill does not use assets. This file is a placeholder.

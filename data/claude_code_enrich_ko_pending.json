@@ -1,0 +1,3593 @@
+[
+  {
+    "id": "ce787d9e-7487-46ad-b467-02bb812e08e5",
+    "event_date": "2026-03-04",
+    "title": "Added the `/claude-api` skill for building applications with the Claude API and Anthropic SDK",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "0c81ea88-3218-4358-b53c-8127d0c3a8d0",
+    "event_date": "2026-03-04",
+    "title": "Added Ctrl+U on an empty bash prompt (`!`) to exit bash mode, matching `escape` and `backspace`",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "a99f675c-72e6-4b97-bb74-baf1190af3e7",
+    "event_date": "2026-03-04",
+    "title": "Added numeric keypad support for selecting options in Claude's interview questions (previously only the number row above QWERTY worked)",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "d2410ea6-8953-4f29-8370-3f0a7343214c",
+    "event_date": "2026-03-04",
+    "title": "Added optional name argument to `/remote-control` and `claude remote-control` (`/remote-control My Project` or `--name \"My Project\"`) to set a custom session title visible in claude.ai/code",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "93d3c5f4-f0ad-4fe2-aef9-0676df8cc055",
+    "event_date": "2026-03-04",
+    "title": "Added Voice STT support for 10 new languages (20 total) — Russian, Polish, Turkish, Dutch, Ukrainian, Greek, Czech, Danish, Swedish, Norwegian",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "3564a049-1dec-4933-bbd5-9b3d359b288a",
+    "event_date": "2026-03-04",
+    "title": "Added effort level display (e.g., \"with low effort\") to the logo and spinner, making it easier to see which effort setting is active",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "a87bca97-81e5-4eff-b643-c14521822c97",
+    "event_date": "2026-03-04",
+    "title": "Added agent name display in terminal title when using `claude --agent`",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "6a3103ec-b259-4d46-ba67-af590ee0ce70",
+    "event_date": "2026-03-04",
+    "title": "Added `sandbox.enableWeakerNetworkIsolation` setting (macOS only) to allow Go programs like `gh`, `gcloud`, and `terraform` to verify TLS certificates when using a custom MITM proxy with `httpProxyPort`",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "a2bb7d3e-f3b5-4678-a18e-b188b18f76ee",
+    "event_date": "2026-03-04",
+    "title": "Added `includeGitInstructions` setting (and `CLAUDE_CODE_DISABLE_GIT_INSTRUCTIONS` env var) to remove built-in commit and PR workflow instructions from Claude's system prompt",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "c76f51ad-901d-41c3-be95-1bba03960504",
+    "event_date": "2026-03-04",
+    "title": "Added `/reload-plugins` command to activate pending plugin changes without restarting",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "f1de2cf7-f601-4269-911c-d5bbd7b3502a",
+    "event_date": "2026-03-04",
+    "title": "Added a one-time startup prompt suggesting Claude Code Desktop on macOS and Windows (max 3 showings, dismissible)",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "70921ac3-4830-4d33-92f2-89fbeee7a662",
+    "event_date": "2026-03-04",
+    "title": "Added `${CLAUDE_SKILL_DIR}` variable for skills to reference their own directory in SKILL.md content",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "13eb3e53-9a69-463e-8e25-09bbafe7c626",
+    "event_date": "2026-03-04",
+    "title": "Added `InstructionsLoaded` hook event that fires when CLAUDE.md or `.claude/rules/*.md` files are loaded into context",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "34085ff6-f199-4c78-a80d-60bbb498ad8f",
+    "event_date": "2026-03-04",
+    "title": "Added `agent_id` (for subagents) and `agent_type` (for subagents and `--agent`) to hook events",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "ee558972-bbb7-4a17-8974-4ade5744bf1d",
+    "event_date": "2026-03-04",
+    "title": "Added `worktree` field to status line hook commands with name, path, branch, and original repo directory when running in a `--worktree` session",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "c70c8d41-104e-4614-a355-a2b8229e3745",
+    "event_date": "2026-03-04",
+    "title": "Added `pluginTrustMessage` in managed settings to append organization-specific context to the plugin trust warning shown before installation",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "24aa66e5-7eee-4cb2-b812-44d825b83cc5",
+    "event_date": "2026-03-04",
+    "title": "Added policy limit fetching (e.g., remote control restrictions) for Team plan OAuth users, not just Enterprise",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "f9caac42-8f3b-44f3-b2e1-fc2abd41689e",
+    "event_date": "2026-03-04",
+    "title": "Added `pathPattern` to `strictKnownMarketplaces` for regex-matching file/directory marketplace sources alongside `hostPattern` restrictions",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "4938f09f-c166-41f2-a9fa-775cccc40758",
+    "event_date": "2026-03-04",
+    "title": "Added plugin source type `git-subdir` to point to a subdirectory within a git repo",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "12319bda-d385-4ab9-9044-ecf2dc7a6931",
+    "event_date": "2026-03-04",
+    "title": "Added `oauth.authServerMetadataUrl` config option for MCP servers to specify a custom OAuth metadata discovery URL when standard discovery fails",
+    "version": "2.1.69",
+    "change_type": "added"
+  },
+  {
+    "id": "74eb2f58-5738-468b-be5a-3262fbd0d3db",
+    "event_date": "2026-03-04",
+    "title": "Changed Sonnet 4.5 users on Pro/Max/Team Premium to be automatically migrated to Sonnet 4.6",
+    "version": "2.1.69",
+    "change_type": "changed"
+  },
+  {
+    "id": "d84ccc31-c6cd-47b7-b4a2-4c4ee84312e1",
+    "event_date": "2026-03-04",
+    "title": "Changed the `/resume` picker to show your most recent prompt instead of the first one. This also resolves some titles appearing as `(session)`.",
+    "version": "2.1.69",
+    "change_type": "changed"
+  },
+  {
+    "id": "b4c1f8ba-add3-43cf-b224-e779415dd65e",
+    "event_date": "2026-03-04",
+    "title": "Changed claude.ai MCP connector failures to show a notification instead of silently disappearing from the tool list",
+    "version": "2.1.69",
+    "change_type": "changed"
+  },
+  {
+    "id": "d25a7233-34fe-48fb-9dfc-89e3317c2cea",
+    "event_date": "2026-03-04",
+    "title": "Changed example command suggestions to be generated deterministically instead of calling Haiku",
+    "version": "2.1.69",
+    "change_type": "changed"
+  },
+  {
+    "id": "0f223740-dfeb-44d9-9648-e13848d26b37",
+    "event_date": "2026-03-04",
+    "title": "Changed resuming after compaction to no longer produce a preamble recap before continuing",
+    "version": "2.1.69",
+    "change_type": "changed"
+  },
+  {
+    "id": "02bb9264-3014-431e-ad58-b5545a2820fd",
+    "event_date": "2026-03-04",
+    "title": "[VSCode] Added compaction display as a collapsible \"Compacted chat\" card with the summary inside",
+    "version": "2.1.69",
+    "change_type": "other"
+  },
+  {
+    "id": "bad074f9-95e0-4f19-959e-6528e8d293e5",
+    "event_date": "2026-03-04",
+    "title": "[VSCode] The permission mode picker now respects `permissions.disableBypassPermissionsMode` from your effective Claude Code settings (including managed/policy settings) — when set to `disable`, bypass permissions mode is hidden from the picker",
+    "version": "2.1.69",
+    "change_type": "other"
+  },
+  {
+    "id": "7dfaabf5-711a-42cb-ba16-4c12ba54ab46",
+    "event_date": "2026-03-04",
+    "title": "Opus 4.6 now defaults to medium effort for Max and Team subscribers. Medium effort works well for most tasks — it's the sweet spot between speed and thoroughness. You can change this anytime with `/model`",
+    "version": "2.1.68",
+    "change_type": "other"
+  },
+  {
+    "id": "aaa13809-0c42-4898-82bb-0177bc633ae2",
+    "event_date": "2026-03-04",
+    "title": "Re-introduced the \"ultrathink\" keyword to enable high effort for the next turn",
+    "version": "2.1.68",
+    "change_type": "other"
+  },
+  {
+    "id": "eb4b1b0e-b2b5-446e-888a-e4e2c3be40df",
+    "event_date": "2026-03-04",
+    "title": "Removed Opus 4 and 4.1 from Claude Code on the first-party API — users with these models pinned are automatically moved to Opus 4.6",
+    "version": "2.1.68",
+    "change_type": "removed"
+  },
+  {
+    "id": "644261eb-b4c1-4a20-9c73-3548d13a33ff",
+    "event_date": "2026-03-04",
+    "title": "Reduced spurious error logging",
+    "version": "2.1.66",
+    "change_type": "other"
+  },
+  {
+    "id": "cd1dc724-687a-4f1a-bdf5-ddbca5c458d3",
+    "event_date": "2026-02-28",
+    "title": "Added `/simplify` and `/batch` bundled slash commands",
+    "version": "2.1.63",
+    "change_type": "added"
+  },
+  {
+    "id": "3f70ce03-113c-49f8-b591-f683e922fb0d",
+    "event_date": "2026-02-28",
+    "title": "Project configs & auto memory now shared across git worktrees of the same repository",
+    "version": "2.1.63",
+    "change_type": "other"
+  },
+  {
+    "id": "1b3e8785-65f5-41a7-bf35-17a67bb6f957",
+    "event_date": "2026-02-28",
+    "title": "Added `ENABLE_CLAUDEAI_MCP_SERVERS=false` env var to opt out from making claude.ai MCP servers available",
+    "version": "2.1.63",
+    "change_type": "added"
+  },
+  {
+    "id": "98665a66-b105-4a46-8f5f-34f1ad1d8640",
+    "event_date": "2026-02-28",
+    "title": "Added HTTP hooks, which can POST JSON to a URL and receive JSON instead of running a shell command",
+    "version": "2.1.63",
+    "change_type": "added"
+  },
+  {
+    "id": "85e23791-9efe-4f5f-856c-7ac2d971a0db",
+    "event_date": "2026-02-28",
+    "title": "Added manual URL paste fallback during MCP OAuth authentication. If the automatic localhost redirect doesn't work, you can paste the callback URL to complete authentication.",
+    "version": "2.1.63",
+    "change_type": "added"
+  },
+  {
+    "id": "b196e578-713a-40f7-a397-17a2f1047785",
+    "event_date": "2026-02-28",
+    "title": "Added \"Always copy full response\" option to the `/copy` picker. When selected, future `/copy` commands will skip the code block picker and copy the full response directly.",
+    "version": "2.1.63",
+    "change_type": "added"
+  },
+  {
+    "id": "e1c17e36-78c0-4efc-8dad-c3781888bdce",
+    "event_date": "2026-02-28",
+    "title": "VSCode: Added session rename and remove actions to the sessions list",
+    "version": "2.1.63",
+    "change_type": "other"
+  },
+  {
+    "id": "f1dd61ab-61d8-4d5b-9a22-3ced32813b98",
+    "event_date": "2026-02-25",
+    "title": "Claude automatically saves useful context to auto-memory. Manage with /memory",
+    "version": "2.1.59",
+    "change_type": "other"
+  },
+  {
+    "id": "5c7e3086-9dd9-4706-8ef0-d610bb43ccd4",
+    "event_date": "2026-02-25",
+    "title": "Added `/copy` command to show an interactive picker when code blocks are present, allowing selection of individual code blocks or the full response.",
+    "version": "2.1.59",
+    "change_type": "added"
+  },
+  {
+    "id": "39c2b83b-e220-4cae-93ce-07ea96637eae",
+    "event_date": "2026-02-25",
+    "title": "Expand Remote Control to more users",
+    "version": "2.1.58",
+    "change_type": "other"
+  },
+  {
+    "id": "396b7dd0-5c6d-4da8-a9b6-bea961436f34",
+    "event_date": "2026-02-23",
+    "title": "Added `claude remote-control` subcommand for external builds, enabling local environment serving for all users.",
+    "version": "2.1.51",
+    "change_type": "added"
+  },
+  {
+    "id": "cfcaf306-c3cb-4f06-9b35-d0892c6cd669",
+    "event_date": "2026-02-23",
+    "title": "Added support for custom npm registries and specific version pinning when installing plugins from npm sources",
+    "version": "2.1.51",
+    "change_type": "added"
+  },
+  {
+    "id": "0f1f83b1-b7d6-429b-84a0-0d7784195124",
+    "event_date": "2026-02-23",
+    "title": "Added `CLAUDE_CODE_ACCOUNT_UUID`, `CLAUDE_CODE_USER_EMAIL`, and `CLAUDE_CODE_ORGANIZATION_UUID` environment variables for SDK callers to provide account info synchronously, eliminating a race condition where early telemetry events lacked account metadata.",
+    "version": "2.1.51",
+    "change_type": "added"
+  },
+  {
+    "id": "28acc274-62a2-4c52-babe-aa501187d430",
+    "event_date": "2026-02-23",
+    "title": "The `/model` picker now shows human-readable labels (e.g., \"Sonnet 4.5\") instead of raw model IDs for pinned model versions, with an upgrade hint when a newer version is available.",
+    "version": "2.1.51",
+    "change_type": "other"
+  },
+  {
+    "id": "6249e5b3-1b1c-4a62-bea2-a547dca19fd1",
+    "event_date": "2026-02-20",
+    "title": "Added support for `startupTimeout` configuration for LSP servers",
+    "version": "2.1.50",
+    "change_type": "added"
+  },
+  {
+    "id": "333b1bd6-7c24-4a9f-aa78-1d61ec1b79db",
+    "event_date": "2026-02-20",
+    "title": "Added `WorktreeCreate` and `WorktreeRemove` hook events, enabling custom VCS setup and teardown when agent worktree isolation creates or removes worktrees.",
+    "version": "2.1.50",
+    "change_type": "added"
+  },
+  {
+    "id": "6b5207bf-7282-46ab-97d5-d0629f635d7d",
+    "event_date": "2026-02-20",
+    "title": "Added support for `isolation: worktree` in agent definitions, allowing agents to declaratively run in isolated git worktrees.",
+    "version": "2.1.50",
+    "change_type": "added"
+  },
+  {
+    "id": "84434d92-d80a-41ea-b1a9-8f1c0d1f6fc5",
+    "event_date": "2026-02-20",
+    "title": "Added `claude agents` CLI command to list all configured agents",
+    "version": "2.1.50",
+    "change_type": "added"
+  },
+  {
+    "id": "8213ac00-a9a4-4046-ae29-23bb2af8e588",
+    "event_date": "2026-02-20",
+    "title": "Added `CLAUDE_CODE_DISABLE_1M_CONTEXT` environment variable to disable 1M context window support",
+    "version": "2.1.50",
+    "change_type": "added"
+  },
+  {
+    "id": "30b42ce2-3514-4610-9cd1-f0181912476d",
+    "event_date": "2026-02-20",
+    "title": "Opus 4.6 (fast mode) now includes the full 1M context window",
+    "version": "2.1.50",
+    "change_type": "other"
+  },
+  {
+    "id": "40ce2614-2dcf-4df0-aab9-bc5823a30ae3",
+    "event_date": "2026-02-20",
+    "title": "VSCode: Added `/extra-usage` command support in VS Code sessions",
+    "version": "2.1.50",
+    "change_type": "other"
+  },
+  {
+    "id": "0e1243b1-ba06-4555-b48d-b160755e3a9e",
+    "event_date": "2026-02-19",
+    "title": "Added `--worktree` (`-w`) flag to start Claude in an isolated git worktree",
+    "version": "2.1.49",
+    "change_type": "added"
+  },
+  {
+    "id": "48afab79-0cda-4a85-8668-1b83d7357604",
+    "event_date": "2026-02-19",
+    "title": "Subagents support `isolation: \"worktree\"` for working in a temporary git worktree",
+    "version": "2.1.49",
+    "change_type": "other"
+  },
+  {
+    "id": "99e95ac1-dc82-4bae-8430-0d719b35f43d",
+    "event_date": "2026-02-19",
+    "title": "Added Ctrl+F keybinding to kill background agents (two-press confirmation)",
+    "version": "2.1.49",
+    "change_type": "added"
+  },
+  {
+    "id": "0f363db3-cec1-4183-8fb2-fb4d71713f06",
+    "event_date": "2026-02-19",
+    "title": "Agent definitions support `background: true` to always run as a background task",
+    "version": "2.1.49",
+    "change_type": "other"
+  },
+  {
+    "id": "3afec805-517a-472e-a010-2a8ea8b2db73",
+    "event_date": "2026-02-19",
+    "title": "Sonnet 4.5 with 1M context is being removed from the Max plan in favor of our frontier Sonnet 4.6 model, which now has 1M context. Please switch in /model.",
+    "version": "2.1.49",
+    "change_type": "other"
+  },
+  {
+    "id": "2b8349ef-d646-4776-b0c8-8eab6245a582",
+    "event_date": "2026-02-19",
+    "title": "SDK model info now includes `supportsEffort`, `supportedEffortLevels`, and `supportsAdaptiveThinking` fields so consumers can discover model capabilities.",
+    "version": "2.1.49",
+    "change_type": "other"
+  },
+  {
+    "id": "15524bad-af6e-4e91-a2ae-9e87ab1eaab1",
+    "event_date": "2026-02-19",
+    "title": "Added `ConfigChange` hook event that fires when configuration files change during a session, enabling enterprise security auditing and optional blocking of settings changes.",
+    "version": "2.1.49",
+    "change_type": "added"
+  },
+  {
+    "id": "6c79ec9e-e2a7-4b20-b6d9-12a2c85992e6",
+    "event_date": "2026-02-18",
+    "title": "Use `ctrl+f` to kill all background agents instead of double-pressing ESC. Background agents now continue running when you press ESC to cancel the main thread, giving you more control over agent lifecycle.",
+    "version": "2.1.47",
+    "change_type": "other"
+  },
+  {
+    "id": "42cc78ff-b5f7-4784-9c98-d0c03fffcaae",
+    "event_date": "2026-02-18",
+    "title": "Simplified teammate navigation to use only Shift+Down (with wrapping) instead of both Shift+Up and Shift+Down.",
+    "version": "2.1.47",
+    "change_type": "other"
+  },
+  {
+    "id": "915d2e69-b9e3-417e-a271-2f6a7c32174f",
+    "event_date": "2026-02-18",
+    "title": "Added `last_assistant_message` field to Stop and SubagentStop hook inputs, providing the final assistant response text so hooks can access it without parsing transcript files.",
+    "version": "2.1.47",
+    "change_type": "added"
+  },
+  {
+    "id": "8822fcce-4924-4c5e-9a94-7e28bce80047",
+    "event_date": "2026-02-18",
+    "title": "Added `chat:newline` keybinding action for configurable multi-line input (anthropics/claude-code#26075)",
+    "version": "2.1.47",
+    "change_type": "added"
+  },
+  {
+    "id": "dfa9475d-0756-4a3c-a19d-056e2b205475",
+    "event_date": "2026-02-18",
+    "title": "Added `added_dirs` to the statusline JSON `workspace` section, exposing directories added via `/add-dir` to external scripts (anthropics/claude-code#26096)",
+    "version": "2.1.47",
+    "change_type": "added"
+  },
+  {
+    "id": "a49fe90c-ad75-49c0-870c-81966ac9bc65",
+    "event_date": "2026-02-18",
+    "title": "Increased initial session count in resume picker from 10 to 50 for faster session discovery (anthropics/claude-code#26123)",
+    "version": "2.1.47",
+    "change_type": "other"
+  },
+  {
+    "id": "40a53429-a73b-4cd3-8d77-920dec620863",
+    "event_date": "2026-02-18",
+    "title": "The `/rename` command now updates the terminal tab title by default (anthropics/claude-code#25789)",
+    "version": "2.1.47",
+    "change_type": "other"
+  },
+  {
+    "id": "366e3866-8b60-41b1-84d9-7449c51a37b9",
+    "event_date": "2026-02-17",
+    "title": "Added support for Claude Sonnet 4.6",
+    "version": "2.1.45",
+    "change_type": "added"
+  },
+  {
+    "id": "822d7f7d-db72-409d-9244-d6e23633b36e",
+    "event_date": "2026-02-17",
+    "title": "Added support for reading `enabledPlugins` and `extraKnownMarketplaces` from `--add-dir` directories",
+    "version": "2.1.45",
+    "change_type": "added"
+  },
+  {
+    "id": "f3d6bcc8-703a-4b2c-b90e-79477a2f2ef1",
+    "event_date": "2026-02-17",
+    "title": "Added `spinnerTipsOverride` setting to customize spinner tips — configure `tips` with an array of custom tip strings, and optionally set `excludeDefault: true` to show only your custom tips instead of the built-in ones",
+    "version": "2.1.45",
+    "change_type": "added"
+  },
+  {
+    "id": "33560b49-2886-4a29-8441-d395860e2c7b",
+    "event_date": "2026-02-17",
+    "title": "Added `SDKRateLimitInfo` and `SDKRateLimitEvent` types to the SDK, enabling consumers to receive rate limit status updates including utilization, reset times, and overage information",
+    "version": "2.1.45",
+    "change_type": "added"
+  },
+  {
+    "id": "a610bd5c-77b0-4858-abd3-39a4302f3d5f",
+    "event_date": "2026-02-13",
+    "title": "Added one-time Opus 4.6 effort callout for eligible users",
+    "version": "2.1.42",
+    "change_type": "added"
+  },
+  {
+    "id": "a8bec423-dadb-4783-a97c-f05d46927e4c",
+    "event_date": "2026-02-13",
+    "title": "Added guard against launching Claude Code inside another Claude Code session",
+    "version": "2.1.41",
+    "change_type": "added"
+  },
+  {
+    "id": "e9206dc5-7969-416d-a05f-80cfb5883b55",
+    "event_date": "2026-02-13",
+    "title": "Added `speed` attribute to OTel events and trace spans for fast mode visibility",
+    "version": "2.1.41",
+    "change_type": "added"
+  },
+  {
+    "id": "e1c65364-c7bd-43f7-893b-cbd3c9bd30c6",
+    "event_date": "2026-02-13",
+    "title": "Added `claude auth login`, `claude auth status`, and `claude auth logout` CLI subcommands",
+    "version": "2.1.41",
+    "change_type": "added"
+  },
+  {
+    "id": "74049aac-aec7-4e6f-885f-86ab44be87b9",
+    "event_date": "2026-02-13",
+    "title": "Added Windows ARM64 (win32-arm64) native binary support",
+    "version": "2.1.41",
+    "change_type": "added"
+  },
+  {
+    "id": "77858e8f-0658-4731-baa9-0335971286b6",
+    "event_date": "2026-02-10",
+    "title": "Blocked writes to `.claude/skills` directory in sandbox mode",
+    "version": "2.1.38",
+    "change_type": "other"
+  },
+  {
+    "id": "b5949c63-1fd8-4487-ad32-06af26a5d180",
+    "event_date": "2026-02-07",
+    "title": "Fast mode is now available for Opus 4.6. Learn more at https://code.claude.com/docs/en/fast-mode",
+    "version": "2.1.36",
+    "change_type": "other"
+  },
+  {
+    "id": "c33a8cd7-82b1-4ec7-b588-088a1afca87c",
+    "event_date": "2026-02-06",
+    "title": "Added `TeammateIdle` and `TaskCompleted` hook events for multi-agent workflows",
+    "version": "2.1.33",
+    "change_type": "added"
+  },
+  {
+    "id": "39695e38-6a7d-4846-9b85-31c03f8ab62f",
+    "event_date": "2026-02-06",
+    "title": "Added support for restricting which sub-agents can be spawned via `Task(agent_type)` syntax in agent \"tools\" frontmatter",
+    "version": "2.1.33",
+    "change_type": "added"
+  },
+  {
+    "id": "0b67f3d2-126f-4156-bb06-bf0b8da09ab8",
+    "event_date": "2026-02-06",
+    "title": "Added `memory` frontmatter field support for agents, enabling persistent memory with `user`, `project`, or `local` scope",
+    "version": "2.1.33",
+    "change_type": "added"
+  },
+  {
+    "id": "e56277c7-7aba-4150-864b-651bed48f1cd",
+    "event_date": "2026-02-06",
+    "title": "Added plugin name to skill descriptions and `/skills` menu for better discoverability",
+    "version": "2.1.33",
+    "change_type": "added"
+  },
+  {
+    "id": "868250dd-ab84-4eb9-8a21-a1fe4cf202f7",
+    "event_date": "2026-02-06",
+    "title": "VSCode: Added support for remote sessions, allowing OAuth users to browse and resume sessions from claude.ai",
+    "version": "2.1.33",
+    "change_type": "other"
+  },
+  {
+    "id": "4d22887c-8fdb-4d31-9a41-a2d79c570d6b",
+    "event_date": "2026-02-06",
+    "title": "VSCode: Added git branch and message count to the session picker, with support for searching by branch name",
+    "version": "2.1.33",
+    "change_type": "other"
+  },
+  {
+    "id": "b702f33c-f0e5-49ae-a2e7-c35d214ca4f8",
+    "event_date": "2026-02-05",
+    "title": "Claude Opus 4.6 is now available!",
+    "version": "2.1.32",
+    "change_type": "other"
+  },
+  {
+    "id": "4d7aec4d-75f4-4f63-b763-8090c0953891",
+    "event_date": "2026-02-05",
+    "title": "Added research preview agent teams feature for multi-agent collaboration (token-intensive feature, requires setting CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1)",
+    "version": "2.1.32",
+    "change_type": "added"
+  },
+  {
+    "id": "c2c160c8-f3fc-4f2f-845f-e1baef3df150",
+    "event_date": "2026-02-05",
+    "title": "Claude now automatically records and recalls memories as it works",
+    "version": "2.1.32",
+    "change_type": "other"
+  },
+  {
+    "id": "f626be6a-01cd-4c52-8f5e-fc973ed39975",
+    "event_date": "2026-02-05",
+    "title": "Added \"Summarize from here\" to the message selector, allowing partial conversation summarization.",
+    "version": "2.1.32",
+    "change_type": "added"
+  },
+  {
+    "id": "6697dbef-8eb2-4629-9d01-4bd5c77a75e9",
+    "event_date": "2026-02-05",
+    "title": "Skills defined in `.claude/skills/` within additional directories (`--add-dir`) are now loaded automatically.",
+    "version": "2.1.32",
+    "change_type": "other"
+  },
+  {
+    "id": "458857e4-6011-45c2-84e8-cf9b51f51237",
+    "event_date": "2026-02-05",
+    "title": "Skill character budget now scales with context window (2% of context), so users with larger context windows can see more skill descriptions without truncation",
+    "version": "2.1.32",
+    "change_type": "other"
+  },
+  {
+    "id": "5a471fcf-57cc-49a0-945e-4fe3b700902b",
+    "event_date": "2026-02-04",
+    "title": "Added session resume hint on exit, showing how to continue your conversation later",
+    "version": "2.1.31",
+    "change_type": "added"
+  },
+  {
+    "id": "5443be90-95eb-48b6-bc3b-513c9244bab1",
+    "event_date": "2026-02-04",
+    "title": "Added support for full-width (zenkaku) space input from Japanese IME in checkbox selection",
+    "version": "2.1.31",
+    "change_type": "added"
+  },
+  {
+    "id": "4c7afb3a-c8ac-440b-8d6f-9b3de2d6e367",
+    "event_date": "2026-02-04",
+    "title": "Removed misleading Anthropic API pricing from model selector for third-party provider (Bedrock, Vertex, Foundry) users",
+    "version": "2.1.31",
+    "change_type": "removed"
+  },
+  {
+    "id": "f380f6e3-6b02-4e41-a048-3a2f0fc7685e",
+    "event_date": "2026-02-03",
+    "title": "Added `pages` parameter to the Read tool for PDFs, allowing specific page ranges to be read (e.g., `pages: \"1-5\"`). Large PDFs (>10 pages) now return a lightweight reference when `@` mentioned instead of being inlined into context.",
+    "version": "2.1.30",
+    "change_type": "added"
+  },
+  {
+    "id": "94144bdd-326e-4770-9e19-08a47202c6ec",
+    "event_date": "2026-02-03",
+    "title": "Added pre-configured OAuth client credentials for MCP servers that don't support Dynamic Client Registration (e.g., Slack). Use `--client-id` and `--client-secret` with `claude mcp add`.",
+    "version": "2.1.30",
+    "change_type": "added"
+  },
+  {
+    "id": "75474f20-8618-4931-aafa-53fc1b4734b0",
+    "event_date": "2026-02-03",
+    "title": "Added `/debug` for Claude to help troubleshoot the current session",
+    "version": "2.1.30",
+    "change_type": "added"
+  },
+  {
+    "id": "d953f7fb-8d91-4033-9e0c-837b84e3f631",
+    "event_date": "2026-02-03",
+    "title": "Added support for additional `git log` and `git show` flags in read-only mode (e.g., `--topo-order`, `--cherry-pick`, `--format`, `--raw`)",
+    "version": "2.1.30",
+    "change_type": "added"
+  },
+  {
+    "id": "34234c8f-b48e-4b50-aa9c-285848fbe153",
+    "event_date": "2026-02-03",
+    "title": "Added token count, tool uses, and duration metrics to Task tool results",
+    "version": "2.1.30",
+    "change_type": "added"
+  },
+  {
+    "id": "9be668a5-675e-4c19-8fe7-3b0919abf3c4",
+    "event_date": "2026-02-03",
+    "title": "Added reduced motion mode to the config",
+    "version": "2.1.30",
+    "change_type": "added"
+  },
+  {
+    "id": "208a1e6b-8d6f-4a72-867a-e463963ca459",
+    "event_date": "2026-02-03",
+    "title": "Changed `/model` to execute immediately instead of being queued",
+    "version": "2.1.30",
+    "change_type": "changed"
+  },
+  {
+    "id": "42923014-dfa0-40b9-a497-904f051e1a9a",
+    "event_date": "2026-02-03",
+    "title": "[VSCode] Added multiline input support to the \"Other\" text input in question dialogs (use Shift+Enter for new lines)",
+    "version": "2.1.30",
+    "change_type": "other"
+  },
+  {
+    "id": "5ed92846-aa00-4591-b36a-568b89749f9d",
+    "event_date": "2026-01-30",
+    "title": "Added tool call failures and denials to debug logs",
+    "version": "2.1.27",
+    "change_type": "added"
+  },
+  {
+    "id": "cf0288c3-edec-4dea-a916-b763c25ce23c",
+    "event_date": "2026-01-30",
+    "title": "Added `--from-pr` flag to resume sessions linked to a specific GitHub PR number or URL",
+    "version": "2.1.27",
+    "change_type": "added"
+  },
+  {
+    "id": "cd5befd0-487b-4288-9ab9-93fca2111c02",
+    "event_date": "2026-01-30",
+    "title": "Sessions are now automatically linked to PRs when created via `gh pr create`",
+    "version": "2.1.27",
+    "change_type": "other"
+  },
+  {
+    "id": "8414be43-1919-4d4c-b340-3664ac9dc5a5",
+    "event_date": "2026-01-29",
+    "title": "Added customizable spinner verbs setting (`spinnerVerbs`)",
+    "version": "2.1.23",
+    "change_type": "added"
+  },
+  {
+    "id": "0319212e-fc68-4b31-b8d6-a46e8ceff949",
+    "event_date": "2026-01-29",
+    "title": "Changed Bash commands to show timeout duration alongside elapsed time",
+    "version": "2.1.23",
+    "change_type": "changed"
+  },
+  {
+    "id": "08a33ec3-5d4a-4cfc-af9d-bfa3b8dce1f8",
+    "event_date": "2026-01-29",
+    "title": "Changed merged pull requests to show a purple status indicator in the prompt footer",
+    "version": "2.1.23",
+    "change_type": "changed"
+  },
+  {
+    "id": "9124729f-547a-4cb0-902b-1ef98bf0efc9",
+    "event_date": "2026-01-28",
+    "title": "Added support for full-width (zenkaku) number input from Japanese IME in option selection prompts",
+    "version": "2.1.21",
+    "change_type": "added"
+  },
+  {
+    "id": "7d99effa-31ec-4a16-8f5f-c743a6ac79f1",
+    "event_date": "2026-01-28",
+    "title": "[VSCode] Added automatic Python virtual environment activation, ensuring `python` and `pip` commands use the correct interpreter (configurable via `claudeCode.usePythonEnvironment` setting)",
+    "version": "2.1.21",
+    "change_type": "other"
+  },
+  {
+    "id": "1c5a8725-5ae1-430c-9c42-873a9a0419b6",
+    "event_date": "2026-01-27",
+    "title": "Added arrow key history navigation in vim normal mode when cursor cannot move further",
+    "version": "2.1.20",
+    "change_type": "added"
+  },
+  {
+    "id": "83f34d3a-5972-4ef3-adc4-ef7609f99fe7",
+    "event_date": "2026-01-27",
+    "title": "Added external editor shortcut (Ctrl+G) to the help menu for better discoverability",
+    "version": "2.1.20",
+    "change_type": "added"
+  },
+  {
+    "id": "ea402f34-14c5-4163-a003-7ae8653d914d",
+    "event_date": "2026-01-27",
+    "title": "Added PR review status indicator to the prompt footer, showing the current branch's PR state (approved, changes requested, pending, or draft) as a colored dot with a clickable link",
+    "version": "2.1.20",
+    "change_type": "added"
+  },
+  {
+    "id": "04d6406e-1ed8-4747-988e-a1913ea24f78",
+    "event_date": "2026-01-27",
+    "title": "Added support for loading `CLAUDE.md` files from additional directories specified via `--add-dir` flag (requires setting `CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD=1`)",
+    "version": "2.1.20",
+    "change_type": "added"
+  },
+  {
+    "id": "6af61b06-0082-4b80-bddd-82739f0f646d",
+    "event_date": "2026-01-27",
+    "title": "Added ability to delete tasks via the `TaskUpdate` tool",
+    "version": "2.1.20",
+    "change_type": "added"
+  },
+  {
+    "id": "db4e66c1-ba4a-4a67-afd2-1c7da21bd58d",
+    "event_date": "2026-01-27",
+    "title": "Changed collapsed read/search groups to show present tense (\"Reading\", \"Searching for\") while in progress, and past tense (\"Read\", \"Searched for\") when complete",
+    "version": "2.1.20",
+    "change_type": "changed"
+  },
+  {
+    "id": "799536e3-8898-4c2f-bc3e-476fda4615a4",
+    "event_date": "2026-01-27",
+    "title": "Changed `ToolSearch` results to appear as a brief notification instead of inline in the conversation",
+    "version": "2.1.20",
+    "change_type": "changed"
+  },
+  {
+    "id": "5606aa2c-b6ff-4d29-a0a3-9b784672fc89",
+    "event_date": "2026-01-27",
+    "title": "Changed the `/commit-push-pr` skill to automatically post PR URLs to Slack channels when configured via MCP tools",
+    "version": "2.1.20",
+    "change_type": "changed"
+  },
+  {
+    "id": "b6726506-a082-4209-89dc-e904cf001614",
+    "event_date": "2026-01-27",
+    "title": "Changed the `/copy` command to be available to all users",
+    "version": "2.1.20",
+    "change_type": "changed"
+  },
+  {
+    "id": "843f3fc9-0f46-480d-a3b8-1c775526cb91",
+    "event_date": "2026-01-27",
+    "title": "Changed background agents to prompt for tool permissions before launching",
+    "version": "2.1.20",
+    "change_type": "changed"
+  },
+  {
+    "id": "a759689e-fbad-42dd-883c-a38570503e23",
+    "event_date": "2026-01-27",
+    "title": "Changed permission rules like `Bash(*)` to be accepted and treated as equivalent to `Bash`",
+    "version": "2.1.20",
+    "change_type": "changed"
+  },
+  {
+    "id": "45cef274-3781-4195-ae83-b777ca4bbd26",
+    "event_date": "2026-01-27",
+    "title": "Changed config backups to be timestamped and rotated (keeping 5 most recent) to prevent data loss",
+    "version": "2.1.20",
+    "change_type": "changed"
+  },
+  {
+    "id": "71910ef4-dad9-4713-b6f4-bb623dedc018",
+    "event_date": "2026-01-23",
+    "title": "Added env var `CLAUDE_CODE_ENABLE_TASKS`, set to `false` to keep the old system temporarily",
+    "version": "2.1.19",
+    "change_type": "added"
+  },
+  {
+    "id": "7903d45e-8dfe-47eb-97bf-31604cd8be70",
+    "event_date": "2026-01-23",
+    "title": "Added shorthand `$0`, `$1`, etc. for accessing individual arguments in custom commands",
+    "version": "2.1.19",
+    "change_type": "added"
+  },
+  {
+    "id": "285afd3a-ff03-4565-adf5-843a5bac8117",
+    "event_date": "2026-01-23",
+    "title": "Changed skills without additional permissions or hooks to be allowed without requiring approval",
+    "version": "2.1.19",
+    "change_type": "changed"
+  },
+  {
+    "id": "83d063e4-48ce-4979-b058-8c346a86a8a7",
+    "event_date": "2026-01-23",
+    "title": "Changed indexed argument syntax from `$ARGUMENTS.0` to `$ARGUMENTS[0]` (bracket syntax)",
+    "version": "2.1.19",
+    "change_type": "changed"
+  },
+  {
+    "id": "c4213046-4d6e-440d-a101-c25452025df7",
+    "event_date": "2026-01-23",
+    "title": "[VSCode] Enabled session forking and rewind functionality for all users",
+    "version": "2.1.19",
+    "change_type": "other"
+  },
+  {
+    "id": "1d152c83-80bd-4b2d-8e1b-a4155aed0892",
+    "event_date": "2026-01-22",
+    "title": "Added customizable keyboard shortcuts. Configure keybindings per context, create chord sequences, and personalize your workflow. Run `/keybindings` to get started. Learn more at https://code.claude.com/docs/en/keybindings",
+    "version": "2.1.18",
+    "change_type": "added"
+  },
+  {
+    "id": "dcdfcb54-383a-4460-afd1-3f6d3f198b71",
+    "event_date": "2026-01-22",
+    "title": "Added new task management system, including new capabilities like dependency tracking",
+    "version": "2.1.16",
+    "change_type": "added"
+  },
+  {
+    "id": "9566ed99-6805-427c-ae59-237119e8686c",
+    "event_date": "2026-01-22",
+    "title": "[VSCode] Added native plugin management support",
+    "version": "2.1.16",
+    "change_type": "other"
+  },
+  {
+    "id": "c48f9e70-dbfa-423e-8012-ee2435670831",
+    "event_date": "2026-01-22",
+    "title": "[VSCode] Added ability for OAuth users to browse and resume remote Claude sessions from the Sessions dialog",
+    "version": "2.1.16",
+    "change_type": "other"
+  },
+  {
+    "id": "75ec5603-8099-4f57-ac9c-c07a8c79bc81",
+    "event_date": "2026-01-21",
+    "title": "Added deprecation notification for npm installations - run `claude install` or see https://docs.anthropic.com/en/docs/claude-code/getting-started for more options",
+    "version": "2.1.15",
+    "change_type": "added"
+  },
+  {
+    "id": "272a7ddc-83ff-4fe3-9a94-a71c6f34ccc5",
+    "event_date": "2026-01-20",
+    "title": "Added history-based autocomplete in bash mode (`!`) - type a partial command and press Tab to complete from your bash command history",
+    "version": "2.1.14",
+    "change_type": "added"
+  },
+  {
+    "id": "790c13d6-7eec-46c5-b62b-9c6ef6a2ac81",
+    "event_date": "2026-01-20",
+    "title": "Added search to installed plugins list - type to filter by name or description",
+    "version": "2.1.14",
+    "change_type": "added"
+  },
+  {
+    "id": "ab1ac2c7-08ae-4f89-b7d7-7782a7ceea39",
+    "event_date": "2026-01-20",
+    "title": "Added support for pinning plugins to specific git commit SHAs, allowing marketplace entries to install exact versions",
+    "version": "2.1.14",
+    "change_type": "added"
+  },
+  {
+    "id": "a4fcdd1e-455a-487d-894d-260a78018e8b",
+    "event_date": "2026-01-20",
+    "title": "[VSCode] Added `/usage` command to display current plan usage",
+    "version": "2.1.14",
+    "change_type": "other"
+  },
+  {
+    "id": "a451e67f-3ab4-4d33-8a33-d32d42614b32",
+    "event_date": "2026-01-17",
+    "title": "Added new `Setup` hook event that can be triggered via `--init`, `--init-only`, or `--maintenance` CLI flags for repository setup and maintenance operations",
+    "version": "2.1.10",
+    "change_type": "added"
+  },
+  {
+    "id": "d1880d4c-d73c-4f23-9247-b0704d76da2d",
+    "event_date": "2026-01-17",
+    "title": "Added keyboard shortcut 'c' to copy OAuth URL when browser doesn't open automatically during login",
+    "version": "2.1.10",
+    "change_type": "added"
+  },
+  {
+    "id": "fdf66217-f7f6-4ad2-a958-86fa0246f0d2",
+    "event_date": "2026-01-17",
+    "title": "[VSCode] Added install count display to plugin listings",
+    "version": "2.1.10",
+    "change_type": "other"
+  },
+  {
+    "id": "9c9afe8e-c63b-43db-af10-25b990479963",
+    "event_date": "2026-01-17",
+    "title": "[VSCode] Added trust warning when installing plugins",
+    "version": "2.1.10",
+    "change_type": "other"
+  },
+  {
+    "id": "7b2525e1-9e8c-4259-bbc4-39956d9a7672",
+    "event_date": "2026-01-15",
+    "title": "Added `auto:N` syntax for configuring the MCP tool search auto-enable threshold, where N is the context window percentage (0-100)",
+    "version": "2.1.9",
+    "change_type": "added"
+  },
+  {
+    "id": "78266c09-f579-43d7-9415-2ea3af50608f",
+    "event_date": "2026-01-15",
+    "title": "Added `plansDirectory` setting to customize where plan files are stored",
+    "version": "2.1.9",
+    "change_type": "added"
+  },
+  {
+    "id": "e053077c-5b8f-4e49-969f-b18ac693d890",
+    "event_date": "2026-01-15",
+    "title": "Added external editor support (Ctrl+G) in AskUserQuestion \"Other\" input field",
+    "version": "2.1.9",
+    "change_type": "added"
+  },
+  {
+    "id": "22f7a6f3-0f7c-48ad-a7a7-acd1e80f4482",
+    "event_date": "2026-01-15",
+    "title": "Added session URL attribution to commits and PRs created from web sessions",
+    "version": "2.1.9",
+    "change_type": "added"
+  },
+  {
+    "id": "6f0c63fd-ad8e-4bc1-a209-319b6439b65f",
+    "event_date": "2026-01-15",
+    "title": "Added support for `PreToolUse` hooks to return `additionalContext` to the model",
+    "version": "2.1.9",
+    "change_type": "added"
+  },
+  {
+    "id": "6445266d-deb7-4d08-b6e8-1fd896292fff",
+    "event_date": "2026-01-15",
+    "title": "Added `${CLAUDE_SESSION_ID}` string substitution for skills to access the current session ID",
+    "version": "2.1.9",
+    "change_type": "added"
+  },
+  {
+    "id": "ef928c7a-8be9-4566-9419-800ec4b51fa5",
+    "event_date": "2026-01-13",
+    "title": "Added `showTurnDuration` setting to hide turn duration messages (e.g., \"Cooked for 1m 6s\")",
+    "version": "2.1.7",
+    "change_type": "added"
+  },
+  {
+    "id": "9bf17bf4-582c-41f4-b00e-693a6368635e",
+    "event_date": "2026-01-13",
+    "title": "Added ability to provide feedback when accepting permission prompts",
+    "version": "2.1.7",
+    "change_type": "added"
+  },
+  {
+    "id": "d1254dfb-5c0d-4b83-9333-1f9d37fd0bf7",
+    "event_date": "2026-01-13",
+    "title": "Added inline display of agent's final response in task notifications, making it easier to see results without reading the full transcript file",
+    "version": "2.1.7",
+    "change_type": "added"
+  },
+  {
+    "id": "57f14193-5a14-45da-af57-11c6b3b17fe5",
+    "event_date": "2026-01-13",
+    "title": "Changed OAuth and API Console URLs from console.anthropic.com to platform.claude.com",
+    "version": "2.1.7",
+    "change_type": "changed"
+  },
+  {
+    "id": "d1b2630b-e99a-4229-8283-8e849cff3ec0",
+    "event_date": "2026-01-13",
+    "title": "Added search functionality to `/config` command for quickly filtering settings",
+    "version": "2.1.6",
+    "change_type": "added"
+  },
+  {
+    "id": "300daf7a-107f-4871-ac62-6d9162db9ea3",
+    "event_date": "2026-01-13",
+    "title": "Added Updates section to `/doctor` showing auto-update channel and available npm versions (stable/latest)",
+    "version": "2.1.6",
+    "change_type": "added"
+  },
+  {
+    "id": "3f4e6637-8f38-43b4-a32b-a21fc2752409",
+    "event_date": "2026-01-13",
+    "title": "Added date range filtering to `/stats` command - press `r` to cycle between Last 7 days, Last 30 days, and All time",
+    "version": "2.1.6",
+    "change_type": "added"
+  },
+  {
+    "id": "da6e152b-cf70-4731-a288-dffe884f1ed4",
+    "event_date": "2026-01-13",
+    "title": "Added automatic discovery of skills from nested `.claude/skills` directories when working with files in subdirectories",
+    "version": "2.1.6",
+    "change_type": "added"
+  },
+  {
+    "id": "451c4974-4cf1-4ae8-897e-3eb962ed7dc3",
+    "event_date": "2026-01-13",
+    "title": "Added `context_window.used_percentage` and `context_window.remaining_percentage` fields to status line input for easier context window display",
+    "version": "2.1.6",
+    "change_type": "added"
+  },
+  {
+    "id": "1cd499c6-825c-43c2-ab2b-3d32da1b48c7",
+    "event_date": "2026-01-13",
+    "title": "Added an error display when the editor fails during Ctrl+G",
+    "version": "2.1.6",
+    "change_type": "added"
+  },
+  {
+    "id": "62a329d7-e4d1-45bc-8ac7-ee7ce6964f22",
+    "event_date": "2026-01-13",
+    "title": "Changed task notification display to cap at 3 lines with overflow summary when multiple background tasks complete simultaneously",
+    "version": "2.1.6",
+    "change_type": "changed"
+  },
+  {
+    "id": "dfacba1e-c63b-4000-9e28-2d9b7415784f",
+    "event_date": "2026-01-13",
+    "title": "Changed terminal title to \"Claude Code\" on startup for better window identification",
+    "version": "2.1.6",
+    "change_type": "changed"
+  },
+  {
+    "id": "854fe4f9-7f32-4ceb-a64c-ffffab5d39a7",
+    "event_date": "2026-01-13",
+    "title": "Removed ability to @-mention MCP servers to enable/disable - use `/mcp enable <name>` instead",
+    "version": "2.1.6",
+    "change_type": "removed"
+  },
+  {
+    "id": "521c5c6a-27da-4edf-9d82-2f0aa4aedb83",
+    "event_date": "2026-01-11",
+    "title": "Added `CLAUDE_CODE_TMPDIR` environment variable to override the temp directory used for internal temp files, useful for environments with custom temp directory requirements",
+    "version": "2.1.5",
+    "change_type": "added"
+  },
+  {
+    "id": "e3583061-2959-43e4-9a4c-7b7d9cdbb05b",
+    "event_date": "2026-01-10",
+    "title": "Added `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS` environment variable to disable all background task functionality including auto-backgrounding and the Ctrl+B shortcut",
+    "version": "2.1.4",
+    "change_type": "added"
+  },
+  {
+    "id": "9857d1c1-7085-44d3-befc-5552529e207d",
+    "event_date": "2026-01-09",
+    "title": "Merged slash commands and skills, simplifying the mental model with no change in behavior",
+    "version": "2.1.3",
+    "change_type": "other"
+  },
+  {
+    "id": "6e8c98ed-8e93-43fd-be75-09b04058e18e",
+    "event_date": "2026-01-09",
+    "title": "Added release channel (`stable` or `latest`) toggle to `/config`",
+    "version": "2.1.3",
+    "change_type": "added"
+  },
+  {
+    "id": "cd6a1d74-39d1-4e30-9c01-7af182f512cc",
+    "event_date": "2026-01-09",
+    "title": "Added detection and warnings for unreachable permission rules, with warnings in `/doctor` and after saving rules that include the source of each rule and actionable fix guidance",
+    "version": "2.1.3",
+    "change_type": "added"
+  },
+  {
+    "id": "b0022638-2438-42e2-9b94-56d016e1b86a",
+    "event_date": "2026-01-09",
+    "title": "Changed tool hook execution timeout from 60 seconds to 10 minutes",
+    "version": "2.1.3",
+    "change_type": "changed"
+  },
+  {
+    "id": "1ae0005c-8ddb-4c1b-98df-795c132f1a48",
+    "event_date": "2026-01-09",
+    "title": "[VSCode] Added clickable destination selector for permission requests, allowing you to choose where settings are saved (this project, all projects, shared with team, or session only)",
+    "version": "2.1.3",
+    "change_type": "other"
+  },
+  {
+    "id": "799a8ff4-3d47-473d-bab1-91462b9139cd",
+    "event_date": "2026-01-08",
+    "title": "Added source path metadata to images dragged onto the terminal, helping Claude understand where images originated",
+    "version": "2.1.2",
+    "change_type": "added"
+  },
+  {
+    "id": "0a05d98f-485b-43c5-9ca1-9ad230cb4794",
+    "event_date": "2026-01-08",
+    "title": "Added clickable hyperlinks for file paths in tool output in terminals that support OSC 8 (like iTerm)",
+    "version": "2.1.2",
+    "change_type": "added"
+  },
+  {
+    "id": "5620dd0a-bad5-4740-a96e-9b321cbc0e8e",
+    "event_date": "2026-01-08",
+    "title": "Added support for Windows Package Manager (winget) installations with automatic detection and update instructions",
+    "version": "2.1.2",
+    "change_type": "added"
+  },
+  {
+    "id": "06ebc30b-13d5-47db-b160-31fa7f96d4da",
+    "event_date": "2026-01-08",
+    "title": "Added Shift+Tab keyboard shortcut in plan mode to quickly select \"auto-accept edits\" option",
+    "version": "2.1.2",
+    "change_type": "added"
+  },
+  {
+    "id": "e5625c3b-8bde-4af7-ae17-352749829869",
+    "event_date": "2026-01-08",
+    "title": "Added `FORCE_AUTOUPDATE_PLUGINS` environment variable to allow plugin autoupdate even when the main auto-updater is disabled",
+    "version": "2.1.2",
+    "change_type": "added"
+  },
+  {
+    "id": "c500b6bb-a60d-4d16-ae5e-6ca842ee74a6",
+    "event_date": "2026-01-08",
+    "title": "Added `agent_type` to SessionStart hook input, populated if `--agent` is specified",
+    "version": "2.1.2",
+    "change_type": "added"
+  },
+  {
+    "id": "c9cc2b64-2874-445a-9431-811686661a26",
+    "event_date": "2026-01-08",
+    "title": "Changed large bash command outputs to be saved to disk instead of truncated, allowing Claude to read the full content",
+    "version": "2.1.2",
+    "change_type": "changed"
+  },
+  {
+    "id": "d9802e2a-20d5-4136-b4bd-7293ae24f926",
+    "event_date": "2026-01-08",
+    "title": "Changed large tool outputs to be persisted to disk instead of truncated, providing full output access via file references",
+    "version": "2.1.2",
+    "change_type": "changed"
+  },
+  {
+    "id": "2ef85ed3-6b7f-4cf2-ace9-061147edb228",
+    "event_date": "2026-01-08",
+    "title": "Changed `/plugins` installed tab to unify plugins and MCPs with scope-based grouping",
+    "version": "2.1.2",
+    "change_type": "changed"
+  },
+  {
+    "id": "71fa57c1-4f53-4bc1-935f-6ee38b851de1",
+    "event_date": "2026-01-08",
+    "title": "Deprecated Windows managed settings path `C:\\ProgramData\\ClaudeCode\\managed-settings.json` - administrators should migrate to `C:\\Program Files\\ClaudeCode\\managed-settings.json`",
+    "version": "2.1.2",
+    "change_type": "deprecated"
+  },
+  {
+    "id": "bc154517-d952-4eae-a15c-682a453cc188",
+    "event_date": "2026-01-07",
+    "title": "Added automatic skill hot-reload - skills created or modified in `~/.claude/skills` or `.claude/skills` are now immediately available without restarting the session",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "c5cef3dc-04c8-493c-b277-c91eca0105b1",
+    "event_date": "2026-01-07",
+    "title": "Added support for running skills and slash commands in a forked sub-agent context using `context: fork` in skill frontmatter",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "060ab288-3b0f-433b-8b52-5848b27c0146",
+    "event_date": "2026-01-07",
+    "title": "Added support for `agent` field in skills to specify agent type for execution",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "67de4496-bb86-46fd-bc28-4f0839047c32",
+    "event_date": "2026-01-07",
+    "title": "Added `language` setting to configure Claude's response language (e.g., language: \"japanese\")",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "ff223318-3847-4ac6-b653-d4318de94bb0",
+    "event_date": "2026-01-07",
+    "title": "Changed Shift+Enter to work out of the box in iTerm2, WezTerm, Ghostty, and Kitty without modifying terminal configs",
+    "version": "2.1.0",
+    "change_type": "changed"
+  },
+  {
+    "id": "d7c5a3e9-acf6-4fa0-9987-82906896219c",
+    "event_date": "2026-01-07",
+    "title": "Added `respectGitignore` support in `settings.json` for per-project control over @-mention file picker behavior",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "89b7a7c0-da14-40ef-abca-0430944f6afc",
+    "event_date": "2026-01-07",
+    "title": "Added `IS_DEMO` environment variable to hide email and organization from the UI, useful for streaming or recording sessions",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "9208bad4-2912-40d0-b9cd-76d27a85d64d",
+    "event_date": "2026-01-07",
+    "title": "Added wildcard pattern matching for Bash tool permissions using `*` at any position in rules (e.g., `Bash(npm *)`, `Bash(* install)`, `Bash(git * main)`)",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "3c7ba16c-3997-473e-af3d-6bb1a8210d11",
+    "event_date": "2026-01-07",
+    "title": "Added unified Ctrl+B backgrounding for both bash commands and agents - pressing Ctrl+B now backgrounds all running foreground tasks simultaneously",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "cd834521-7ba9-4572-b71c-af390f7f24d2",
+    "event_date": "2026-01-07",
+    "title": "Added support for MCP `list_changed` notifications, allowing MCP servers to dynamically update their available tools, prompts, and resources without requiring reconnection",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "564faf88-55a9-4a2e-90b6-fce0bff815ce",
+    "event_date": "2026-01-07",
+    "title": "Added `/teleport` and `/remote-env` slash commands for claude.ai subscribers, allowing them to resume and configure remote sessions",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "43df45f9-4563-4181-9761-6332c8274b65",
+    "event_date": "2026-01-07",
+    "title": "Added support for disabling specific agents using `Task(AgentName)` syntax in settings.json permissions or the `--disallowedTools` CLI flag",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "5e958eea-b707-40ec-ac7f-e83c12ce2054",
+    "event_date": "2026-01-07",
+    "title": "Added hooks support to agent frontmatter, allowing agents to define PreToolUse, PostToolUse, and Stop hooks scoped to the agent's lifecycle",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "8bb13b77-ec26-427e-86d2-045a75ffb366",
+    "event_date": "2026-01-07",
+    "title": "Added hooks support for skill and slash command frontmatter",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "1b0630df-4a13-4a10-8da3-77c4485efede",
+    "event_date": "2026-01-07",
+    "title": "Added new Vim motions: `;` and `,` to repeat f/F/t/T motions, `y` operator for yank with `yy`/`Y`, `p`/`P` for paste, text objects (`iw`, `aw`, `iW`, `aW`, `i\"`, `a\"`, `i'`, `a'`, `i(`, `a(`, `i[`, `a[`, `i{`, `a{`), `>>` and `<<` for indent/dedent, and `J` to join lines",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "1f0ddeea-ce8f-4b12-bded-91a315f93ed6",
+    "event_date": "2026-01-07",
+    "title": "Added `/plan` command shortcut to enable plan mode directly from the prompt",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "e1751496-eb70-4ec8-9e8f-a69943dc2dd0",
+    "event_date": "2026-01-07",
+    "title": "Added slash command autocomplete support when `/` appears anywhere in input, not just at the beginning",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "21c726fe-61f8-42e7-a17f-bfbdb8636d78",
+    "event_date": "2026-01-07",
+    "title": "Added `--tools` flag support in interactive mode to restrict which built-in tools Claude can use during interactive sessions",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "ba5e4c95-3edb-478f-8b5f-5dbe3752cf53",
+    "event_date": "2026-01-07",
+    "title": "Added `CLAUDE_CODE_FILE_READ_MAX_OUTPUT_TOKENS` environment variable to override the default file read token limit",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "20bca52c-adfd-47ba-a174-96f25a7c333a",
+    "event_date": "2026-01-07",
+    "title": "Added support for `once: true` config for hooks",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "52c53475-cdc5-42f7-9900-17d38cf1a661",
+    "event_date": "2026-01-07",
+    "title": "Added support for YAML-style lists in frontmatter `allowed-tools` field for cleaner skill declarations",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "16cf8f2a-0fa3-4233-94b5-ff0f3917b8ec",
+    "event_date": "2026-01-07",
+    "title": "Added support for prompt and agent hook types from plugins (previously only command hooks were supported)",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "e7f5aa33-7fe6-4290-b179-c39365385150",
+    "event_date": "2026-01-07",
+    "title": "Added Cmd+V support for image paste in iTerm2 (maps to Ctrl+V)",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "3bf1dc73-db62-4cb0-932f-33279d995234",
+    "event_date": "2026-01-07",
+    "title": "Added left/right arrow key navigation for cycling through tabs in dialogs",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "614e00e2-fb40-48cc-ac47-e6119da7fa81",
+    "event_date": "2026-01-07",
+    "title": "Added real-time thinking block display in Ctrl+O transcript mode",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "95e36a3e-eac4-4dde-a05c-287aae5d83fd",
+    "event_date": "2026-01-07",
+    "title": "Added filepath to full output in background bash task details dialog",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "27201fcc-8dc5-4edc-83fa-c8ec45618f27",
+    "event_date": "2026-01-07",
+    "title": "Added Skills as a separate category in the context visualization",
+    "version": "2.1.0",
+    "change_type": "added"
+  },
+  {
+    "id": "48cf5fd0-330e-4449-83ed-2e8f360c4bf6",
+    "event_date": "2026-01-07",
+    "title": "Changed \"Interrupted\" message color from red to grey for a less alarming appearance",
+    "version": "2.1.0",
+    "change_type": "changed"
+  },
+  {
+    "id": "ad9b5a68-8b34-4c6e-a631-c3aed6feda15",
+    "event_date": "2026-01-07",
+    "title": "Removed permission prompt when entering plan mode - users can now enter plan mode without approval",
+    "version": "2.1.0",
+    "change_type": "removed"
+  },
+  {
+    "id": "2138bdc6-5f70-49f5-aa35-5da5345772b9",
+    "event_date": "2026-01-07",
+    "title": "Removed underline styling from image reference links",
+    "version": "2.1.0",
+    "change_type": "removed"
+  },
+  {
+    "id": "070c7d06-fb57-408a-99ca-6cf856ea0ece",
+    "event_date": "2026-01-07",
+    "title": "[VSCode] Added currently selected model name to the context menu",
+    "version": "2.1.0",
+    "change_type": "other"
+  },
+  {
+    "id": "456b720f-262a-432d-a497-4f92516d2e49",
+    "event_date": "2026-01-07",
+    "title": "[VSCode] Added descriptive labels on auto-accept permission button (e.g., \"Yes, allow npm for this project\" instead of \"Yes, and don't ask again\")",
+    "version": "2.1.0",
+    "change_type": "other"
+  },
+  {
+    "id": "6196a4da-3960-4e7e-a5b6-c70c7b92af50",
+    "event_date": "2025-12-19",
+    "title": "Added LSP (Language Server Protocol) tool for code intelligence features like go-to-definition, find references, and hover documentation",
+    "version": "2.0.74",
+    "change_type": "added"
+  },
+  {
+    "id": "7bd9de1d-cf26-4b24-8979-40e894cebaac",
+    "event_date": "2025-12-19",
+    "title": "Added `/terminal-setup` support for Kitty, Alacritty, Zed, and Warp terminals",
+    "version": "2.0.74",
+    "change_type": "added"
+  },
+  {
+    "id": "e6a22483-9712-41fc-bc96-bfffb7f5b551",
+    "event_date": "2025-12-19",
+    "title": "Added ctrl+t shortcut in `/theme` to toggle syntax highlighting on/off",
+    "version": "2.0.74",
+    "change_type": "added"
+  },
+  {
+    "id": "d2967292-afb3-4f53-817b-7f746ac6e606",
+    "event_date": "2025-12-19",
+    "title": "Added syntax highlighting info to theme picker",
+    "version": "2.0.74",
+    "change_type": "added"
+  },
+  {
+    "id": "d0b48479-9ae4-4178-a73f-c4a851c020b0",
+    "event_date": "2025-12-19",
+    "title": "Added guidance for macOS users when Alt shortcuts fail due to terminal configuration",
+    "version": "2.0.74",
+    "change_type": "added"
+  },
+  {
+    "id": "0105af2b-886c-447c-805f-ca4b4ff6b5f7",
+    "event_date": "2025-12-19",
+    "title": "[VSCode] Added gift tag pictogram for year-end promotion message",
+    "version": "2.0.74",
+    "change_type": "other"
+  },
+  {
+    "id": "dcf0e8fb-5eaf-4c9b-b39e-b309573fb2ac",
+    "event_date": "2025-12-18",
+    "title": "Added clickable `[Image #N]` links that open attached images in the default viewer",
+    "version": "2.0.73",
+    "change_type": "added"
+  },
+  {
+    "id": "e9207203-bc1f-42bf-865c-1b0672e7da35",
+    "event_date": "2025-12-18",
+    "title": "Added alt-y yank-pop to cycle through kill ring history after ctrl-y yank",
+    "version": "2.0.73",
+    "change_type": "added"
+  },
+  {
+    "id": "150bcdb1-8a22-42a2-9b0e-d7c13e61911f",
+    "event_date": "2025-12-18",
+    "title": "Added search filtering to the plugin discover screen (type to filter by name, description, or marketplace)",
+    "version": "2.0.73",
+    "change_type": "added"
+  },
+  {
+    "id": "595d9bb0-22ef-43ea-a17d-ea75be569fbb",
+    "event_date": "2025-12-18",
+    "title": "Added support for custom session IDs when forking sessions with `--session-id` combined with `--resume` or `--continue` and `--fork-session`",
+    "version": "2.0.73",
+    "change_type": "added"
+  },
+  {
+    "id": "241af39e-fff6-4657-b11d-73e633d6bcf6",
+    "event_date": "2025-12-18",
+    "title": "[VSCode] Added tab icon badges showing pending permissions (blue) and unread completions (orange)",
+    "version": "2.0.73",
+    "change_type": "other"
+  },
+  {
+    "id": "b9d13057-94ff-4e0a-b56c-48fd8c868652",
+    "event_date": "2025-12-17",
+    "title": "Added Claude in Chrome (Beta) feature that works with the Chrome extension (https://claude.ai/chrome) to let you control your browser directly from Claude Code",
+    "version": "2.0.72",
+    "change_type": "added"
+  },
+  {
+    "id": "24237caf-b76d-4ffe-be08-1702a5611fdd",
+    "event_date": "2025-12-17",
+    "title": "Added scannable QR code to mobile app tip for quick app downloads",
+    "version": "2.0.72",
+    "change_type": "added"
+  },
+  {
+    "id": "7b0f4d7e-89cd-4e69-9d86-f307d485dcaf",
+    "event_date": "2025-12-17",
+    "title": "Added loading indicator when resuming conversations for better feedback",
+    "version": "2.0.72",
+    "change_type": "added"
+  },
+  {
+    "id": "0ed3b949-81b9-44bb-9baa-e18a5d56e8e2",
+    "event_date": "2025-12-17",
+    "title": "Changed thinking toggle from Tab to Alt+T to avoid accidental triggers",
+    "version": "2.0.72",
+    "change_type": "changed"
+  },
+  {
+    "id": "9d795221-3ba7-4e25-8440-1438a4c0de09",
+    "event_date": "2025-12-16",
+    "title": "Added /config toggle to enable/disable prompt suggestions",
+    "version": "2.0.71",
+    "change_type": "added"
+  },
+  {
+    "id": "7c4e085f-7c43-4aea-8da5-d40543bc9a3a",
+    "event_date": "2025-12-16",
+    "title": "Added `/settings` as an alias for the `/config` command",
+    "version": "2.0.71",
+    "change_type": "added"
+  },
+  {
+    "id": "b78b50ac-3066-49cb-af1a-a09f08d6e620",
+    "event_date": "2025-12-16",
+    "title": "New syntax highlighting engine for native build",
+    "version": "2.0.71",
+    "change_type": "added"
+  },
+  {
+    "id": "fd8ce256-86d0-479b-a49e-a114857cc50d",
+    "event_date": "2025-12-15",
+    "title": "Added Enter key to accept and submit prompt suggestions immediately (tab still accepts for editing)",
+    "version": "2.0.70",
+    "change_type": "added"
+  },
+  {
+    "id": "f0919b71-0528-44d3-9def-00503a8d8d78",
+    "event_date": "2025-12-15",
+    "title": "Added wildcard syntax `mcp__server__*` for MCP tool permissions to allow or deny all tools from a server",
+    "version": "2.0.70",
+    "change_type": "added"
+  },
+  {
+    "id": "730dbf3b-3048-4f0a-9c10-271a149da9c1",
+    "event_date": "2025-12-15",
+    "title": "Added auto-update toggle for plugin marketplaces, allowing per-marketplace control over automatic updates",
+    "version": "2.0.70",
+    "change_type": "added"
+  },
+  {
+    "id": "6c3db93b-7989-4a7d-9282-f30b6c7f901c",
+    "event_date": "2025-12-15",
+    "title": "Added `current_usage` field to status line input, enabling accurate context window percentage calculations",
+    "version": "2.0.70",
+    "change_type": "added"
+  },
+  {
+    "id": "6dc58e7f-b575-4580-ba73-2e1f24c65047",
+    "event_date": "2025-12-15",
+    "title": "Removed # shortcut for quick memory entry (tell Claude to edit your CLAUDE.md instead)",
+    "version": "2.0.70",
+    "change_type": "removed"
+  },
+  {
+    "id": "2f3ef142-ef1b-4aa0-96b6-53e9fe7febc2",
+    "event_date": "2025-12-12",
+    "title": "Add support for enterprise managed settings. Contact your Anthropic account team to enable this feature.",
+    "version": "2.0.68",
+    "change_type": "added"
+  },
+  {
+    "id": "019b2aa5-9cf6-4259-aa75-db473e05f2e8",
+    "event_date": "2025-12-11",
+    "title": "Thinking mode is now enabled by default for Opus 4.5",
+    "version": "2.0.67",
+    "change_type": "other"
+  },
+  {
+    "id": "653bc027-0d7a-450f-8d72-c8008874f23d",
+    "event_date": "2025-12-11",
+    "title": "Thinking mode configuration has moved to /config",
+    "version": "2.0.67",
+    "change_type": "other"
+  },
+  {
+    "id": "90364353-b78d-4733-8068-f10b6310249f",
+    "event_date": "2025-12-11",
+    "title": "Added search functionality to `/permissions` command with `/` keyboard shortcut for filtering rules by tool name",
+    "version": "2.0.67",
+    "change_type": "added"
+  },
+  {
+    "id": "edaf2859-848f-4cca-b97a-5ca20c4ed9b4",
+    "event_date": "2025-12-11",
+    "title": "Show reason why autoupdater is disabled in `/doctor`",
+    "version": "2.0.67",
+    "change_type": "other"
+  },
+  {
+    "id": "4f1c8ce4-61ed-482b-9568-39d18e6d7891",
+    "event_date": "2025-12-11",
+    "title": "Added ability to switch models while writing a prompt using alt+p (linux, windows), option+p (macos).",
+    "version": "2.0.65",
+    "change_type": "added"
+  },
+  {
+    "id": "eb4631d4-c7cb-4624-a394-b994e03e0749",
+    "event_date": "2025-12-11",
+    "title": "Added context window information to status line input",
+    "version": "2.0.65",
+    "change_type": "added"
+  },
+  {
+    "id": "1f9c553f-204e-4f17-a1f1-cace0a689c01",
+    "event_date": "2025-12-11",
+    "title": "Added `fileSuggestion` setting for custom `@` file search commands",
+    "version": "2.0.65",
+    "change_type": "added"
+  },
+  {
+    "id": "1bea9ff9-93bd-4e54-8043-3e803f2c10dd",
+    "event_date": "2025-12-11",
+    "title": "Added `CLAUDE_CODE_SHELL` environment variable to override automatic shell detection (useful when login shell differs from actual working shell)",
+    "version": "2.0.65",
+    "change_type": "added"
+  },
+  {
+    "id": "178a654e-c634-4d89-a89f-acea035af4b7",
+    "event_date": "2025-12-10",
+    "title": "Agents and bash commands can run asynchronously and send messages to wake up the main agent",
+    "version": "2.0.64",
+    "change_type": "other"
+  },
+  {
+    "id": "f46dacd9-de95-494e-b6e3-46eb9a5f9183",
+    "event_date": "2025-12-10",
+    "title": "/stats now provides users with interesting CC stats, such as favorite model, usage graph, usage streak",
+    "version": "2.0.64",
+    "change_type": "other"
+  },
+  {
+    "id": "10b5a7fa-63a0-43fe-8a07-ae9cc2b05f51",
+    "event_date": "2025-12-10",
+    "title": "Added named session support: use `/rename` to name sessions, `/resume <name>` in REPL or `claude --resume <name>` from the terminal to resume them",
+    "version": "2.0.64",
+    "change_type": "added"
+  },
+  {
+    "id": "7c3af900-9161-40be-9754-953811d2e4a6",
+    "event_date": "2025-12-10",
+    "title": "Added support for .claude/rules/`.  See https://code.claude.com/docs/en/memory for details.",
+    "version": "2.0.64",
+    "change_type": "added"
+  },
+  {
+    "id": "da73a04f-a53f-4527-8489-21538955b00a",
+    "event_date": "2025-12-10",
+    "title": "Added image dimension metadata when images are resized, enabling accurate coordinate mappings for large images",
+    "version": "2.0.64",
+    "change_type": "added"
+  },
+  {
+    "id": "94372a3b-309c-4404-8b6f-f919540f8672",
+    "event_date": "2025-12-10",
+    "title": "VSCode: Added copy-to-clipboard button on code blocks and bash tool inputs",
+    "version": "2.0.64",
+    "change_type": "other"
+  },
+  {
+    "id": "8fc22f1c-28ea-49ea-a2ad-54372deee747",
+    "event_date": "2025-12-10",
+    "title": "Bedrock: Add support for `aws login` AWS Management Console credentials",
+    "version": "2.0.64",
+    "change_type": "other"
+  },
+  {
+    "id": "744046f8-7c80-4d8e-acab-72fd92a666d9",
+    "event_date": "2025-12-09",
+    "title": "Added \"(Recommended)\" indicator for multiple-choice questions, with the recommended option moved to the top of the list",
+    "version": "2.0.62",
+    "change_type": "added"
+  },
+  {
+    "id": "5644a549-0553-49bb-add9-cbd10994f131",
+    "event_date": "2025-12-09",
+    "title": "Added `attribution` setting to customize commit and PR bylines (deprecates `includeCoAuthoredBy`)",
+    "version": "2.0.62",
+    "change_type": "added"
+  },
+  {
+    "id": "7ad54f99-a9b2-423c-8ee6-0e84b9c45f22",
+    "event_date": "2025-12-07",
+    "title": "Reverted VSCode support for multiple terminal clients due to responsiveness issues.",
+    "version": "2.0.61",
+    "change_type": "other"
+  },
+  {
+    "id": "f362658f-c607-4108-a596-88c596646cbc",
+    "event_date": "2025-12-05",
+    "title": "Added background agent support. Agents run in the background while you work",
+    "version": "2.0.60",
+    "change_type": "added"
+  },
+  {
+    "id": "451ff14a-78db-47a2-a391-bc773adedd75",
+    "event_date": "2025-12-05",
+    "title": "Added --disable-slash-commands CLI flag to disable all slash commands",
+    "version": "2.0.60",
+    "change_type": "added"
+  },
+  {
+    "id": "32ff25f5-860e-4570-9546-36985a1d2c31",
+    "event_date": "2025-12-05",
+    "title": "Added model name to \"Co-Authored-By\" commit messages",
+    "version": "2.0.60",
+    "change_type": "added"
+  },
+  {
+    "id": "f74efade-1663-4064-ac7f-bfcc5abb0eed",
+    "event_date": "2025-12-05",
+    "title": "Enabled \"/mcp enable [server-name]\" or \"/mcp disable [server-name]\" to quickly toggle all servers",
+    "version": "2.0.60",
+    "change_type": "other"
+  },
+  {
+    "id": "ccca0c2a-6978-43ca-bffc-3d9cba06fb8b",
+    "event_date": "2025-12-05",
+    "title": "VSCode: Added support for multiple terminal clients connecting to the IDE server simultaneously",
+    "version": "2.0.60",
+    "change_type": "other"
+  },
+  {
+    "id": "7cf41ce1-dd2d-40ca-bfbf-e003180a9296",
+    "event_date": "2025-12-04",
+    "title": "Added --agent CLI flag to override the agent setting for the current session",
+    "version": "2.0.59",
+    "change_type": "added"
+  },
+  {
+    "id": "c3598783-e18a-4a2c-bcff-3100d106c2f0",
+    "event_date": "2025-12-04",
+    "title": "Added `agent` setting to configure main thread with a specific agent's system prompt, tool restrictions, and model",
+    "version": "2.0.59",
+    "change_type": "added"
+  },
+  {
+    "id": "f4c45718-540a-4179-b8ef-66ca8cd35903",
+    "event_date": "2025-12-03",
+    "title": "Pro users now have access to Opus 4.5 as part of their subscription!",
+    "version": "2.0.58",
+    "change_type": "other"
+  },
+  {
+    "id": "7f70aefa-55d5-4090-9551-7a02a53992b4",
+    "event_date": "2025-12-03",
+    "title": "Added feedback input when rejecting plans, allowing users to tell Claude what to change",
+    "version": "2.0.57",
+    "change_type": "added"
+  },
+  {
+    "id": "9ba43845-0121-464b-93cc-3599488b0e13",
+    "event_date": "2025-12-03",
+    "title": "VSCode: Added streaming message support for real-time response display",
+    "version": "2.0.57",
+    "change_type": "other"
+  },
+  {
+    "id": "f78ab635-f612-4987-b4ee-36223fb0ab4f",
+    "event_date": "2025-12-01",
+    "title": "Added setting to enable/disable terminal progress bar (OSC 9;4)",
+    "version": "2.0.56",
+    "change_type": "added"
+  },
+  {
+    "id": "736c3072-194b-45ef-bd13-9de68ceeebe7",
+    "event_date": "2025-12-01",
+    "title": "VSCode Extension: Added support for VS Code's secondary sidebar (VS Code 1.97+), allowing Claude Code to be displayed in the right sidebar while keeping the file explorer on the left. Requires setting sidebar as Preferred Location in the config.",
+    "version": "2.0.56",
+    "change_type": "other"
+  },
+  {
+    "id": "b676fa95-76d0-4cae-abdc-c0fb640e3942",
+    "event_date": "2025-11-25",
+    "title": "Hooks: Enable PermissionRequest hooks to process 'always allow' suggestions and apply permission updates",
+    "version": "2.0.54",
+    "change_type": "other"
+  },
+  {
+    "id": "96ffa2f7-e17f-4d35-b8ca-c4e6dc9558df",
+    "event_date": "2025-11-24",
+    "title": "Permit some uses of `$!` in bash commands",
+    "version": "2.0.52",
+    "change_type": "other"
+  },
+  {
+    "id": "fc5dbf55-fce8-4406-915a-07a0ec6d55c5",
+    "event_date": "2025-11-24",
+    "title": "Added Opus 4.5! https://www.anthropic.com/news/claude-opus-4-5",
+    "version": "2.0.51",
+    "change_type": "added"
+  },
+  {
+    "id": "6a1373b6-a7b3-4c9d-a3e7-7e37bab28df1",
+    "event_date": "2025-11-24",
+    "title": "Introducing Claude Code for Desktop: https://claude.com/download",
+    "version": "2.0.51",
+    "change_type": "other"
+  },
+  {
+    "id": "17e306fa-1c66-4a14-9f6e-fdf4f790275d",
+    "event_date": "2025-11-24",
+    "title": "To give you room to try out our new model, we've updated usage limits for Claude Code users. See the Claude Opus 4.5 blog for full details",
+    "version": "2.0.51",
+    "change_type": "other"
+  },
+  {
+    "id": "49b1ba69-af80-4b7f-aa3d-70cbd0229708",
+    "event_date": "2025-11-24",
+    "title": "Pro users can now purchase extra usage for access to Opus 4.5 in Claude Code",
+    "version": "2.0.51",
+    "change_type": "other"
+  },
+  {
+    "id": "0cef35b6-e028-4c27-8ef4-b0d53a9b3c9f",
+    "event_date": "2025-11-24",
+    "title": "Plan Mode now builds more precise plans and executes more thoroughly",
+    "version": "2.0.51",
+    "change_type": "other"
+  },
+  {
+    "id": "28b5137b-a019-44c4-8d42-8f29771380a8",
+    "event_date": "2025-11-24",
+    "title": "Usage limit notifications now easier to understand",
+    "version": "2.0.51",
+    "change_type": "other"
+  },
+  {
+    "id": "0240cdcd-895b-4060-9e45-5bc45802d9eb",
+    "event_date": "2025-11-21",
+    "title": "Added readline-style ctrl-y for pasting deleted text",
+    "version": "2.0.49",
+    "change_type": "added"
+  },
+  {
+    "id": "dc060a82-92c1-4d13-a3cf-555d21813184",
+    "event_date": "2025-11-18",
+    "title": "Added support for Microsoft Foundry! See https://code.claude.com/docs/en/azure-ai-foundry",
+    "version": "2.0.45",
+    "change_type": "added"
+  },
+  {
+    "id": "f50c147b-1956-4adc-9fcc-0c24f8167a89",
+    "event_date": "2025-11-18",
+    "title": "Added `PermissionRequest` hook to automatically approve or deny tool permission requests with custom logic",
+    "version": "2.0.45",
+    "change_type": "added"
+  },
+  {
+    "id": "aa258055-8455-418a-9d8e-64f103e4e136",
+    "event_date": "2025-11-18",
+    "title": "Send background tasks to Claude Code on the web by starting a message with `&`",
+    "version": "2.0.45",
+    "change_type": "other"
+  },
+  {
+    "id": "395f0b18-cefe-4d94-b3f2-35a5c946380a",
+    "event_date": "2025-11-17",
+    "title": "Added `permissionMode` field for custom agents",
+    "version": "2.0.43",
+    "change_type": "added"
+  },
+  {
+    "id": "dbeb8b22-bd70-4efc-9af4-8b0c5a746e41",
+    "event_date": "2025-11-17",
+    "title": "Added `tool_use_id` field to `PreToolUseHookInput` and `PostToolUseHookInput` types",
+    "version": "2.0.43",
+    "change_type": "added"
+  },
+  {
+    "id": "bcc2d049-f03d-4678-bc58-0d8e7de5ea80",
+    "event_date": "2025-11-17",
+    "title": "Added skills frontmatter field to declare skills to auto-load for subagents",
+    "version": "2.0.43",
+    "change_type": "added"
+  },
+  {
+    "id": "10f363f1-9713-4bb6-b232-16c423e1f48b",
+    "event_date": "2025-11-17",
+    "title": "Added the `SubagentStart` hook event",
+    "version": "2.0.43",
+    "change_type": "added"
+  },
+  {
+    "id": "4351d30f-a504-40cb-9e16-627c2c110aae",
+    "event_date": "2025-11-14",
+    "title": "Added `agent_id` and `agent_transcript_path` fields to `SubagentStop` hooks.",
+    "version": "2.0.42",
+    "change_type": "added"
+  },
+  {
+    "id": "89d954e5-40bf-4eef-bd15-c817c07e052d",
+    "event_date": "2025-11-14",
+    "title": "Added `model` parameter to prompt-based stop hooks, allowing users to specify a custom model for hook evaluation",
+    "version": "2.0.41",
+    "change_type": "added"
+  },
+  {
+    "id": "6aaf1068-b7cc-4e32-bce3-d5691a2a7b88",
+    "event_date": "2025-11-14",
+    "title": "ctrl-r history search landing on a slash command no longer cancels the search",
+    "version": "2.0.41",
+    "change_type": "other"
+  },
+  {
+    "id": "8742eb5b-82ec-4913-9a3d-73d15221e2cc",
+    "event_date": "2025-11-14",
+    "title": "Allow more safe git commands to run without approval",
+    "version": "2.0.41",
+    "change_type": "other"
+  },
+  {
+    "id": "2574a1d9-8af8-4b2f-844b-7fa1cf175444",
+    "event_date": "2025-11-14",
+    "title": "Plugins: Added support for sharing and installing output styles",
+    "version": "2.0.41",
+    "change_type": "other"
+  },
+  {
+    "id": "f2b6ee5d-ac80-47b4-8abc-35e39593ff60",
+    "event_date": "2025-11-14",
+    "title": "Teleporting a session from web will automatically set the upstream branch",
+    "version": "2.0.41",
+    "change_type": "other"
+  },
+  {
+    "id": "65e582fc-d3bd-4268-b240-646149920fc3",
+    "event_date": "2025-11-10",
+    "title": "Hooks: Added matcher values for Notification hook events",
+    "version": "2.0.37",
+    "change_type": "other"
+  },
+  {
+    "id": "2287e885-48cc-4e94-b1ad-c7d4753a1ddc",
+    "event_date": "2025-11-10",
+    "title": "Output Styles: Added `keep-coding-instructions` option to frontmatter",
+    "version": "2.0.37",
+    "change_type": "other"
+  },
+  {
+    "id": "eba10d36-dabd-4d53-8a2c-280f93dc32ef",
+    "event_date": "2025-11-06",
+    "title": "Added `CLAUDE_CODE_EXIT_AFTER_STOP_DELAY` environment variable to automatically exit SDK mode after a specified idle duration, useful for automated workflows and scripts",
+    "version": "2.0.35",
+    "change_type": "added"
+  },
+  {
+    "id": "aa940f2f-59c4-43be-b6bb-c7e0c3cb3ab4",
+    "event_date": "2025-11-05",
+    "title": "VSCode Extension: Added setting to configure the initial permission mode for new conversations",
+    "version": "2.0.34",
+    "change_type": "other"
+  },
+  {
+    "id": "db8063aa-5ecb-4855-81e3-2e2da222f255",
+    "event_date": "2025-11-03",
+    "title": "Un-deprecate output styles based on community feedback",
+    "version": "2.0.32",
+    "change_type": "other"
+  },
+  {
+    "id": "091a7d59-447f-456d-a7c6-25ae919b46fb",
+    "event_date": "2025-11-03",
+    "title": "Added `companyAnnouncements` setting for displaying announcements on startup",
+    "version": "2.0.32",
+    "change_type": "added"
+  },
+  {
+    "id": "d9a69bcc-c6cc-4664-9d13-e643531c3343",
+    "event_date": "2025-10-31",
+    "title": "Windows: native installation uses shift+tab as shortcut for mode switching, instead of alt+m",
+    "version": "2.0.31",
+    "change_type": "other"
+  },
+  {
+    "id": "b42b611e-1bd3-467e-b25c-dc18fdfa93e2",
+    "event_date": "2025-10-31",
+    "title": "Vertex: add support for Web Search on supported models",
+    "version": "2.0.31",
+    "change_type": "other"
+  },
+  {
+    "id": "bdabe2f7-1098-4f1c-80cf-fd587d844f84",
+    "event_date": "2025-10-31",
+    "title": "VSCode: Adding the respectGitIgnore configuration to include .gitignored files in file searches (defaults to true)",
+    "version": "2.0.31",
+    "change_type": "other"
+  },
+  {
+    "id": "f32bf86a-40b8-49e8-a226-79635f19e151",
+    "event_date": "2025-10-30",
+    "title": "Added helpful hint to run `security unlock-keychain` when encountering API key errors on macOS with locked keychain",
+    "version": "2.0.30",
+    "change_type": "added"
+  },
+  {
+    "id": "66afa9d8-be08-4b80-bec3-7efea6e15de9",
+    "event_date": "2025-10-30",
+    "title": "Added `allowUnsandboxedCommands` sandbox setting to disable the dangerouslyDisableSandbox escape hatch at policy level",
+    "version": "2.0.30",
+    "change_type": "added"
+  },
+  {
+    "id": "8c40903c-4fc6-4e6b-a704-6b2cdef2d60e",
+    "event_date": "2025-10-30",
+    "title": "Added `disallowedTools` field to custom agent definitions for explicit tool blocking",
+    "version": "2.0.30",
+    "change_type": "added"
+  },
+  {
+    "id": "6ccef2fc-9349-4e11-8f16-9c4905696db1",
+    "event_date": "2025-10-30",
+    "title": "Added prompt-based stop hooks",
+    "version": "2.0.30",
+    "change_type": "added"
+  },
+  {
+    "id": "1726dcf7-8d21-41e3-94cd-d97cfc70b1b9",
+    "event_date": "2025-10-30",
+    "title": "VSCode: Added respectGitIgnore configuration to include .gitignored files in file searches (defaults to true)",
+    "version": "2.0.30",
+    "change_type": "other"
+  },
+  {
+    "id": "a896d48f-2438-466c-88c3-3b16e35efd55",
+    "event_date": "2025-10-30",
+    "title": "Enabled SSE MCP servers on native build",
+    "version": "2.0.30",
+    "change_type": "other"
+  },
+  {
+    "id": "bf2f5ff3-bdd5-4a2d-980d-104844afd50e",
+    "event_date": "2025-10-30",
+    "title": "Deprecated output styles. Review options in `/output-style` and use --system-prompt-file, --system-prompt, --append-system-prompt, CLAUDE.md, or plugins instead",
+    "version": "2.0.30",
+    "change_type": "deprecated"
+  },
+  {
+    "id": "4e750853-0a7b-427f-85a3-5e0c93eae2f5",
+    "event_date": "2025-10-30",
+    "title": "Removed support for custom ripgrep configuration, resolving an issue where Search returns no results and config discovery fails",
+    "version": "2.0.30",
+    "change_type": "removed"
+  },
+  {
+    "id": "5af25c39-c820-4ded-a7cc-3feb592cddd4",
+    "event_date": "2025-10-27",
+    "title": "Plan mode: introduced new Plan subagent",
+    "version": "2.0.28",
+    "change_type": "other"
+  },
+  {
+    "id": "5cdd6e81-cc32-4f01-a034-81895c705bcb",
+    "event_date": "2025-10-27",
+    "title": "Subagents: claude can now choose to resume subagents",
+    "version": "2.0.28",
+    "change_type": "other"
+  },
+  {
+    "id": "1d6a5048-1bcb-4b8d-a447-c3768fc29de0",
+    "event_date": "2025-10-27",
+    "title": "Subagents: claude can dynamically choose the model used by its subagents",
+    "version": "2.0.28",
+    "change_type": "other"
+  },
+  {
+    "id": "49ef3639-4b25-43e4-bccc-a5052b01fbd8",
+    "event_date": "2025-10-27",
+    "title": "Discovery of custom slash commands, subagents, and output styles no longer respects .gitignore",
+    "version": "2.0.28",
+    "change_type": "other"
+  },
+  {
+    "id": "e95da39a-c688-4bd3-86ee-fcf18778789e",
+    "event_date": "2025-10-27",
+    "title": "Stop `/terminal-setup` from adding backslash to `Shift + Enter` in VS Code",
+    "version": "2.0.28",
+    "change_type": "other"
+  },
+  {
+    "id": "1932ccc3-a668-4b71-b0a2-09d3815804d8",
+    "event_date": "2025-10-27",
+    "title": "Add branch and tag support for git-based plugins and marketplaces using fragment syntax (e.g., `owner/repo#branch`)",
+    "version": "2.0.28",
+    "change_type": "added"
+  },
+  {
+    "id": "f19773be-4b4c-4d19-9806-d52a2f9e68f7",
+    "event_date": "2025-10-24",
+    "title": "New UI for permission prompts",
+    "version": "2.0.27",
+    "change_type": "added"
+  },
+  {
+    "id": "fb7f8659-31d2-40c1-acc5-b2d913eafe63",
+    "event_date": "2025-10-24",
+    "title": "Added current branch filtering and search to session resume screen for easier navigation",
+    "version": "2.0.27",
+    "change_type": "added"
+  },
+  {
+    "id": "4f1f8ec1-aad1-4011-95ce-c8aa432e2b09",
+    "event_date": "2025-10-24",
+    "title": "VSCode Extension: Add config setting to include .gitignored files in file searches",
+    "version": "2.0.27",
+    "change_type": "other"
+  },
+  {
+    "id": "d832d1de-9c73-49f5-a0ab-17b032b1cf4d",
+    "event_date": "2025-10-21",
+    "title": "Removed legacy SDK entrypoint. Please migrate to @anthropic-ai/claude-agent-sdk for future SDK updates: https://platform.claude.com/docs/en/agent-sdk/migration-guide",
+    "version": "2.0.25",
+    "change_type": "removed"
+  },
+  {
+    "id": "9b96e33e-1afd-4c7a-acf1-7f4d45a2f539",
+    "event_date": "2025-10-20",
+    "title": "Claude Code Web: Support for Web -> CLI teleport",
+    "version": "2.0.24",
+    "change_type": "other"
+  },
+  {
+    "id": "3dbe4a38-5cbf-4b7a-ab58-f2892241cd25",
+    "event_date": "2025-10-20",
+    "title": "Sandbox: Releasing a sandbox mode for the BashTool on Linux & Mac",
+    "version": "2.0.24",
+    "change_type": "other"
+  },
+  {
+    "id": "42047f9c-68a3-4440-a595-b79e7834dd28",
+    "event_date": "2025-10-17",
+    "title": "IDE: Add toggle to enable/disable thinking.",
+    "version": "2.0.22",
+    "change_type": "other"
+  },
+  {
+    "id": "31c26efb-bfa5-45d7-8aa4-0b21f0416285",
+    "event_date": "2025-10-17",
+    "title": "Add support for enterprise managed MCP allowlist and denylist",
+    "version": "2.0.22",
+    "change_type": "added"
+  },
+  {
+    "id": "b4b09a33-ee3c-42b8-a156-b4ef8230d88b",
+    "event_date": "2025-10-16",
+    "title": "Support MCP `structuredContent` field in tool responses",
+    "version": "2.0.21",
+    "change_type": "other"
+  },
+  {
+    "id": "9a6c06c8-301c-484d-9076-2f3b2e1b4d44",
+    "event_date": "2025-10-16",
+    "title": "Added an interactive question tool",
+    "version": "2.0.21",
+    "change_type": "added"
+  },
+  {
+    "id": "e7239030-eedf-4bbf-9e80-9bf1d40c4c34",
+    "event_date": "2025-10-16",
+    "title": "Claude will now ask you questions more often in plan mode",
+    "version": "2.0.21",
+    "change_type": "other"
+  },
+  {
+    "id": "72f41d86-f1d5-42f7-bf64-7e1f6a892af0",
+    "event_date": "2025-10-16",
+    "title": "Added Haiku 4.5 as a model option for Pro users",
+    "version": "2.0.21",
+    "change_type": "added"
+  },
+  {
+    "id": "48fff858-f535-4a56-b20f-b90b10aa8b6a",
+    "event_date": "2025-10-16",
+    "title": "Added support for Claude Skills",
+    "version": "2.0.20",
+    "change_type": "added"
+  },
+  {
+    "id": "07d68a0a-90fb-4bd4-ade7-247f7acf0470",
+    "event_date": "2025-10-15",
+    "title": "Auto-background long-running bash commands instead of killing them. Customize with BASH_DEFAULT_TIMEOUT_MS",
+    "version": "2.0.19",
+    "change_type": "other"
+  },
+  {
+    "id": "9e5793cf-e24e-419f-bc4c-3319e44e3128",
+    "event_date": "2025-10-15",
+    "title": "Added Haiku 4.5 to model selector!",
+    "version": "2.0.17",
+    "change_type": "added"
+  },
+  {
+    "id": "3f7acd04-db3a-4ffa-ba59-e3ac42a0f7a9",
+    "event_date": "2025-10-15",
+    "title": "Haiku 4.5 automatically uses Sonnet in plan mode, and Haiku for execution (i.e. SonnetPlan by default)",
+    "version": "2.0.17",
+    "change_type": "other"
+  },
+  {
+    "id": "d1f1a3fd-14ad-429e-894b-8ccbab624383",
+    "event_date": "2025-10-15",
+    "title": "Introducing the Explore subagent. Powered by Haiku it'll search through your codebase efficiently to save context!",
+    "version": "2.0.17",
+    "change_type": "other"
+  },
+  {
+    "id": "a91c77c4-4e45-474d-b242-3f46fcc1ac3b",
+    "event_date": "2025-10-15",
+    "title": "OTEL: support HTTP_PROXY and HTTPS_PROXY",
+    "version": "2.0.17",
+    "change_type": "other"
+  },
+  {
+    "id": "d17097eb-f587-4936-ae41-f4486fb60c56",
+    "event_date": "2025-10-15",
+    "title": "`CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC` now disables release notes fetching",
+    "version": "2.0.17",
+    "change_type": "other"
+  },
+  {
+    "id": "d93366a9-dd9b-4c71-8b30-5618e7f7ede4",
+    "event_date": "2025-10-09",
+    "title": "**Plugin System Released**: Extend Claude Code with custom commands, agents, hooks, and MCP servers from marketplaces",
+    "version": "2.0.12",
+    "change_type": "other"
+  },
+  {
+    "id": "23889ce3-923f-41c6-9466-2f367722a277",
+    "event_date": "2025-10-09",
+    "title": "`/plugin install`, `/plugin enable/disable`, `/plugin marketplace` commands for plugin management",
+    "version": "2.0.12",
+    "change_type": "other"
+  },
+  {
+    "id": "24ad646e-ac2d-4629-9ea8-ec4a05fa0e5b",
+    "event_date": "2025-10-09",
+    "title": "Comprehensive error messages and diagnostics via `/doctor` command",
+    "version": "2.0.12",
+    "change_type": "other"
+  },
+  {
+    "id": "3497e282-175f-4221-84ba-1eebf9771de5",
+    "event_date": "2025-10-09",
+    "title": "Changes to the \"verbose\" setting in `/config` now persist across sessions",
+    "version": "2.0.12",
+    "change_type": "other"
+  },
+  {
+    "id": "339b04af-79f1-4441-941b-ac32f03c67da",
+    "event_date": "2025-10-08",
+    "title": "IDE: Fixed keyboard shortcuts and focus issues for smoother interaction",
+    "version": "2.0.11",
+    "change_type": "other"
+  },
+  {
+    "id": "345d8982-c3ca-466b-b294-93fb75a6544b",
+    "event_date": "2025-10-07",
+    "title": "Rewrote terminal renderer for buttery smooth UI",
+    "version": "2.0.10",
+    "change_type": "other"
+  },
+  {
+    "id": "ad22c9dd-cb23-4d4b-b920-5117e15fb6da",
+    "event_date": "2025-10-07",
+    "title": "Enable/disable MCP servers by @mentioning, or in /mcp",
+    "version": "2.0.10",
+    "change_type": "other"
+  },
+  {
+    "id": "e7d829e9-6ef3-432f-a526-eaff85a847a3",
+    "event_date": "2025-10-07",
+    "title": "Added tab completion for shell commands in bash mode",
+    "version": "2.0.10",
+    "change_type": "added"
+  },
+  {
+    "id": "ec1401e4-8126-4437-8e50-c9cdff65e04e",
+    "event_date": "2025-10-07",
+    "title": "Press Ctrl-G to edit your prompt in your system's configured text editor",
+    "version": "2.0.10",
+    "change_type": "other"
+  },
+  {
+    "id": "72654a15-c5a6-4afa-8f35-344fe4e570f2",
+    "event_date": "2025-10-04",
+    "title": "IDE: Add drag-and-drop support for files and folders in chat",
+    "version": "2.0.8",
+    "change_type": "other"
+  },
+  {
+    "id": "1fe61140-8010-45fc-8d0d-7a097f7bde66",
+    "event_date": "2025-10-04",
+    "title": "/context: Fix counting for thinking blocks",
+    "version": "2.0.8",
+    "change_type": "other"
+  },
+  {
+    "id": "e6c898b2-8a67-4754-afb2-3b6a4f212969",
+    "event_date": "2025-10-04",
+    "title": "Remove deprecated .claude.json allowedTools, ignorePatterns, env, and todoFeatureEnabled config options (instead, configure these in your settings.json)",
+    "version": "2.0.8",
+    "change_type": "removed"
+  },
+  {
+    "id": "5c6bf8e1-d8c6-4a49-b735-b78806c3cfe9",
+    "event_date": "2025-10-02",
+    "title": "IDE: Add \"Open in Terminal\" link in login screen",
+    "version": "2.0.5",
+    "change_type": "other"
+  },
+  {
+    "id": "62ced791-c282-468b-8a19-fb6bdaf118af",
+    "event_date": "2025-09-30",
+    "title": "Skip Sonnet 4.5 default model setting change for Bedrock and Vertex",
+    "version": "2.0.1",
+    "change_type": "other"
+  },
+  {
+    "id": "a67e1ec2-e0f4-4681-99b4-6d4b9098af06",
+    "event_date": "2025-09-29",
+    "title": "New native VS Code extension",
+    "version": "2.0.0",
+    "change_type": "added"
+  },
+  {
+    "id": "3d3fa4ca-7d8b-4d44-805c-519e0389b342",
+    "event_date": "2025-09-29",
+    "title": "Fresh coat of paint throughout the whole app",
+    "version": "2.0.0",
+    "change_type": "other"
+  },
+  {
+    "id": "125b4a36-1b88-4f96-95b1-b39a8052d5d9",
+    "event_date": "2025-09-29",
+    "title": "/rewind a conversation to undo code changes",
+    "version": "2.0.0",
+    "change_type": "other"
+  },
+  {
+    "id": "cd41a3c8-3c35-4205-bdfc-8979351e339b",
+    "event_date": "2025-09-29",
+    "title": "/usage command to see plan limits",
+    "version": "2.0.0",
+    "change_type": "other"
+  },
+  {
+    "id": "a77f455a-ae34-4eb0-adca-7f0daba7f01e",
+    "event_date": "2025-09-29",
+    "title": "Tab to toggle thinking (sticky across sessions)",
+    "version": "2.0.0",
+    "change_type": "other"
+  },
+  {
+    "id": "89007360-1f68-4364-bb55-7c7827a65f4b",
+    "event_date": "2025-09-29",
+    "title": "Ctrl-R to search history",
+    "version": "2.0.0",
+    "change_type": "other"
+  },
+  {
+    "id": "0c22bf74-a9fd-4b76-97b8-dc49f8e39752",
+    "event_date": "2025-09-29",
+    "title": "Add subagents dynamically with `--agents` flag",
+    "version": "2.0.0",
+    "change_type": "added"
+  },
+  {
+    "id": "a28aee61-9b87-4151-956c-56c00dbca22c",
+    "event_date": "2025-09-26",
+    "title": "Enable /context command for Bedrock and Vertex",
+    "version": "1.0.126",
+    "change_type": "other"
+  },
+  {
+    "id": "db7f4af9-8486-441a-b01d-d1d198f1cbbf",
+    "event_date": "2025-09-26",
+    "title": "Add mTLS support for HTTP-based OpenTelemetry exporters",
+    "version": "1.0.126",
+    "change_type": "added"
+  },
+  {
+    "id": "51326602-c161-459b-a0c2-d40b8e230ee5",
+    "event_date": "2025-09-23",
+    "title": "Bash permission rules now support output redirections when matching (e.g., `Bash(python:*)` matches `python script.py > output.txt`)",
+    "version": "1.0.123",
+    "change_type": "other"
+  },
+  {
+    "id": "ab38caef-831f-4abf-83e4-bb8952921809",
+    "event_date": "2025-09-23",
+    "title": "Added SlashCommand tool, which enables Claude to invoke your slash commands. https://code.claude.com/docs/en/slash-commands#SlashCommand-tool",
+    "version": "1.0.123",
+    "change_type": "added"
+  },
+  {
+    "id": "d9f92f06-3d15-4092-a82c-c4f1f103ee2d",
+    "event_date": "2025-09-23",
+    "title": "Migrated --debug logging to a file, to enable easy tailing & filtering",
+    "version": "1.0.123",
+    "change_type": "other"
+  },
+  {
+    "id": "835254e9-3c4e-47bb-a5c4-ac344f710e82",
+    "event_date": "2025-09-18",
+    "title": "Support dynamic headers for MCP servers via headersHelper configuration",
+    "version": "1.0.119",
+    "change_type": "other"
+  },
+  {
+    "id": "856affda-3baa-4e03-8fbd-39dd71c72c1a",
+    "event_date": "2025-09-16",
+    "title": "Add Ctrl-R history search to recall previous commands like bash/zsh",
+    "version": "1.0.117",
+    "change_type": "added"
+  },
+  {
+    "id": "ecab2829-1b52-4b60-9a14-e8b0d43f693e",
+    "event_date": "2025-09-16",
+    "title": "Add sed command to auto-allowed commands in acceptEdits mode",
+    "version": "1.0.117",
+    "change_type": "added"
+  },
+  {
+    "id": "3dc08226-0359-482f-a8c2-013355def783",
+    "event_date": "2025-09-16",
+    "title": "Add permissions management hint to /add-dir output",
+    "version": "1.0.117",
+    "change_type": "added"
+  },
+  {
+    "id": "584ec05d-9615-42ab-9b6d-4282bdc715a6",
+    "event_date": "2025-09-16",
+    "title": "Type /t to temporarily disable thinking mode in your prompt",
+    "version": "1.0.115",
+    "change_type": "other"
+  },
+  {
+    "id": "c219449c-6ac9-4c8b-8cb0-73f10c690d73",
+    "event_date": "2025-09-13",
+    "title": "Deprecated piped input in interactive mode",
+    "version": "1.0.113",
+    "change_type": "deprecated"
+  },
+  {
+    "id": "bac7442d-b5fd-4eb6-aa98-0650e1600e99",
+    "event_date": "2025-09-13",
+    "title": "Move Ctrl+R keybinding for toggling transcript to Ctrl+O",
+    "version": "1.0.113",
+    "change_type": "other"
+  },
+  {
+    "id": "7be24a45-b82a-41bd-bb75-cd5d56cdd129",
+    "event_date": "2025-09-12",
+    "title": "Transcript mode (Ctrl+R): Added the model used to generate each assistant message",
+    "version": "1.0.112",
+    "change_type": "other"
+  },
+  {
+    "id": "097c7ff6-0348-412c-a39d-21894bead806",
+    "event_date": "2025-09-12",
+    "title": "Addressed issue where some Claude Max users were incorrectly recognized as Claude Pro users",
+    "version": "1.0.112",
+    "change_type": "other"
+  },
+  {
+    "id": "522974cc-37a5-4a64-ac83-a35dbafa8e98",
+    "event_date": "2025-09-12",
+    "title": "Hooks: Added systemMessage support for SessionEnd hooks",
+    "version": "1.0.112",
+    "change_type": "other"
+  },
+  {
+    "id": "fb6a4116-ecb7-474a-8f14-9cd6487bffa7",
+    "event_date": "2025-09-12",
+    "title": "Added `spinnerTipsEnabled` setting to disable spinner tips",
+    "version": "1.0.112",
+    "change_type": "added"
+  },
+  {
+    "id": "0d33d08e-2b0b-400a-bfce-c611183497f6",
+    "event_date": "2025-09-10",
+    "title": "/model now validates provided model names",
+    "version": "1.0.111",
+    "change_type": "other"
+  },
+  {
+    "id": "08ae3042-d8c3-47f6-8d0b-ca08f42e0505",
+    "event_date": "2025-09-09",
+    "title": "/terminal-setup command now supports WezTerm",
+    "version": "1.0.110",
+    "change_type": "other"
+  },
+  {
+    "id": "84f1fceb-d036-440c-82d2-b2da2428c3ec",
+    "event_date": "2025-08-27",
+    "title": "Vertex: add support for global endpoints for supported models",
+    "version": "1.0.94",
+    "change_type": "other"
+  },
+  {
+    "id": "ca1da41e-a3a6-4aa8-9583-570d5b8a40d6",
+    "event_date": "2025-08-27",
+    "title": "/memory command now allows direct editing of all imported memory files",
+    "version": "1.0.94",
+    "change_type": "other"
+  },
+  {
+    "id": "e221754c-16e2-4ca1-8c1a-d45d34ba0dac",
+    "event_date": "2025-08-27",
+    "title": "Added /todos command to list current todo items",
+    "version": "1.0.94",
+    "change_type": "added"
+  },
+  {
+    "id": "f0b68e77-f18b-4ea3-b794-2cd05a800335",
+    "event_date": "2025-08-26",
+    "title": "Windows: Add alt + v shortcut for pasting images from clipboard",
+    "version": "1.0.93",
+    "change_type": "other"
+  },
+  {
+    "id": "1a996a25-54e0-461c-83e1-5c01d93cce07",
+    "event_date": "2025-08-26",
+    "title": "Support NO_PROXY environment variable to bypass proxy for specified hostnames and IPs",
+    "version": "1.0.93",
+    "change_type": "other"
+  },
+  {
+    "id": "94f1058d-07fb-4b14-956a-1384c9e112e7",
+    "event_date": "2025-08-24",
+    "title": "Settings file changes take effect immediately - no restart required",
+    "version": "1.0.90",
+    "change_type": "other"
+  },
+  {
+    "id": "b2cda787-0754-4272-b853-cdc67e043a4f",
+    "event_date": "2025-08-22",
+    "title": "Status line input now includes `exceeds_200k_tokens`",
+    "version": "1.0.88",
+    "change_type": "other"
+  },
+  {
+    "id": "4a2efa75-2e16-4d6f-a2cd-e4076aca0405",
+    "event_date": "2025-08-22",
+    "title": "Introduced `ANTHROPIC_DEFAULT_SONNET_MODEL` and `ANTHROPIC_DEFAULT_OPUS_MODEL` for controlling model aliases opusplan, opus, and sonnet.",
+    "version": "1.0.88",
+    "change_type": "other"
+  },
+  {
+    "id": "6ebd3cb6-c3fc-4f93-9ec6-fd8b54585009",
+    "event_date": "2025-08-22",
+    "title": "Bedrock: Updated default Sonnet model to Sonnet 4",
+    "version": "1.0.88",
+    "change_type": "other"
+  },
+  {
+    "id": "1e5c65c0-a202-453d-a1b2-d8aa8d11d87e",
+    "event_date": "2025-08-20",
+    "title": "Added /context to help users self-serve debug context issues",
+    "version": "1.0.86",
+    "change_type": "added"
+  },
+  {
+    "id": "f85ee1b5-c218-49a3-92fa-24b7249b4f6c",
+    "event_date": "2025-08-19",
+    "title": "Status line input now includes session cost info",
+    "version": "1.0.85",
+    "change_type": "other"
+  },
+  {
+    "id": "e0541eaf-795a-44da-a7c7-c232a49b3a03",
+    "event_date": "2025-08-19",
+    "title": "Hooks: Introduced SessionEnd hook",
+    "version": "1.0.85",
+    "change_type": "other"
+  },
+  {
+    "id": "2b34ae83-3cc1-44b8-9eb4-e24427726d4d",
+    "event_date": "2025-08-18",
+    "title": "@-mention: Add ~/.claude/\\* files to suggestions for easier agent, output style, and slash command editing",
+    "version": "1.0.84",
+    "change_type": "other"
+  },
+  {
+    "id": "2d71578c-10ce-41c4-8ef3-b30cc686ce5b",
+    "event_date": "2025-08-18",
+    "title": "Use built-in ripgrep by default; to opt out of this behavior, set USE_BUILTIN_RIPGREP=0",
+    "version": "1.0.84",
+    "change_type": "other"
+  },
+  {
+    "id": "15c3d364-5e21-43c5-b45f-7b70a6dc6439",
+    "event_date": "2025-08-15",
+    "title": "@-mention: Support files with spaces in path",
+    "version": "1.0.83",
+    "change_type": "other"
+  },
+  {
+    "id": "69414be0-2b9e-405c-876f-f9b4bf1ba2e4",
+    "event_date": "2025-08-15",
+    "title": "New shimmering spinner",
+    "version": "1.0.83",
+    "change_type": "added"
+  },
+  {
+    "id": "2784cd05-6376-488b-a520-5b679dd4ec82",
+    "event_date": "2025-08-15",
+    "title": "Settings: Validation prevents invalid fields in .claude/settings.json files",
+    "version": "1.0.82",
+    "change_type": "other"
+  },
+  {
+    "id": "cf9501fd-e8eb-401c-b145-947138848766",
+    "event_date": "2025-08-14",
+    "title": "Released output styles, including new built-in educational output styles \"Explanatory\" and \"Learning\". Docs: https://code.claude.com/docs/en/output-styles",
+    "version": "1.0.81",
+    "change_type": "other"
+  },
+  {
+    "id": "747decac-2389-41ba-907d-768fc977a763",
+    "event_date": "2025-08-12",
+    "title": "Opus Plan Mode: New setting in `/model` to run Opus only in plan mode, Sonnet otherwise",
+    "version": "1.0.77",
+    "change_type": "other"
+  },
+  {
+    "id": "ebe8ad50-6d58-4140-82a2-f707f0516af3",
+    "event_date": "2025-08-11",
+    "title": "MCP: Support multiple config files with `--mcp-config file1.json file2.json`",
+    "version": "1.0.73",
+    "change_type": "other"
+  },
+  {
+    "id": "d169f388-1f71-4a29-9771-2f6603445208",
+    "event_date": "2025-08-11",
+    "title": "MCP: Press Esc to cancel OAuth authentication flows",
+    "version": "1.0.73",
+    "change_type": "other"
+  },
+  {
+    "id": "9818c52f-c2c7-4fdf-8b2a-34ca68e10dcf",
+    "event_date": "2025-08-11",
+    "title": "Linux: Added support for Alpine and musl-based distributions (requires separate ripgrep installation)",
+    "version": "1.0.73",
+    "change_type": "other"
+  },
+  {
+    "id": "86155d4c-6579-4442-802e-18acff20b56e",
+    "event_date": "2025-08-08",
+    "title": "Ask permissions: have Claude Code always ask for confirmation to use specific tools with /permissions",
+    "version": "1.0.72",
+    "change_type": "other"
+  },
+  {
+    "id": "ad908047-909a-4935-a4ba-897d1eafd424",
+    "event_date": "2025-08-07",
+    "title": "Background commands: (Ctrl-b) to run any Bash command in the background so Claude can keep working (great for dev servers, tailing logs, etc.)",
+    "version": "1.0.71",
+    "change_type": "other"
+  },
+  {
+    "id": "aea2d312-13b5-4a7e-9285-36e8d372fa16",
+    "event_date": "2025-08-07",
+    "title": "Customizable status line: add your terminal prompt to Claude Code with /statusline",
+    "version": "1.0.71",
+    "change_type": "other"
+  },
+  {
+    "id": "345cf56f-f56c-49ff-be31-8b4a435dcbf1",
+    "event_date": "2025-08-06",
+    "title": "Added support for @-mentions in slash command arguments",
+    "version": "1.0.70",
+    "change_type": "added"
+  },
+  {
+    "id": "75fdd6d1-185c-432a-b11e-7f3f8d0f1f96",
+    "event_date": "2025-08-05",
+    "title": "Upgraded Opus to version 4.1",
+    "version": "1.0.69",
+    "change_type": "other"
+  },
+  {
+    "id": "80f1195d-a224-48e7-86a6-35cdedf68b2f",
+    "event_date": "2025-08-04",
+    "title": "Added `disableAllHooks` setting",
+    "version": "1.0.68",
+    "change_type": "added"
+  },
+  {
+    "id": "4cd08b91-f0c1-438a-9228-4f4f36db5c62",
+    "event_date": "2025-07-30",
+    "title": "Agents: Added model customization support - you can now specify which model an agent should use",
+    "version": "1.0.64",
+    "change_type": "other"
+  },
+  {
+    "id": "65820c3c-40ed-4e00-9e6f-fe6653d6bdda",
+    "event_date": "2025-07-30",
+    "title": "Hooks: Added systemMessage field to hook JSON output for displaying warnings and context",
+    "version": "1.0.64",
+    "change_type": "other"
+  },
+  {
+    "id": "361ca902-2b18-40ff-a4a5-e72b8008bcf4",
+    "event_date": "2025-07-30",
+    "title": "Added hidden files to file search and @-mention suggestions",
+    "version": "1.0.64",
+    "change_type": "added"
+  },
+  {
+    "id": "4ab060d5-3ae6-480a-ba89-322ba7f44738",
+    "event_date": "2025-07-28",
+    "title": "Added @-mention support with typeahead for custom agents. @<your-custom-agent> to invoke it",
+    "version": "1.0.62",
+    "change_type": "added"
+  },
+  {
+    "id": "144d76d2-4a98-4e0a-93a7-da988165c079",
+    "event_date": "2025-07-28",
+    "title": "Hooks: Added SessionStart hook for new session initialization",
+    "version": "1.0.62",
+    "change_type": "other"
+  },
+  {
+    "id": "65a94c33-caf4-4d8e-a4b1-9d44c41b5707",
+    "event_date": "2025-07-28",
+    "title": "/add-dir command now supports typeahead for directory paths",
+    "version": "1.0.62",
+    "change_type": "other"
+  },
+  {
+    "id": "af10d64d-30d2-4caf-b57b-b0e045f54b0b",
+    "event_date": "2025-07-25",
+    "title": "Transcript mode (Ctrl+R): Changed Esc to exit transcript mode rather than interrupt",
+    "version": "1.0.61",
+    "change_type": "other"
+  },
+  {
+    "id": "53cb58b6-2b3b-4e70-8ef8-decd8773946d",
+    "event_date": "2025-07-25",
+    "title": "Settings: Added `--settings` flag to load settings from a JSON file",
+    "version": "1.0.61",
+    "change_type": "other"
+  },
+  {
+    "id": "3701c46f-9acd-495d-8eed-557c9cec58a5",
+    "event_date": "2025-07-25",
+    "title": "IDE: Added support for pasting images in VSCode MacOS using ⌘+V",
+    "version": "1.0.61",
+    "change_type": "other"
+  },
+  {
+    "id": "67c63108-a6a8-4783-bbe0-fe0f304429c2",
+    "event_date": "2025-07-25",
+    "title": "IDE: Added `CLAUDE_CODE_AUTO_CONNECT_IDE=false` for disabling IDE auto-connection",
+    "version": "1.0.61",
+    "change_type": "other"
+  },
+  {
+    "id": "775e4c64-d095-45a4-850e-030bbd1dcf6c",
+    "event_date": "2025-07-25",
+    "title": "Added `CLAUDE_CODE_SHELL_PREFIX` for wrapping Claude and user-provided shell commands run by Claude Code",
+    "version": "1.0.61",
+    "change_type": "added"
+  },
+  {
+    "id": "1f99b8bd-f5f8-4a72-b812-7f0683b78de1",
+    "event_date": "2025-07-24",
+    "title": "You can now create custom subagents for specialized tasks! Run /agents to get started",
+    "version": "1.0.60",
+    "change_type": "other"
+  },
+  {
+    "id": "11f4f971-aeb6-42db-83fc-7fe0bf0534dc",
+    "event_date": "2025-07-23",
+    "title": "Hooks: UserPromptSubmit now supports additionalContext in advanced JSON output",
+    "version": "1.0.59",
+    "change_type": "other"
+  },
+  {
+    "id": "a8111b49-9031-4b2d-ad8e-11cdce85ea2f",
+    "event_date": "2025-07-22",
+    "title": "Added support for reading PDFs",
+    "version": "1.0.58",
+    "change_type": "added"
+  },
+  {
+    "id": "4906ac4d-152b-4dc4-813d-89b13b31f528",
+    "event_date": "2025-07-22",
+    "title": "Hooks: Added CLAUDE_PROJECT_DIR env var for hook commands",
+    "version": "1.0.58",
+    "change_type": "other"
+  },
+  {
+    "id": "9cdc8fe1-8860-46e9-bf53-b263db65d8a1",
+    "event_date": "2025-07-21",
+    "title": "Added support for specifying a model in slash commands",
+    "version": "1.0.57",
+    "change_type": "added"
+  },
+  {
+    "id": "63c54b5f-d8aa-4e8f-ba35-4a2e2a240d6d",
+    "event_date": "2025-07-18",
+    "title": "Windows: Enabled shift+tab for mode switching on versions of Node.js that support terminal VT mode",
+    "version": "1.0.56",
+    "change_type": "other"
+  },
+  {
+    "id": "7db1d06d-ebfb-469a-ada5-f94b92d1ca97",
+    "event_date": "2025-07-17",
+    "title": "Clarified knowledge cutoff for Opus 4 and Sonnet 4 models",
+    "version": "1.0.55",
+    "change_type": "other"
+  },
+  {
+    "id": "b00ee6cc-c76f-41d0-b760-09db6419f5c5",
+    "event_date": "2025-07-17",
+    "title": "Add --system-prompt-file option to override system prompt in print mode",
+    "version": "1.0.55",
+    "change_type": "added"
+  },
+  {
+    "id": "72b0d725-9720-4a6f-aebc-b3acdba72843",
+    "event_date": "2025-07-16",
+    "title": "Hooks: Added UserPromptSubmit hook and the current working directory to hook inputs",
+    "version": "1.0.54",
+    "change_type": "other"
+  },
+  {
+    "id": "3e53848a-70b7-409f-9833-85c1dae5545e",
+    "event_date": "2025-07-16",
+    "title": "Custom slash commands: Added argument-hint to frontmatter",
+    "version": "1.0.54",
+    "change_type": "other"
+  },
+  {
+    "id": "a5750219-5cee-4226-9db4-32c66149f42f",
+    "event_date": "2025-07-16",
+    "title": "Windows: mode switching now uses alt + m, and plan mode renders properly",
+    "version": "1.0.54",
+    "change_type": "other"
+  },
+  {
+    "id": "9ad02201-ee81-4081-a9c8-7f64ab8770fd",
+    "event_date": "2025-07-15",
+    "title": "Add helper script settings for AWS token refresh: awsAuthRefresh (for foreground operations like aws sso login) and awsCredentialExport (for background operation with STS-like response).",
+    "version": "1.0.53",
+    "change_type": "added"
+  },
+  {
+    "id": "57fa7826-8d57-40ea-90c8-7d1b1a53d297",
+    "event_date": "2025-07-15",
+    "title": "Added support for MCP server instructions",
+    "version": "1.0.52",
+    "change_type": "added"
+  },
+  {
+    "id": "d136075a-4354-4522-9b89-ec0688f8926d",
+    "event_date": "2025-07-11",
+    "title": "Added support for native Windows (requires Git for Windows)",
+    "version": "1.0.51",
+    "change_type": "added"
+  },
+  {
+    "id": "c991f3f9-e21e-47be-b7ec-07f3f0a3b14e",
+    "event_date": "2025-07-11",
+    "title": "Added support for Bedrock API keys through environment variable AWS_BEARER_TOKEN_BEDROCK",
+    "version": "1.0.51",
+    "change_type": "added"
+  },
+  {
+    "id": "c04af5d5-e9a3-4b75-b631-ddc6895fc916",
+    "event_date": "2025-07-11",
+    "title": "OTEL resource now includes os.type, os.version, host.arch, and wsl.version (if running on Windows Subsystem for Linux)",
+    "version": "1.0.51",
+    "change_type": "other"
+  },
+  {
+    "id": "b5f95cf9-1aca-4db1-a6ff-0c3b344b5064",
+    "event_date": "2025-07-11",
+    "title": "Custom slash commands: Fixed user-level commands in subdirectories",
+    "version": "1.0.51",
+    "change_type": "other"
+  },
+  {
+    "id": "bce86481-017c-466f-9984-aad87d2b2c34",
+    "event_date": "2025-07-11",
+    "title": "Plan mode: Fixed issue where rejected plan from sub-task would get discarded",
+    "version": "1.0.51",
+    "change_type": "other"
+  },
+  {
+    "id": "f6959291-3a2b-472f-8a1f-d086525c413d",
+    "event_date": "2025-07-10",
+    "title": "Added progress messages to Bash tool based on the last 5 lines of command output",
+    "version": "1.0.48",
+    "change_type": "added"
+  },
+  {
+    "id": "4c40f227-06c4-4534-9729-e12f3a43a88d",
+    "event_date": "2025-07-10",
+    "title": "Added expanding variables support for MCP server configuration",
+    "version": "1.0.48",
+    "change_type": "added"
+  },
+  {
+    "id": "7a155202-2fd3-4920-bae9-e2d76c3590a8",
+    "event_date": "2025-07-10",
+    "title": "Hooks: Added a PreCompact hook",
+    "version": "1.0.48",
+    "change_type": "other"
+  },
+  {
+    "id": "840c6763-cb3e-42c8-8c70-851bc05ffc2b",
+    "event_date": "2025-07-10",
+    "title": "Vim mode: Added c, f/F, t/T",
+    "version": "1.0.48",
+    "change_type": "other"
+  },
+  {
+    "id": "56d05cfd-2b8f-4c75-b6dc-d9b17676d8dd",
+    "event_date": "2025-07-08",
+    "title": "Redesigned Search (Grep) tool with new tool input parameters and features",
+    "version": "1.0.45",
+    "change_type": "other"
+  },
+  {
+    "id": "525e989f-38d5-418d-a885-71baae81fa8e",
+    "event_date": "2025-07-08",
+    "title": "Custom slash commands: Restored namespacing in command names based on subdirectories. For example, .claude/commands/frontend/component.md is now /frontend:component, not /component.",
+    "version": "1.0.45",
+    "change_type": "other"
+  },
+  {
+    "id": "8514dcc6-7d6d-47ff-a6aa-87237e614961",
+    "event_date": "2025-07-07",
+    "title": "New /export command lets you quickly export a conversation for sharing",
+    "version": "1.0.44",
+    "change_type": "added"
+  },
+  {
+    "id": "7b5201bd-9640-4c3c-a4f6-24909e8b60cd",
+    "event_date": "2025-07-07",
+    "title": "MCP: resource_link tool results are now supported",
+    "version": "1.0.44",
+    "change_type": "other"
+  },
+  {
+    "id": "091bd58d-50fc-4391-b2e0-3ce1b4043c1a",
+    "event_date": "2025-07-07",
+    "title": "Changed Ctrl+Z to suspend Claude Code. Resume by running `fg`. Prompt input undo is now Ctrl+U.",
+    "version": "1.0.44",
+    "change_type": "changed"
+  },
+  {
+    "id": "cb90ed3d-5937-4bc4-92c0-5d9ae714c08a",
+    "event_date": "2025-07-03",
+    "title": "Hooks: Added EPIPE system error handling",
+    "version": "1.0.43",
+    "change_type": "other"
+  },
+  {
+    "id": "3cad2298-29b9-4452-bead-b8f2d8d07652",
+    "event_date": "2025-07-03",
+    "title": "Added tilde (`~`) expansion support to `/add-dir` command",
+    "version": "1.0.42",
+    "change_type": "added"
+  },
+  {
+    "id": "7777d47f-dadf-4fd5-8e8c-7afc8334d66d",
+    "event_date": "2025-07-02",
+    "title": "Hooks: Enabled optional timeout configuration for each command",
+    "version": "1.0.41",
+    "change_type": "other"
+  },
+  {
+    "id": "a8d96df6-d196-4871-be05-72f6fe1fcadf",
+    "event_date": "2025-07-02",
+    "title": "Hooks: Added \"hook_event_name\" to hook input",
+    "version": "1.0.41",
+    "change_type": "other"
+  },
+  {
+    "id": "29477bef-3ae5-4c56-94ed-a7879e600f95",
+    "event_date": "2025-07-02",
+    "title": "New tool parameters JSON for Bash tool in `tool_decision` event",
+    "version": "1.0.41",
+    "change_type": "added"
+  },
+  {
+    "id": "e28f99ff-be73-42c5-a2a0-80b162fcde10",
+    "event_date": "2025-07-01",
+    "title": "New Active Time metric in OpenTelemetry logging",
+    "version": "1.0.39",
+    "change_type": "added"
+  },
+  {
+    "id": "67d8a6e4-3d16-446a-ad4a-4510e9847749",
+    "event_date": "2025-06-30",
+    "title": "Released hooks. Special thanks to community input in https://github.com/anthropics/claude-code/issues/712. Docs: https://code.claude.com/docs/en/hooks",
+    "version": "1.0.38",
+    "change_type": "other"
+  },
+  {
+    "id": "1b6007cc-eda3-4381-8342-0e21690ba38e",
+    "event_date": "2025-06-27",
+    "title": "Remove ability to set `Proxy-Authorization` header via ANTHROPIC_AUTH_TOKEN or apiKeyHelper",
+    "version": "1.0.37",
+    "change_type": "removed"
+  },
+  {
+    "id": "8455eae2-ab7b-43f7-964c-aa6962a9ae59",
+    "event_date": "2025-06-27",
+    "title": "Web search now takes today's date into context",
+    "version": "1.0.36",
+    "change_type": "other"
+  },
+  {
+    "id": "163be9a8-b3b6-41c3-bbc8-073ae8f06966",
+    "event_date": "2025-06-25",
+    "title": "Added support for MCP OAuth Authorization Server discovery",
+    "version": "1.0.35",
+    "change_type": "added"
+  },
+  {
+    "id": "17447e33-0689-4ed6-9876-7904cbf21f4d",
+    "event_date": "2025-06-23",
+    "title": "Added prompt input undo functionality (Ctrl+Z and vim 'u' command)",
+    "version": "1.0.33",
+    "change_type": "added"
+  },
+  {
+    "id": "dd66b6f6-9794-4b51-9ca9-974d882c2922",
+    "event_date": "2025-06-23",
+    "title": "Improvements to plan mode",
+    "version": "1.0.33",
+    "change_type": "other"
+  },
+  {
+    "id": "7420b0b8-d9b6-40e8-856e-a3892128bd61",
+    "event_date": "2025-06-23",
+    "title": "Added forceLoginMethod setting to bypass login selection screen",
+    "version": "1.0.32",
+    "change_type": "added"
+  },
+  {
+    "id": "c04fcf73-4cc1-4ebf-8c6d-de955c15c339",
+    "event_date": "2025-06-19",
+    "title": "Custom slash commands: Run bash output, @-mention files, enable thinking with thinking keywords",
+    "version": "1.0.30",
+    "change_type": "other"
+  },
+  {
+    "id": "435efab9-7848-4809-b73a-34dc777056b7",
+    "event_date": "2025-06-19",
+    "title": "Added timestamps in Ctrl-r mode and fixed Ctrl-c handling",
+    "version": "1.0.30",
+    "change_type": "added"
+  },
+  {
+    "id": "cd5e77d3-0ea7-425f-a25a-ffab1dfa3528",
+    "event_date": "2025-06-18",
+    "title": "Resizes images before upload to prevent API size limit errors",
+    "version": "1.0.28",
+    "change_type": "other"
+  },
+  {
+    "id": "590d4237-bc49-4191-9eca-00728ef1be8a",
+    "event_date": "2025-06-18",
+    "title": "Added XDG_CONFIG_HOME support to configuration directory",
+    "version": "1.0.28",
+    "change_type": "added"
+  },
+  {
+    "id": "4a7fde89-c8f3-4f28-9ce0-4a72f5e88f93",
+    "event_date": "2025-06-18",
+    "title": "New attributes (terminal.type, language) in OpenTelemetry logging",
+    "version": "1.0.28",
+    "change_type": "added"
+  },
+  {
+    "id": "7f3057a0-0aea-4719-8dcf-fb1b3a1bc7c6",
+    "event_date": "2025-06-17",
+    "title": "Streamable HTTP MCP servers are now supported",
+    "version": "1.0.27",
+    "change_type": "other"
+  },
+  {
+    "id": "49c61966-7083-483c-b82c-f77e3b9e6708",
+    "event_date": "2025-06-17",
+    "title": "Remote MCP servers (SSE and HTTP) now support OAuth",
+    "version": "1.0.27",
+    "change_type": "other"
+  },
+  {
+    "id": "b3b0a2d1-fe56-4e60-8f25-91c4f2c4eb24",
+    "event_date": "2025-06-17",
+    "title": "MCP resources can now be @-mentioned",
+    "version": "1.0.27",
+    "change_type": "other"
+  },
+  {
+    "id": "946b78a7-4a46-44ac-a4a0-820127cee2a7",
+    "event_date": "2025-06-17",
+    "title": "/resume slash command to switch conversations within Claude Code",
+    "version": "1.0.27",
+    "change_type": "other"
+  },
+  {
+    "id": "41ed3598-4b90-4aef-95d5-22cbaadd5b62",
+    "event_date": "2025-06-13",
+    "title": "Released TypeScript SDK: import @anthropic-ai/claude-code to get started",
+    "version": "1.0.23",
+    "change_type": "other"
+  },
+  {
+    "id": "1aca2e95-2e69-4a97-ab2a-a86b3e6a33c6",
+    "event_date": "2025-06-13",
+    "title": "Released Python SDK: pip install claude-code-sdk to get started",
+    "version": "1.0.23",
+    "change_type": "other"
+  },
+  {
+    "id": "b999c3a6-4370-4621-8c8b-d5d20ef081fe",
+    "event_date": "2025-06-09",
+    "title": "Added --add-dir CLI argument for specifying additional working directories",
+    "version": "1.0.18",
+    "change_type": "added"
+  },
+  {
+    "id": "8d9e9475-0a2b-413e-b56a-e33a72565e02",
+    "event_date": "2025-06-09",
+    "title": "Added streaming input support without require -p flag",
+    "version": "1.0.18",
+    "change_type": "added"
+  },
+  {
+    "id": "a9e04479-37a3-4f7d-8b44-8600b5c9ae1c",
+    "event_date": "2025-06-09",
+    "title": "Added CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR environment variable to freeze working directory for bash commands",
+    "version": "1.0.18",
+    "change_type": "added"
+  },
+  {
+    "id": "b60ba570-e442-4667-8258-3fe7957a0a0a",
+    "event_date": "2025-06-09",
+    "title": "Added detailed MCP server tools display (/mcp)",
+    "version": "1.0.18",
+    "change_type": "added"
+  },
+  {
+    "id": "3425d966-4404-4ec6-8297-a7ba6179650a",
+    "event_date": "2025-06-09",
+    "title": "Added auto-reconnection for MCP SSE connections on disconnect",
+    "version": "1.0.18",
+    "change_type": "added"
+  },
+  {
+    "id": "724c6a61-2f97-4fe9-9f36-625451c498a5",
+    "event_date": "2025-06-04",
+    "title": "Claude Code can now also be used with a Claude Pro subscription",
+    "version": "1.0.11",
+    "change_type": "other"
+  },
+  {
+    "id": "d7e0c33f-86e5-47a0-b393-88a3f146aa42",
+    "event_date": "2025-06-04",
+    "title": "Added /upgrade for smoother switching to Claude Max plans",
+    "version": "1.0.11",
+    "change_type": "added"
+  },
+  {
+    "id": "f6ae9d57-b71a-4acf-ba6f-470a7b653432",
+    "event_date": "2025-06-03",
+    "title": "Added markdown table support",
+    "version": "1.0.10",
+    "change_type": "added"
+  },
+  {
+    "id": "43971eba-c844-4ae5-adb0-14ca14822510",
+    "event_date": "2025-06-02",
+    "title": "Added support for triggering thinking non-English languages",
+    "version": "1.0.8",
+    "change_type": "added"
+  },
+  {
+    "id": "36dfb550-aa7d-4cc2-bc24-eb710f08b4f5",
+    "event_date": "2025-05-30",
+    "title": "Deprecated claude config commands in favor of editing settings.json",
+    "version": "1.0.7",
+    "change_type": "deprecated"
+  },
+  {
+    "id": "6523bb17-b5bf-4304-96b6-94a7e522558d",
+    "event_date": "2025-05-29",
+    "title": "Added support for symlinks in @file typeahead",
+    "version": "1.0.6",
+    "change_type": "added"
+  },
+  {
+    "id": "e9dfc612-2e30-4436-9ff5-68272eae9ffe",
+    "event_date": "2025-05-22",
+    "title": "Added `DISABLE_INTERLEAVED_THINKING` to give users the option to opt out of interleaved thinking.",
+    "version": "1.0.1",
+    "change_type": "added"
+  },
+  {
+    "id": "95a2938e-37a9-41d4-a8c4-5c8a796d8103",
+    "event_date": "2025-05-22",
+    "title": "Claude Code is now generally available",
+    "version": "1.0.0",
+    "change_type": "other"
+  },
+  {
+    "id": "731f794a-738c-4fef-bb05-5f1c47e7f88c",
+    "event_date": "2025-05-22",
+    "title": "Introducing Sonnet 4 and Opus 4 models",
+    "version": "1.0.0",
+    "change_type": "other"
+  },
+  {
+    "id": "0c0bfefb-5f91-4116-bc15-39c4c4b4f5cf",
+    "event_date": "2025-05-21",
+    "title": "Breaking change: Bedrock ARN passed to `ANTHROPIC_MODEL` or `ANTHROPIC_SMALL_FAST_MODEL` should no longer contain an escaped slash (specify `/` instead of `%2F`)",
+    "version": "0.2.125",
+    "change_type": "other"
+  },
+  {
+    "id": "ab7d25a8-4693-4d6a-a265-8aecc610d675",
+    "event_date": "2025-05-21",
+    "title": "Removed `DEBUG=true` in favor of `ANTHROPIC_LOG=debug`, to log all requests",
+    "version": "0.2.125",
+    "change_type": "removed"
+  },
+  {
+    "id": "faa95dd2-45a6-4211-b3ef-e2de125f91d0",
+    "event_date": "2025-05-17",
+    "title": "Breaking change: --print JSON output now returns nested message objects, for forwards-compatibility as we introduce new metadata fields",
+    "version": "0.2.117",
+    "change_type": "other"
+  },
+  {
+    "id": "423b5458-e20d-46eb-8595-20b4c93d3024",
+    "event_date": "2025-05-17",
+    "title": "Introduced CLAUDE_CODE_API_KEY_HELPER_TTL_MS env var",
+    "version": "0.2.117",
+    "change_type": "other"
+  },
+  {
+    "id": "90c82768-ce5f-4b78-9b77-8abb828b5773",
+    "event_date": "2025-05-17",
+    "title": "Introduced --debug mode",
+    "version": "0.2.117",
+    "change_type": "other"
+  },
+  {
+    "id": "c81a21db-8584-414f-91de-50fb6d89edc7",
+    "event_date": "2025-05-13",
+    "title": "You can now send messages to Claude while it works to steer Claude in real-time",
+    "version": "0.2.108",
+    "change_type": "other"
+  },
+  {
+    "id": "45c9db55-e067-4e03-aa80-f19fd2db4a9f",
+    "event_date": "2025-05-13",
+    "title": "Introduced BASH_DEFAULT_TIMEOUT_MS and BASH_MAX_TIMEOUT_MS env vars",
+    "version": "0.2.108",
+    "change_type": "other"
+  },
+  {
+    "id": "dca9e881-396a-4620-bc3f-c1eade835b28",
+    "event_date": "2025-05-13",
+    "title": "Deprecated MCP wizard interface in favor of other MCP commands",
+    "version": "0.2.108",
+    "change_type": "deprecated"
+  },
+  {
+    "id": "8be6c4ff-12f9-4a2b-8078-d8b1dbf6c377",
+    "event_date": "2025-05-09",
+    "title": "CLAUDE.md files can now import other files. Add @path/to/file.md to ./CLAUDE.md to load additional files on launch",
+    "version": "0.2.107",
+    "change_type": "other"
+  },
+  {
+    "id": "bf6ac58e-2a99-4bf8-ad2a-4c8daae58c5e",
+    "event_date": "2025-05-09",
+    "title": "MCP SSE server configs can now specify custom headers",
+    "version": "0.2.106",
+    "change_type": "other"
+  },
+  {
+    "id": "2cef55cc-00ef-4a71-a987-0d255b909733",
+    "event_date": "2025-05-08",
+    "title": "Claude can now search the web",
+    "version": "0.2.105",
+    "change_type": "other"
+  },
+  {
+    "id": "0e342236-c8e3-4a53-bf6b-e9a4392746f9",
+    "event_date": "2025-05-08",
+    "title": "Added word movement keybindings for Vim",
+    "version": "0.2.105",
+    "change_type": "added"
+  },
+  {
+    "id": "82c098c5-966d-47f0-bc88-74b277a83f22",
+    "event_date": "2025-05-05",
+    "title": "You can now paste multiple large chunks into one prompt",
+    "version": "0.2.102",
+    "change_type": "other"
+  },
+  {
+    "id": "c501652e-8deb-432a-85e6-4137d797c631",
+    "event_date": "2025-05-02",
+    "title": "Made db storage optional; missing db support disables --continue and --resume",
+    "version": "0.2.100",
+    "change_type": "other"
+  },
+  {
+    "id": "4b3872ce-7676-4b8d-8f8d-f0b440d6cdf8",
+    "event_date": "2025-05-01",
+    "title": "Claude Code can now also be used with a Claude Max subscription (https://claude.ai/upgrade)",
+    "version": "0.2.96",
+    "change_type": "other"
+  },
+  {
+    "id": "f12963fc-7ac7-4e41-9afb-49ed3d3078b8",
+    "event_date": "2025-04-30",
+    "title": "Resume conversations from where you left off from with \"claude --continue\" and \"claude --resume\"",
+    "version": "0.2.93",
+    "change_type": "other"
+  },
+  {
+    "id": "6adc5e42-c70a-4111-be1f-172fa1d88560",
+    "event_date": "2025-04-30",
+    "title": "Claude now has access to a Todo list that helps it stay on track and be more organized",
+    "version": "0.2.93",
+    "change_type": "other"
+  },
+  {
+    "id": "b02b55f1-e34b-4c86-894a-fd084cf5609b",
+    "event_date": "2025-04-18",
+    "title": "Added support for refreshing dynamically generated API keys (via apiKeyHelper), with a 5 minute TTL",
+    "version": "0.2.74",
+    "change_type": "added"
+  },
+  {
+    "id": "eaf85995-ce4b-4a19-8113-ed5553ace2cc",
+    "event_date": "2025-04-18",
+    "title": "Task tool can now perform writes and run bash commands",
+    "version": "0.2.74",
+    "change_type": "other"
+  },
+  {
+    "id": "ece4f7c9-d8c6-4bc7-88f8-5461bd7c5256",
+    "event_date": "2025-04-15",
+    "title": "Network commands like curl are now available for Claude to use",
+    "version": "0.2.70",
+    "change_type": "other"
+  },
+  {
+    "id": "a9249acb-5e6f-491c-bb56-41dcec614e39",
+    "event_date": "2025-04-15",
+    "title": "Claude can now run multiple web queries in parallel",
+    "version": "0.2.70",
+    "change_type": "other"
+  },
+  {
+    "id": "2166f736-b9bf-4ec0-b087-6c7c406c834d",
+    "event_date": "2025-04-15",
+    "title": "Pressing ESC once immediately interrupts Claude in Auto-accept mode",
+    "version": "0.2.70",
+    "change_type": "other"
+  },
+  {
+    "id": "7c7f4aa3-5046-47e2-8b71-0fb6eff4f0eb",
+    "event_date": "2025-04-09",
+    "title": "Shared project permission rules can be saved in .claude/settings.json",
+    "version": "0.2.67",
+    "change_type": "other"
+  },
+  {
+    "id": "84ea1f9c-8647-43c2-b904-4c54ab0fd0d7",
+    "event_date": "2025-04-09",
+    "title": "Print mode (-p) now supports streaming output via --output-format=stream-json",
+    "version": "0.2.66",
+    "change_type": "other"
+  },
+  {
+    "id": "3e8cafbe-7fde-4497-816c-4bdc6c2fd298",
+    "event_date": "2025-04-03",
+    "title": "Navigate menus with vim-style keys (j/k) or bash/emacs shortcuts (Ctrl+n/p) for faster interaction",
+    "version": "0.2.61",
+    "change_type": "other"
+  },
+  {
+    "id": "7a516d46-7fb9-4c66-872a-1bd102f129b6",
+    "event_date": "2025-04-02",
+    "title": "Copy+paste images directly into your prompt",
+    "version": "0.2.59",
+    "change_type": "other"
+  },
+  {
+    "id": "5bfef282-d449-4f1d-ad45-d0ed10ae94e7",
+    "event_date": "2025-03-25",
+    "title": "Quickly add to Memory by starting your message with '#'",
+    "version": "0.2.54",
+    "change_type": "other"
+  },
+  {
+    "id": "c96d697c-2e79-4e91-8980-a3fa9edd70c2",
+    "event_date": "2025-03-25",
+    "title": "Press ctrl+r to see full output for long tool results",
+    "version": "0.2.54",
+    "change_type": "other"
+  },
+  {
+    "id": "6489f8dc-86d3-436d-83c8-fdd2330a33d8",
+    "event_date": "2025-03-25",
+    "title": "Added support for MCP SSE transport",
+    "version": "0.2.54",
+    "change_type": "added"
+  },
+  {
+    "id": "ff5a6955-5a9b-4d98-8fb5-05691d0848e4",
+    "event_date": "2025-03-21",
+    "title": "New web fetch tool lets Claude view URLs that you paste in",
+    "version": "0.2.53",
+    "change_type": "added"
+  },
+  {
+    "id": "f725ae06-7219-4bad-a168-729f4b335d1b",
+    "event_date": "2025-03-19",
+    "title": "New MCP \"project\" scope now allows you to add MCP servers to .mcp.json files and commit them to your repository",
+    "version": "0.2.50",
+    "change_type": "added"
+  },
+  {
+    "id": "63ad60c2-1850-4856-8ee0-72ff1621c191",
+    "event_date": "2025-03-18",
+    "title": "Press Tab to auto-complete file and folder names",
+    "version": "0.2.47",
+    "change_type": "other"
+  },
+  {
+    "id": "0bbe745d-88ac-4e70-af44-0739eb4c5eed",
+    "event_date": "2025-03-18",
+    "title": "Press Shift + Tab to toggle auto-accept for file edits",
+    "version": "0.2.47",
+    "change_type": "other"
+  },
+  {
+    "id": "6e13e705-05e0-4b41-80a1-51bb00f93156",
+    "event_date": "2025-03-18",
+    "title": "Automatic conversation compaction for infinite conversation length (toggle with /config)",
+    "version": "0.2.47",
+    "change_type": "other"
+  },
+  {
+    "id": "99d2d463-436b-424d-b3bb-64e3bfd5d38a",
+    "event_date": "2025-03-15",
+    "title": "Ask Claude to make a plan with thinking mode: just say 'think' or 'think harder' or even 'ultrathink'",
+    "version": "0.2.44",
+    "change_type": "other"
+  },
+  {
+    "id": "544d3300-5804-4755-a797-1ef1209b0a80",
+    "event_date": "2025-03-14",
+    "title": "MCP server startup timeout can now be configured via MCP_TIMEOUT environment variable",
+    "version": "0.2.41",
+    "change_type": "other"
+  },
+  {
+    "id": "fb1e9831-eb40-42b9-a467-9b964d2b5a73",
+    "event_date": "2025-03-14",
+    "title": "MCP server startup no longer blocks the app from starting up",
+    "version": "0.2.41",
+    "change_type": "other"
+  },
+  {
+    "id": "a487df4c-7d28-425a-bb06-e0b47cf8b194",
+    "event_date": "2025-03-11",
+    "title": "New /release-notes command lets you view release notes at any time",
+    "version": "0.2.37",
+    "change_type": "added"
+  },
+  {
+    "id": "f377bd57-e6af-4fa2-b949-e0725e8e7e66",
+    "event_date": "2025-03-11",
+    "title": "`claude config add/remove` commands now accept multiple values separated by commas or spaces",
+    "version": "0.2.37",
+    "change_type": "other"
+  },
+  {
+    "id": "fc134450-2b4a-4d89-934e-c87dbd90aab9",
+    "event_date": "2025-03-10",
+    "title": "Import MCP servers from Claude Desktop with `claude mcp add-from-claude-desktop`",
+    "version": "0.2.36",
+    "change_type": "other"
+  },
+  {
+    "id": "7020e572-7d52-43aa-8826-41317e23f382",
+    "event_date": "2025-03-10",
+    "title": "Add MCP servers as JSON strings with `claude mcp add-json <n> <json>`",
+    "version": "0.2.36",
+    "change_type": "added"
+  },
+  {
+    "id": "a6033a71-e418-47b4-b61e-70f1b47c5cc8",
+    "event_date": "2025-03-08",
+    "title": "Vim bindings for text input - enable with /vim or /config",
+    "version": "0.2.34",
+    "change_type": "other"
+  },
+  {
+    "id": "8b0f3548-a154-4df5-addf-b4f1f3790cea",
+    "event_date": "2025-03-05",
+    "title": "Interactive MCP setup wizard: Run \"claude mcp add\" to add MCP servers with a step-by-step interface",
+    "version": "0.2.32",
+    "change_type": "other"
+  },
+  {
+    "id": "05e2ffd4-fdfb-4798-9c44-cb75e083cc8f",
+    "event_date": "2025-03-05",
+    "title": "Custom slash commands: Markdown files in .claude/commands/ directories now appear as custom slash commands to insert prompts into your conversation",
+    "version": "0.2.31",
+    "change_type": "other"
+  },
+  {
+    "id": "067601b0-42b7-46ab-8021-ca622232953b",
+    "event_date": "2025-03-04",
+    "title": "Added ANSI color theme for better terminal compatibility",
+    "version": "0.2.30",
+    "change_type": "added"
+  },
+  {
+    "id": "5ca5d515-82ed-4dd7-ade1-050ebdd402f5",
+    "event_date": "2025-03-04",
+    "title": "(Mac-only) API keys are now stored in macOS Keychain",
+    "version": "0.2.30",
+    "change_type": "other"
+  }
+]
