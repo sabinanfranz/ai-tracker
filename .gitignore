@@ -10,7 +10,6 @@ __pycache__/
 .env.*
 
 # Data (DB / SQLite)
-data/*.db
 data/*.sqlite
 data/cache/
 
