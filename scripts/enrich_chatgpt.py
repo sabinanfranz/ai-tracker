@@ -510,6 +510,16 @@ updates = [
     ("c63438d7-e068-42f7-9e29-7e700f7976ad",
      "ChatGPT Projects: Add sources from apps, chats & ad-hoc text inputs",
      "ChatGPT Projects now makes it easier to build a living knowledge base by adding sources from wherever context already lives, including connected apps, previous conversations, and quick text inputs pasted directly into projects.\nUsers can paste links to Slack channels or Google Drive files and folders as project sources, save useful ChatGPT responses from chats into projects as reusable knowledge, and add ad-hoc text notes, briefs, or reference material for instant context capture.\nThis update significantly expands how users populate project knowledge bases beyond manual document uploads, integrating with external productivity tools and leveraging existing ChatGPT conversation history as a source of reusable context."),
+    # --- batch 2026-03-10 ~ 2026-03-16 ---
+    ("ddc2d6ce-9800-46fc-bc7d-d665582ba3b6",
+     "ChatGPT Interactive Learning: Explore 70+ math & science topics visually",
+     "ChatGPT now presents interactive visual modules for certain math and science topics, letting users experiment with formulas and variables in real time.\nUsers can adjust inputs, manipulate equations, and instantly see how changes affect graphs and outcomes, turning abstract concepts into hands-on exploration.\nInteractive learning launches with 70+ math and science topics covering concepts like calculus, physics, and chemistry with direct visual manipulation."),
+    ("43b9e19d-a9dd-412f-983f-21f922e179ae",
+     "Retiring GPT-5.1 Models: Auto-migration to GPT-5.3 & GPT-5.4 series",
+     "As of March 11, 2026, GPT-5.1 models are no longer available in ChatGPT, including GPT-5.1 Instant, GPT-5.1 Thinking, and GPT-5.1 Pro.\nExisting conversations that used GPT-5.1 will automatically continue on the corresponding current model: GPT-5.3 Instant, GPT-5.4 Thinking, or GPT-5.4 Pro.\nThis retirement completes the model consolidation around the GPT-5.3/5.4 series, ensuring all users are on the latest generation."),
+    ("92952772-2e1e-4e87-9d2e-48a2b5b46680",
+     "GPT-5.3 Instant Update: Improved follow-up tone & reduced teaser phrasing",
+     "OpenAI rolls out an update to GPT-5.3 Instant that improves follow-up tone and reduces teaser-style phrasing in responses.\nTargets common patterns like 'If you want...', 'You'll never believe...', and 'I can tell you these three things that...' for more direct communication.\nThis quality-of-life improvement makes GPT-5.3 Instant responses feel more natural and less clickbait-like in conversational follow-ups."),
 ]
 
 

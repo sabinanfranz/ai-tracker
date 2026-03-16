@@ -170,6 +170,28 @@ updates = [
     ("ffc35933-b6c8-4229-ac6c-a3939c8200dc",
      "Team Config: Shared settings, rules & skills across repos and machines",
      "Team Config introduces a layered configuration system to share Codex settings across teams and repositories.\nSupports shared config.toml defaults, rules/ for sandbox command controls, and skills/ for reusable workflows.\nLoads from .codex/ folders in cwd, parent dirs, repo root, user, and system paths; admins can enforce constraints via requirements.toml."),
+    # --- batch 2026-03-05 ~ 2026-03-16 ---
+    ("80c522d2-dbef-4dea-b76a-bc888f7d778e",
+     "Codex App 26.305: Improved remote connections & Windows terminal fixes",
+     "Improves remote connections with clearer connection errors, better status updates, and clearer host labels in thread and settings views.\nFixes copy and paste shortcuts in the integrated terminal on Windows.\nResolves an issue where archived pinned threads could not be unpinned."),
+    ("2ede8f93-b5e2-434e-8cde-44e5e728b03c",
+     "Codex CLI 0.112.0: @plugin mentions, model catalog picker & merged exec",
+     "Adds @plugin mentions so users can reference plugins directly in chat and auto-include their associated MCP/app/skill context.\nIntroduces a new model-selection surface update so the latest model catalog changes are surfaced in the TUI picker flow.\nMerges execution environments and fixes multi-agent stability issues across plugin and tool workflows."),
+    ("8f0cfc99-ea4d-4034-a747-642a58bad6d7",
+     "Codex CLI 0.113.0: Runtime permissions requests & plugin marketplace",
+     "Adds a built-in request_permissions tool so running turns can request additional permissions at runtime, with new TUI rendering for approval calls.\nExpands plugin workflows with curated marketplace discovery, richer plugin/list metadata, and install-time authorization.\nIntroduces runtime permission escalation for safer agentic execution without upfront full-access grants."),
+    ("e3e58cdc-0a76-4013-8310-0861e1a8e034",
+     "Codex CLI 0.114.0: Experimental code mode, hooks engine & healthz endpoints",
+     "Adds an experimental code mode for more isolated coding workflows and an experimental hooks engine with SessionStart and Stop hook events.\nWebSocket app-server deployments now expose GET /readyz and GET /healthz on the same listener for easier health checking.\nImproves developer experience with isolated execution environments and lifecycle hook extensibility."),
+    ("adab76d5-2e8a-4074-9510-ba48f029214e",
+     "Codex App 26.311: Terminal reading & performance improvements",
+     "Codex can now read the integrated terminal for the current thread, so it can check the status of a running development server or refer back to failed build output.\nEnables the agent to incorporate real-time terminal context while working alongside the user.\nRelease includes additional performance improvements and bug fixes."),
+    ("3bcc9c9f-19e4-4590-ba1d-4fac811876c5",
+     "Codex App 26.312: Custom themes, revamped automations & local/remote toggle",
+     "Adds custom theme support with adjustable accent, background, and foreground colors plus UI and code font selection, shareable with friends.\nRevamped automations let users choose whether automations run locally or on a remote environment.\nDelivers a fully personalized workspace experience with visual customization and flexible automation control."),
+    ("ea61ff3e-0431-493a-85a9-f03231c59212",
+     "Codex CLI 0.115.0: Full-resolution image inspection & js_repl enhancements",
+     "Supported models can now request full-resolution image inspection through both view_image and codex.emitImage for precision visual tasks.\njs_repl now exposes codex.cwd and codex.homeDir, and saved codex.tool/codex.emitImage calls are available across sessions.\nEnhances multimodal capabilities for visual debugging and persistent REPL state across coding sessions."),
 ]
 
 def _connect() -> sqlite3.Connection:
