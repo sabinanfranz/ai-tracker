@@ -192,6 +192,12 @@ updates = [
     ("ea61ff3e-0431-493a-85a9-f03231c59212",
      "Codex CLI 0.115.0: Full-resolution image inspection & js_repl enhancements",
      "Supported models can now request full-resolution image inspection through both view_image and codex.emitImage for precision visual tasks.\njs_repl now exposes codex.cwd and codex.homeDir, and saved codex.tool/codex.emitImage calls are available across sessions.\nEnhances multimodal capabilities for visual debugging and persistent REPL state across coding sessions."),
+    ("7a945a39-8f4e-4bae-aec2-3492c367cabb",
+     "GPT-5.4 mini: Fast & efficient model for lightweight Codex tasks",
+     "GPT-5.4 mini is now available in Codex as a fast, cost-efficient model for lighter coding tasks and subagents.\nIt improves over GPT-5 mini across coding, reasoning, image understanding, and tool use while running more than 2x faster at 30% of GPT-5.4 limit usage.\nAvailable across Codex app, CLI, IDE extension, web, and the API with multimodal input and 16k-token output support."),
+    ("f60b6515-f155-4acf-aa83-e9baa07b7224",
+     "Codex CLI 0.116.0: ChatGPT sign-in, plugin setup & user-prompt-submit hook",
+     "App-server TUI now supports device-code ChatGPT sign-in during onboarding and can refresh existing tokens.\nPlugin setup is smoother with prompts for missing plugins, a configured suggestion allowlist, and remote install/uninstall sync.\nAdds a user-prompt-submit hook enabling prompts to be blocked or augmented before execution and before they enter history."),
 ]
 
 def _connect() -> sqlite3.Connection:
