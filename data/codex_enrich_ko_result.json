@@ -273,5 +273,60 @@
     "id": "b2dccedc-0e63-4846-a603-ee07b898d999",
     "title_updated_ko": "ChatGPT iOS 앱에서도 Codex를 사용할 수 있어요",
     "content_updated_ko": "ChatGPT iOS 앱에서 Codex 작업을 시작하고, diff를 확인하고, PR도 올릴 수 있어요\n데스크톱 없이도 모바일에서 Codex 워크플로를 간편하게 관리할 수 있어요\n데스크톱 앱, CLI, IDE, 웹에 이어 iOS까지 Codex 플랫폼이 확장됐어요"
+  },
+  {
+    "id": "cf8c51a4-2b01-4b4d-ac59-57ed7e3890f2",
+    "title_updated_ko": "Windows 프록시 샌드박스와 동적 인증 토큰이 추가됐어요",
+    "content_updated_ko": "Windows 샌드박스가 OS 수준 송신 규칙으로 프록시 전용 네트워킹을 강제합니다.\n앱 서버 클라이언트가 디바이스 코드로 ChatGPT 로그인을 시작하고 codex exec가 프롬프트와 stdin을 함께 받습니다.\n사용자 지정 모델 제공자가 짧은 베어러 토큰을 동적으로 갱신할 수 있습니다."
+  },
+  {
+    "id": "ee46ada6-cec1-4271-b72f-903cfbed1943",
+    "title_updated_ko": "ChatGPT 로그인에서 구형 GPT-5.x 모델이 제거돼요",
+    "content_updated_ko": "4월 7일부터 모델 선택기에서 gpt-5.2-codex, gpt-5.1 계열, gpt-5가 사라집니다.\n4월 14일에 ChatGPT 로그인 사용자는 해당 모델을 더 이상 사용할 수 없습니다.\ngpt-5.4, gpt-5.4-mini, gpt-5.3-codex, gpt-5.2는 계속 이용할 수 있습니다."
+  },
+  {
+    "id": "b009f808-ee86-46b4-9da2-fd56d6d0bd03",
+    "title_updated_ko": "실시간 음성이 v2 WebRTC로 기본 전환되고 exec-server가 추가됐어요",
+    "content_updated_ko": "실시간 음성 세션이 v2 WebRTC 경로로 기본 전환되고 음성 선택과 TUI 미디어 지원이 강화됐습니다.\nMCP 앱과 사용자 지정 서버 지원이 풍부해지고 실험적 codex exec-server 서브명령이 추가됐습니다.\n속도 제한 비동기 가져오기, /resume 안정성, macOS HTTP 클라이언트 패닉 등이 수정됐습니다."
+  },
+  {
+    "id": "4f92bbb5-f5ba-4129-860c-e1e9b5b480ec",
+    "title_updated_ko": "Realtime V2가 백그라운드 진행 상황을 스트리밍해요",
+    "content_updated_ko": "Realtime V2가 백그라운드 에이전트 진행 상황을 작업 중에 스트리밍하고 후속 응답을 큐에 넣습니다.\nTUI에서 실행 중인 후크가 완료된 출력과 분리되어 표시되고 코드 모드 도구 선언이 더 정확해집니다.\nWindows 샌드박스 분할 정책, 심볼릭 링크 카브아웃, codex --remote wss:// TLS 패닉이 수정됐습니다."
+  },
+  {
+    "id": "2aac4248-8ece-4851-8454-727dc773f27c",
+    "title_updated_ko": "플러그인 마켓플레이스와 프롬프트 히스토리가 추가됐어요",
+    "content_updated_ko": "GitHub, git URL, 로컬 디렉터리, marketplace.json URL에서 마켓플레이스를 설치할 수 있습니다.\nTUI에 Ctrl+R 역방향 검색과 슬래시 명령 호출 기록, 메모리 모드 제어가 추가됐습니다.\nMCP Apps 도구 호출, 네임스페이스 등록, 병렬 호출과 보안 devcontainer 프로필이 도입됐습니다."
+  },
+  {
+    "id": "796f8636-d501-4b56-a27d-328175d6d396",
+    "title_updated_ko": "Codex 앱에 인앱 브라우저와 컴퓨터 사용 기능이 들어왔어요",
+    "content_updated_ko": "Codex 앱이 로컬 페이지용 인앱 브라우저, macOS 컴퓨터 사용, 프로젝트와 무관한 Chats 스레드를 추가했습니다.\n스레드 자동화로 같은 스레드를 일정에 따라 깨울 수 있고 GitHub PR 검토 흐름이 앱에 들어왔습니다.\n아티팩트 뷰어로 PDF, 스프레드시트, 문서, 프레젠테이션을 미리 볼 수 있고 Intel Mac과 다중 창을 지원합니다."
+  },
+  {
+    "id": "d066e1b6-389e-480b-b8e7-f88849ac1dd8",
+    "title_updated_ko": "/side 대화와 플러그인 마켓플레이스 관리가 추가됐어요",
+    "content_updated_ko": "독립 설치가 더 자체 완결적이고 codex app이 Windows와 Intel Mac에서 데스크톱을 정확히 엽니다.\nTUI에 /side 대화와 슬래시 명령 큐가 추가되고 Plan Mode가 새 컨텍스트에서 구현을 시작할 수 있습니다.\ndeny-read 글롭 정책, codex exec 격리 실행, 도구 발견과 이미지 생성 기본 활성화가 도입됐습니다."
+  },
+  {
+    "id": "350db16f-f597-4acc-bae9-b4835e9333af",
+    "title_updated_ko": "Amazon Bedrock 공급자와 /mcp verbose가 추가됐어요",
+    "content_updated_ko": "AWS 프로파일을 지원하는 amazon-bedrock 모델 공급자가 내장되고 /mcp verbose가 전체 진단을 제공합니다.\n플러그인 MCP 로딩이 mcpServers와 최상위 서버 맵을 모두 받고 실시간 핸드오프가 트랜스크립트 델타를 전달합니다.\n롤백 후 /copy, 수동 셸 중 후속 메시지 큐, WSL 터미널 유니코드 입력이 수정됐습니다."
+  },
+  {
+    "id": "0ebea43b-f35d-4031-80b3-05b272ce5e74",
+    "title_updated_ko": "추론 단계 단축키와 Bedrock 정식 지원이 추가됐어요",
+    "content_updated_ko": "TUI에 Alt+,/Alt+. 추론 단축키가 추가되고 모델 업그레이드 시 추론 단계가 새 모델 기본값으로 재설정됩니다.\nAWS SigV4 서명을 갖춘 Amazon Bedrock 정식 지원이 추가되고 후크가 안정 단계로 들어왔습니다.\nCloudflare 쿠키 유지, 웹소켓 종료 시 데이터 누수, /permissions 사이드 대화 동기화가 수정됐습니다."
+  },
+  {
+    "id": "a54a0594-5df1-472d-9e5e-8d67698327db",
+    "title_updated_ko": "Codex에 GPT-5.5와 자동 검토 에이전트가 들어왔어요",
+    "content_updated_ko": "GPT-5.5가 Codex 권장 모델로 출시되어 코딩, 컴퓨터 사용, 지식 작업, 리서치 워크플로에 적용됩니다.\nCodex 앱에 로컬 개발 서버와 파일 기반 페이지를 위한 초기 인앱 브라우저가 추가됐습니다.\n승인 프롬프트가 자동 검토 에이전트를 통해 승인/거부/중지/타임아웃과 위험도를 표시할 수 있습니다."
+  },
+  {
+    "id": "623dd146-d91a-4709-8f0f-e89e2011bc49",
+    "title_updated_ko": "Unix 소켓 전송과 권한 프로파일 라운드트립이 추가됐어요",
+    "content_updated_ko": "앱 서버에 Unix 소켓 전송이 추가되고 원격 플러그인 마켓플레이스 설치/업그레이드를 지원합니다.\n권한 프로파일이 TUI/MCP/셸/앱 서버에서 라운드트립되고 모델 공급자가 자체 모델 발견을 처리합니다.\n검토/종료 멈춤, exec-server 출력 버퍼링, Windows 샌드박스 멀티 버전 PATH가 수정됐습니다."
   }
 ]
